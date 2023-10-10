@@ -481,28 +481,12 @@
       "Sensors"
     ],
     [
-      "70fd14e7-a7de-46bf-9129-f03e7198e58b",
-      "Motors"
-    ],
-    [
       "17b2c8c1-220c-4cd1-b8d3-47fb40a9fb9e",
       "Connectors"
     ],
     [
-      "fbe45eaa-64bf-41ca-bfb5-ceb787e9a055",
-      "Magnetorquers"
-    ],
-    [
       "7e01d8e1-ba26-45b6-bad5-0462d63c156a",
       "Power"
-    ],
-    [
-      "55e9018a-92b5-4ac0-8820-1d5f3ea8cba4",
-      "Memory and Storage"
-    ],
-    [
-      "c29f83df-45b9-4156-acc0-c169d21d79fd",
-      "Programmers"
     ]
   ],
   "text_variables": {}
