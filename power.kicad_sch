@@ -667,10 +667,6 @@
     (uuid f25ffe5d-cedd-4144-b9c6-0361f6e930a7)
   )
 
-  (text "TODO: check calcs\n" (at 181.3306 118.3132 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid b178e3d2-aae9-478a-8c30-47a4694c6900)
-  )
   (text "ADCS Power Enable\n" (at 209.1436 117.2972 0)
     (effects (font (size 2.159 2.159)) (justify left bottom))
     (uuid c76f2ff0-9717-4b1d-a24a-d2f304d38c61)
