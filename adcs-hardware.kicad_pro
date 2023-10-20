@@ -479,14 +479,6 @@
     [
       "c57143de-a118-4c83-b882-63fc675c961e",
       "Sensors"
-    ],
-    [
-      "17b2c8c1-220c-4cd1-b8d3-47fb40a9fb9e",
-      "Connectors"
-    ],
-    [
-      "7e01d8e1-ba26-45b6-bad5-0462d63c156a",
-      "Power"
     ]
   ],
   "text_variables": {}
