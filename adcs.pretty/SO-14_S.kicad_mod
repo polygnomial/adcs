@@ -190,4 +190,9 @@
     (solder_mask_margin 0.102) (tstamp a7058d88-fc3a-4c21-95f2-9ed2361f4d78))
   (pad "14" smd rect (at 2.4638 -3.81) (size 1.9812 0.5334) (layers "F.Cu" "F.Paste" "F.Mask")
     (solder_mask_margin 0.102) (tstamp e355c9d8-d93b-470b-8b99-1b05948366ea))
+  (model "/Users/flynn/f/projects/present/adcs-hardware/models/SO-14_S_LIT.step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
