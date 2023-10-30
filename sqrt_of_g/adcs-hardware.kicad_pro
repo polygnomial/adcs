@@ -477,8 +477,20 @@
       "MCU"
     ],
     [
-      "c57143de-a118-4c83-b882-63fc675c961e",
-      "Sensors"
+      "2011b62c-b542-4899-89c4-f1a49629fe42",
+      "IMU1_and_MAG1"
+    ],
+    [
+      "96c1dca3-3491-4490-97b2-299dd5a0d462",
+      "IMU2_and_MAG2"
+    ],
+    [
+      "1539ef5d-4f4f-4a9e-ae0a-b29bdc9f46f8",
+      "GPS"
+    ],
+    [
+      "858df03b-f3fa-405c-9f19-26f8c483a3cb",
+      "Photodiode_Enable"
     ]
   ],
   "text_variables": {}
