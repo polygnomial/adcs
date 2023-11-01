@@ -477,6 +477,10 @@
       "MCU"
     ],
     [
+      "2910d49c-2a7c-482a-86b8-0d5e23e76e11",
+      "Coil Power Enable"
+    ],
+    [
       "2011b62c-b542-4899-89c4-f1a49629fe42",
       "IMU1_and_MAG1"
     ],
@@ -489,8 +493,28 @@
       "GPS"
     ],
     [
-      "858df03b-f3fa-405c-9f19-26f8c483a3cb",
-      "Photodiode_Enable"
+      "dbac343c-e1e8-4f27-95db-48905ebe6ac8",
+      "ADCS Power Enable"
+    ],
+    [
+      "050cb11f-ff11-499c-a248-6fb9f1092987",
+      "Enable"
+    ],
+    [
+      "050cb11f-ff11-499c-a248-6fb9f1092987",
+      "Enable"
+    ],
+    [
+      "d7510623-5924-4e82-97b6-641ec54de302",
+      "Enable"
+    ],
+    [
+      "09e775d0-de49-4fe2-956d-adceee72ccf4",
+      "Photodiode Enable 1"
+    ],
+    [
+      "e6d989e1-3d58-4abb-9f22-cf061fe5e0a3",
+      "Photodiode Enable 2"
     ]
   ],
   "text_variables": {}

@@ -180,7 +180,7 @@
           (name "GVDD_C" (effects (font (size 1.016 1.016))))
           (number "19" (effects (font (size 1.016 1.016))))
         )
-        (pin output line (at 17.78 2.54 180) (length 5.08)
+        (pin output line (at -17.78 10.16 0) (length 5.08)
           (name "~{OTW}" (effects (font (size 1.016 1.016))))
           (number "2" (effects (font (size 1.016 1.016))))
         )
@@ -216,7 +216,7 @@
           (name "PVDD_B" (effects (font (size 1.016 1.016))))
           (number "29" (effects (font (size 1.016 1.016))))
         )
-        (pin output line (at 17.78 5.08 180) (length 5.08)
+        (pin output line (at -17.78 7.62 0) (length 5.08)
           (name "~{FAULT}" (effects (font (size 1.016 1.016))))
           (number "3" (effects (font (size 1.016 1.016))))
         )
@@ -552,49 +552,13 @@
     (uuid fd1d2940-3767-4c36-949c-af9e4a9e10f0)
   )
 
-  (bus_entry (at 150.1902 138.7348) (size 2.54 2.54)
-    (stroke (width 0) (type default))
-    (uuid 3c87d6dc-625b-4a2a-8a28-1c420db5e732)
-  )
-  (bus_entry (at 150.1902 133.6548) (size 2.54 2.54)
-    (stroke (width 0) (type default))
-    (uuid 468c58f6-53a6-4451-851d-04b77421a0ab)
-  )
-  (bus_entry (at 150.1902 120.9548) (size 2.54 2.54)
-    (stroke (width 0) (type default))
-    (uuid 4e3d1480-f784-46d3-b2f2-46de2c73d0b1)
-  )
-  (bus_entry (at 150.1902 141.2748) (size 2.54 2.54)
-    (stroke (width 0) (type default))
-    (uuid 70dd08fe-e0c0-41b0-a746-7b20177acf6d)
-  )
-  (bus_entry (at 150.1902 123.4948) (size 2.54 2.54)
-    (stroke (width 0) (type default))
-    (uuid 9e6453be-43cd-411e-a01c-accbe612cf36)
-  )
-  (bus_entry (at 150.1902 131.1148) (size 2.54 2.54)
-    (stroke (width 0) (type default))
-    (uuid b694cc3a-2ce2-4ae9-a123-dbc9b35bd382)
-  )
   (bus_entry (at 402.336 20.32) (size -2.54 2.54)
     (stroke (width 0) (type default))
     (uuid c19137d0-45ae-4262-9ffb-0769f28556a4)
   )
-  (bus_entry (at 150.1902 136.1948) (size 2.54 2.54)
-    (stroke (width 0) (type default))
-    (uuid c611ba88-7fd2-4393-9d1e-4dbfae67a617)
-  )
-  (bus_entry (at 150.1902 128.5748) (size 2.54 2.54)
-    (stroke (width 0) (type default))
-    (uuid f0fa146d-9c10-451c-8ece-8f5d233d8bf7)
-  )
   (bus_entry (at 402.336 17.78) (size -2.54 2.54)
     (stroke (width 0) (type default))
     (uuid f1201e38-2f3a-47fa-a52a-be8dded5bc02)
-  )
-  (bus_entry (at 150.1902 126.0348) (size 2.54 2.54)
-    (stroke (width 0) (type default))
-    (uuid f8611223-ee88-4edf-8475-d2c49b250ab5)
   )
 
   (wire (pts (xy 288.1122 151.4348) (xy 288.1122 156.5148))
@@ -604,6 +568,10 @@
   (wire (pts (xy 284.6832 166.6748) (xy 288.1122 166.6748))
     (stroke (width 0) (type default))
     (uuid 09da193e-cfcf-4b27-8b38-a923baef729f)
+  )
+  (wire (pts (xy 152.8318 120.9548) (xy 179.0192 120.9548))
+    (stroke (width 0) (type default))
+    (uuid 09dedc25-5378-4716-9687-da515d276b4e)
   )
   (wire (pts (xy 214.5792 103.1748) (xy 245.1862 103.1748))
     (stroke (width 0) (type default))
@@ -617,11 +585,6 @@
     (stroke (width 0) (type default))
     (uuid 14bae25b-3447-49d0-a0c7-46443046b0fa)
   )
-  (bus (pts (xy 150.1902 120.8278) (xy 150.1902 120.9548))
-    (stroke (width 0) (type default))
-    (uuid 169a29a4-23ba-437c-86e6-e66845faa6f1)
-  )
-
   (wire (pts (xy 257.3782 113.3348) (xy 257.3782 118.4148))
     (stroke (width 0) (type default))
     (uuid 172fcbf1-12c5-4f26-b3ff-85462fcffb62)
@@ -638,11 +601,6 @@
     (stroke (width 0) (type default))
     (uuid 1ce1c6d3-4741-4d68-ba2a-0982b343f7b7)
   )
-  (bus (pts (xy 150.1902 123.4948) (xy 150.1902 126.0348))
-    (stroke (width 0) (type default))
-    (uuid 1d5bc180-f038-4a48-ba97-3e66259ff8ab)
-  )
-
   (wire (pts (xy 218.3892 173.5328) (xy 218.3892 174.5488))
     (stroke (width 0) (type default))
     (uuid 220b7282-268e-46d2-b397-30faf107b9d2)
@@ -654,10 +612,6 @@
   (wire (pts (xy 280.4922 115.6208) (xy 280.4922 124.2568))
     (stroke (width 0) (type default))
     (uuid 246002ea-ce6a-4575-bb76-633bc6ff58f6)
-  )
-  (wire (pts (xy 152.7302 123.4948) (xy 179.0192 123.4948))
-    (stroke (width 0) (type default))
-    (uuid 2879b61e-fa1f-470c-b536-d87d66c2a384)
   )
   (wire (pts (xy 280.4922 124.2568) (xy 280.4922 127.3048))
     (stroke (width 0) (type default))
@@ -699,11 +653,6 @@
     (stroke (width 0) (type default))
     (uuid 3d57b818-9701-4037-9fb1-fcb89eb91745)
   )
-  (bus (pts (xy 150.1902 133.6548) (xy 150.1902 131.1148))
-    (stroke (width 0) (type default))
-    (uuid 40588823-aece-43c8-986b-9a307c715523)
-  )
-
   (wire (pts (xy 257.3782 105.7148) (xy 257.3782 110.7948))
     (stroke (width 0) (type default))
     (uuid 462d7912-47ff-43bf-8720-3b71c4f2ef3d)
@@ -772,11 +721,6 @@
     (stroke (width 0) (type default))
     (uuid 6accd440-2c9a-4a30-85e4-1c26f2cd8c03)
   )
-  (bus (pts (xy 150.1902 120.9548) (xy 150.1902 123.4948))
-    (stroke (width 0) (type default))
-    (uuid 6b81b723-89c5-4c50-8edd-f19a6ebdedb2)
-  )
-
   (wire (pts (xy 257.3782 124.2568) (xy 267.7922 124.2568))
     (stroke (width 0) (type default))
     (uuid 70e90e8a-2654-4089-b9b8-df47f097fb66)
@@ -793,11 +737,6 @@
     (stroke (width 0) (type default))
     (uuid 79f029dd-a20f-4d25-8cbb-8086c8756427)
   )
-  (bus (pts (xy 150.1902 126.0348) (xy 150.1902 128.5748))
-    (stroke (width 0) (type default))
-    (uuid 7a03a765-c01f-4486-99b8-9397f44175c1)
-  )
-
   (wire (pts (xy 218.3892 159.0548) (xy 224.2312 159.0548))
     (stroke (width 0) (type default))
     (uuid 7dbc1c1a-68fa-452d-a36b-d9322093b540)
@@ -887,18 +826,13 @@
     (stroke (width 0) (type default))
     (uuid a57083cc-b6f4-4c76-9fb2-9a74f30dd88f)
   )
-  (bus (pts (xy 150.1902 131.1148) (xy 150.1902 128.5748))
-    (stroke (width 0) (type default))
-    (uuid ab562887-5cbf-40c2-b14e-ec084222dd08)
-  )
-
   (wire (pts (xy 218.3892 161.5948) (xy 214.5792 161.5948))
     (stroke (width 0) (type default))
     (uuid ac6e9787-7515-488b-bffc-943ca3ae821d)
   )
-  (wire (pts (xy 152.7302 136.1948) (xy 163.2712 136.1948))
+  (wire (pts (xy 152.7556 123.4948) (xy 179.0192 123.4948))
     (stroke (width 0) (type default))
-    (uuid b4c0c79f-7ed3-4edc-b138-e40ffadd5ef2)
+    (uuid add88a46-0a31-4a83-b0cc-7d048b13d478)
   )
   (wire (pts (xy 152.7302 143.8148) (xy 179.0192 143.8148))
     (stroke (width 0) (type default))
@@ -915,10 +849,6 @@
   (wire (pts (xy 152.7302 138.7348) (xy 179.0192 138.7348))
     (stroke (width 0) (type default))
     (uuid bb1ae61f-fce2-45fc-b62b-70070d342092)
-  )
-  (wire (pts (xy 152.7302 133.6548) (xy 165.0492 133.6548))
-    (stroke (width 0) (type default))
-    (uuid bb753f65-3318-4add-8d48-ccac385f9938)
   )
   (wire (pts (xy 267.7922 105.7148) (xy 280.4922 105.7148))
     (stroke (width 0) (type default))
@@ -945,15 +875,6 @@
     (stroke (width 0) (type default))
     (uuid c9cf7996-3414-4d4f-8dc6-5220b335af84)
   )
-  (bus (pts (xy 150.1902 138.7348) (xy 150.1902 141.2748))
-    (stroke (width 0) (type default))
-    (uuid cb16229a-a63e-40d9-a5ae-58e1e29441b2)
-  )
-
-  (wire (pts (xy 152.7302 126.0348) (xy 179.0192 126.0348))
-    (stroke (width 0) (type default))
-    (uuid d17e5c2e-0207-439e-b40c-0c054cfd97d4)
-  )
   (wire (pts (xy 257.3782 93.0148) (xy 262.7122 93.0148))
     (stroke (width 0) (type default))
     (uuid d1a2ad1f-da06-4fcc-a231-11405e07fd6f)
@@ -970,15 +891,14 @@
     (stroke (width 0) (type default))
     (uuid d3df973a-190d-4635-a549-776d11ef3cac)
   )
+  (wire (pts (xy 152.7556 126.0348) (xy 179.0192 126.0348))
+    (stroke (width 0) (type default))
+    (uuid d401036a-406e-4bb4-a4e6-e0f018c5deed)
+  )
   (wire (pts (xy 247.3452 156.5148) (xy 243.9162 156.5148))
     (stroke (width 0) (type default))
     (uuid d45f7ea4-5e95-4882-b4cc-2db8e55a333d)
   )
-  (bus (pts (xy 150.1902 136.1948) (xy 150.1902 138.7348))
-    (stroke (width 0) (type default))
-    (uuid d65bad1f-efde-4766-b47d-01d7b3ed2c3a)
-  )
-
   (wire (pts (xy 394.716 22.86) (xy 399.796 22.86))
     (stroke (width 0) (type default))
     (uuid dddeff3a-7a13-4c79-ba5a-4a448bd7735a)
@@ -1007,11 +927,6 @@
     (stroke (width 0) (type default))
     (uuid ec39f21a-4303-451d-a0a4-08994bc98bfb)
   )
-  (bus (pts (xy 150.1902 136.1948) (xy 150.1902 133.6548))
-    (stroke (width 0) (type default))
-    (uuid ed03838b-5e4c-4038-8fe1-52cd2a9b6f9d)
-  )
-
   (wire (pts (xy 247.3452 166.6748) (xy 247.3452 173.5328))
     (stroke (width 0) (type default))
     (uuid ef7c5e6e-6ebc-4908-bfda-929448f64bda)
@@ -1032,6 +947,10 @@
     (stroke (width 0) (type default))
     (uuid f8c19de7-8f4a-4708-a7dc-856dffa70d31)
   )
+  (wire (pts (xy 152.8318 118.4148) (xy 179.0192 118.4148))
+    (stroke (width 0) (type default))
+    (uuid fa6532d7-97f2-482c-a35e-a37aaf07840c)
+  )
 
   (text "With 36k resistor, overcurrent occurs at 7.4A" (at 231.3432 143.9418 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -1042,10 +961,6 @@
     (uuid ea870929-21b5-432e-9fc0-f8f22e6cb3b0)
   )
 
-  (label "Motor1.RESET_C" (at 152.7302 128.5748 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 21d043ad-071a-4ecd-8668-07f96e66a937)
-  )
   (label "AGND" (at 179.0192 133.6548 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 237087e2-6360-4322-99f2-bcd0e117bce7)
@@ -1053,18 +968,6 @@
   (label "VREG" (at 179.0192 136.1948 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 32043916-6c5a-48dd-896e-5426c6965626)
-  )
-  (label "Motor1.RESET_B" (at 152.8572 126.0348 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 6011fa81-46d6-4a9b-b428-712ddccf72c7)
-  )
-  (label "Motor1{Motor}" (at 150.1902 127.3048 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid 6765a8d9-29a6-4907-8f66-1fccf15f4bdd)
-  )
-  (label "Motor1.PWM_C" (at 152.7302 143.8148 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 6793c228-3f3f-4ecc-a586-0b82852773d5)
   )
   (label "GND" (at 394.716 22.86 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -1074,45 +977,50 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 94660ec6-cceb-49c0-9f24-7868eb7d3e35)
   )
-  (label "Motor1.PWM_B" (at 152.7302 141.2748 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 9d466b28-d072-4977-91f1-2d3ce6a9ef19)
-  )
-  (label "Motor1.OTW" (at 214.5792 126.0348 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid aa41052c-fcc3-44dc-a58c-b6b779c92a14)
-  )
   (label "AGND" (at 224.2312 159.0548 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid c5322860-a228-4e32-9295-4784edf74f8f)
-  )
-  (label "Motor1.PWM_A" (at 152.8572 138.7348 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid d57b0b6d-29b5-442f-bf4c-8286466f2215)
   )
   (label "{3V3_RAIL}" (at 402.336 21.59 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid e1d6ae6f-64e8-4f4b-ac85-7ac03563cc2d)
   )
-  (label "Motor1.OTW" (at 152.7302 136.1948 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid ec07f4d7-7e23-4e3f-a806-633191cb04a6)
+
+  (hierarchical_label "PWM_A" (shape input) (at 152.8572 138.7348 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 19782029-cc32-415e-96b4-4bbd0aef4f5f)
   )
-  (label "Motor1.Fault" (at 214.5792 123.4948 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid fad0b6e3-644f-48c9-a51f-76076d6ec7f0)
+  (hierarchical_label "Fault" (shape input) (at 152.8318 120.9548 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 2bfea559-3d8b-4432-80c8-065b6b4bcf9c)
   )
-  (label "Motor1.M1" (at 152.7302 131.1148 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid faddd592-1139-410a-b26f-6ec8ca5426ec)
+  (hierarchical_label "RESET_C" (shape input) (at 152.7302 128.5748 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 81cdb361-83bb-486c-9790-2d5cf385adb2)
   )
-  (label "Motor1.FAULT" (at 152.7302 133.6548 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid fbc2dbf1-f552-4523-86cf-2e81a723fd69)
+  (hierarchical_label "RESET_B" (shape input) (at 152.7556 126.0348 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 84ca3a46-d756-4a2a-9fbe-dd606a24f8a2)
   )
-  (label "Motor1.RESET_A" (at 152.8572 123.4948 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid fc989c51-9ffd-454f-bcf3-704957900773)
+  (hierarchical_label "PWM_C" (shape input) (at 152.7302 143.8148 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 88399864-51d7-4832-b6be-e67334b544c5)
+  )
+  (hierarchical_label "OTW" (shape input) (at 152.8318 118.4148 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid a4f7da1d-032e-40cb-ad45-1bf269b1a0c4)
+  )
+  (hierarchical_label "PWM_B" (shape input) (at 152.7302 141.2748 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid b183ad1a-d81c-4633-bb94-6723538e9a3d)
+  )
+  (hierarchical_label "M1" (shape input) (at 152.7302 131.1148 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid e193962e-1675-46b4-b203-e414acea686c)
+  )
+  (hierarchical_label "RESET_A" (shape input) (at 152.7556 123.4948 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid fd439ca4-6cd8-4b02-a014-058652a0dc28)
   )
 
   (symbol (lib_id "pycubed_mainboard:R-US_R0603") (at 247.3452 161.5948 90) (unit 1)
@@ -1135,6 +1043,11 @@
     (instances
       (project "adcs-hardware"
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/70fd14e7-a7de-46bf-9129-f03e7198e58b"
+          (reference "R22") (unit 1)
+        )
+      )
+      (project "motors"
+        (path "/a997e678-d7b6-4305-a15e-c7b43e0a7ee0"
           (reference "R22") (unit 1)
         )
       )
@@ -1176,6 +1089,11 @@
           (reference "C42") (unit 1)
         )
       )
+      (project "motors"
+        (path "/a997e678-d7b6-4305-a15e-c7b43e0a7ee0"
+          (reference "C42") (unit 1)
+        )
+      )
     )
   )
 
@@ -1198,6 +1116,11 @@
     (instances
       (project "adcs-hardware"
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/70fd14e7-a7de-46bf-9129-f03e7198e58b"
+          (reference "#PWR027") (unit 1)
+        )
+      )
+      (project "motors"
+        (path "/a997e678-d7b6-4305-a15e-c7b43e0a7ee0"
           (reference "#PWR027") (unit 1)
         )
       )
@@ -1234,6 +1157,11 @@
           (reference "TP5") (unit 1)
         )
       )
+      (project "motors"
+        (path "/a997e678-d7b6-4305-a15e-c7b43e0a7ee0"
+          (reference "TP2") (unit 1)
+        )
+      )
     )
   )
 
@@ -1257,6 +1185,11 @@
     (instances
       (project "adcs-hardware"
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/70fd14e7-a7de-46bf-9129-f03e7198e58b"
+          (reference "R23") (unit 1)
+        )
+      )
+      (project "motors"
+        (path "/a997e678-d7b6-4305-a15e-c7b43e0a7ee0"
           (reference "R23") (unit 1)
         )
       )
@@ -1285,6 +1218,11 @@
           (reference "#PWR024") (unit 1)
         )
       )
+      (project "motors"
+        (path "/a997e678-d7b6-4305-a15e-c7b43e0a7ee0"
+          (reference "#PWR024") (unit 1)
+        )
+      )
     )
   )
 
@@ -1308,6 +1246,11 @@
     (instances
       (project "adcs-hardware"
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/70fd14e7-a7de-46bf-9129-f03e7198e58b"
+          (reference "R41") (unit 1)
+        )
+      )
+      (project "motors"
+        (path "/a997e678-d7b6-4305-a15e-c7b43e0a7ee0"
           (reference "R41") (unit 1)
         )
       )
@@ -1344,6 +1287,11 @@
           (reference "TP5") (unit 1)
         )
       )
+      (project "motors"
+        (path "/a997e678-d7b6-4305-a15e-c7b43e0a7ee0"
+          (reference "TP2") (unit 1)
+        )
+      )
     )
   )
 
@@ -1377,6 +1325,11 @@
           (reference "TP5") (unit 1)
         )
       )
+      (project "motors"
+        (path "/a997e678-d7b6-4305-a15e-c7b43e0a7ee0"
+          (reference "TP2") (unit 1)
+        )
+      )
     )
   )
 
@@ -1400,6 +1353,11 @@
     (instances
       (project "adcs-hardware"
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/70fd14e7-a7de-46bf-9129-f03e7198e58b"
+          (reference "C37") (unit 1)
+        )
+      )
+      (project "motors"
+        (path "/a997e678-d7b6-4305-a15e-c7b43e0a7ee0"
           (reference "C37") (unit 1)
         )
       )
@@ -1448,6 +1406,15 @@
     (property "Check_prices" "https://www.snapeda.com/parts/DRV8332DKDR/Texas+Instruments/view-part/?ref=eda" (at 196.7992 81.5848 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
+    (property "DigiKey Part Number" "" (at 196.7992 128.5748 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Tolerance" "" (at 196.7992 128.5748 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Power Rating" "" (at 196.7992 128.5748 0)
+      (effects (font (size 1.27 1.27)))
+    )
     (pin "1" (uuid ce5a3764-5298-4adc-b7bf-53648b1bc5be))
     (pin "10" (uuid 3940a133-2220-4580-984a-5dffe4ad406f))
     (pin "11" (uuid 84cdba1e-2cca-4d09-97ce-210464264eb7))
@@ -1488,6 +1455,11 @@
           (reference "U9") (unit 1)
         )
       )
+      (project "motors"
+        (path "/a997e678-d7b6-4305-a15e-c7b43e0a7ee0"
+          (reference "U9") (unit 1)
+        )
+      )
     )
   )
 
@@ -1511,6 +1483,11 @@
     (instances
       (project "adcs-hardware"
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/70fd14e7-a7de-46bf-9129-f03e7198e58b"
+          (reference "C45") (unit 1)
+        )
+      )
+      (project "motors"
+        (path "/a997e678-d7b6-4305-a15e-c7b43e0a7ee0"
           (reference "C45") (unit 1)
         )
       )
@@ -1552,6 +1529,11 @@
           (reference "C46") (unit 1)
         )
       )
+      (project "motors"
+        (path "/a997e678-d7b6-4305-a15e-c7b43e0a7ee0"
+          (reference "C46") (unit 1)
+        )
+      )
     )
   )
 
@@ -1585,6 +1567,11 @@
           (reference "TP5") (unit 1)
         )
       )
+      (project "motors"
+        (path "/a997e678-d7b6-4305-a15e-c7b43e0a7ee0"
+          (reference "TP2") (unit 1)
+        )
+      )
     )
   )
 
@@ -1608,6 +1595,11 @@
     (instances
       (project "adcs-hardware"
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/70fd14e7-a7de-46bf-9129-f03e7198e58b"
+          (reference "R24") (unit 1)
+        )
+      )
+      (project "motors"
+        (path "/a997e678-d7b6-4305-a15e-c7b43e0a7ee0"
           (reference "R24") (unit 1)
         )
       )
@@ -1649,6 +1641,11 @@
           (reference "C38") (unit 1)
         )
       )
+      (project "motors"
+        (path "/a997e678-d7b6-4305-a15e-c7b43e0a7ee0"
+          (reference "C38") (unit 1)
+        )
+      )
     )
   )
 
@@ -1672,6 +1669,11 @@
     (instances
       (project "adcs-hardware"
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/70fd14e7-a7de-46bf-9129-f03e7198e58b"
+          (reference "R26") (unit 1)
+        )
+      )
+      (project "motors"
+        (path "/a997e678-d7b6-4305-a15e-c7b43e0a7ee0"
           (reference "R26") (unit 1)
         )
       )
@@ -1708,6 +1710,11 @@
           (reference "TP5") (unit 1)
         )
       )
+      (project "motors"
+        (path "/a997e678-d7b6-4305-a15e-c7b43e0a7ee0"
+          (reference "TP2") (unit 1)
+        )
+      )
     )
   )
 
@@ -1731,6 +1738,11 @@
     (instances
       (project "adcs-hardware"
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/70fd14e7-a7de-46bf-9129-f03e7198e58b"
+          (reference "R21") (unit 1)
+        )
+      )
+      (project "motors"
+        (path "/a997e678-d7b6-4305-a15e-c7b43e0a7ee0"
           (reference "R21") (unit 1)
         )
       )
@@ -1772,6 +1784,11 @@
           (reference "C41") (unit 1)
         )
       )
+      (project "motors"
+        (path "/a997e678-d7b6-4305-a15e-c7b43e0a7ee0"
+          (reference "C41") (unit 1)
+        )
+      )
     )
   )
 
@@ -1807,6 +1824,11 @@
     (instances
       (project "adcs-hardware"
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/70fd14e7-a7de-46bf-9129-f03e7198e58b"
+          (reference "C36") (unit 1)
+        )
+      )
+      (project "motors"
+        (path "/a997e678-d7b6-4305-a15e-c7b43e0a7ee0"
           (reference "C36") (unit 1)
         )
       )
@@ -1848,6 +1870,11 @@
           (reference "C43") (unit 1)
         )
       )
+      (project "motors"
+        (path "/a997e678-d7b6-4305-a15e-c7b43e0a7ee0"
+          (reference "C43") (unit 1)
+        )
+      )
     )
   )
 
@@ -1870,6 +1897,11 @@
     (instances
       (project "adcs-hardware"
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/70fd14e7-a7de-46bf-9129-f03e7198e58b"
+          (reference "#PWR026") (unit 1)
+        )
+      )
+      (project "motors"
+        (path "/a997e678-d7b6-4305-a15e-c7b43e0a7ee0"
           (reference "#PWR026") (unit 1)
         )
       )
@@ -1904,6 +1936,11 @@
       (project "Teensy4.1-example"
         (path "/66f2f548-0d73-423c-ac63-fd3dc2dd48b2"
           (reference "TP5") (unit 1)
+        )
+      )
+      (project "motors"
+        (path "/a997e678-d7b6-4305-a15e-c7b43e0a7ee0"
+          (reference "TP2") (unit 1)
         )
       )
     )
@@ -1941,6 +1978,11 @@
     (instances
       (project "adcs-hardware"
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/70fd14e7-a7de-46bf-9129-f03e7198e58b"
+          (reference "C40") (unit 1)
+        )
+      )
+      (project "motors"
+        (path "/a997e678-d7b6-4305-a15e-c7b43e0a7ee0"
           (reference "C40") (unit 1)
         )
       )
@@ -1982,6 +2024,11 @@
           (reference "C39") (unit 1)
         )
       )
+      (project "motors"
+        (path "/a997e678-d7b6-4305-a15e-c7b43e0a7ee0"
+          (reference "C39") (unit 1)
+        )
+      )
     )
   )
 
@@ -2004,6 +2051,11 @@
     (instances
       (project "adcs-hardware"
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/70fd14e7-a7de-46bf-9129-f03e7198e58b"
+          (reference "#PWR032") (unit 1)
+        )
+      )
+      (project "motors"
+        (path "/a997e678-d7b6-4305-a15e-c7b43e0a7ee0"
           (reference "#PWR032") (unit 1)
         )
       )
@@ -2033,6 +2085,11 @@
           (reference "C44") (unit 1)
         )
       )
+      (project "motors"
+        (path "/a997e678-d7b6-4305-a15e-c7b43e0a7ee0"
+          (reference "C44") (unit 1)
+        )
+      )
     )
   )
 
@@ -2059,6 +2116,15 @@
           (reference "C35") (unit 1)
         )
       )
+      (project "motors"
+        (path "/a997e678-d7b6-4305-a15e-c7b43e0a7ee0"
+          (reference "C35") (unit 1)
+        )
+      )
     )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
   )
 )

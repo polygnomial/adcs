@@ -428,7 +428,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "sfh2430_breakout.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
