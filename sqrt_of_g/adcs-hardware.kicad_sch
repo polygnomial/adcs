@@ -2965,6 +2965,11 @@
     (effects (font (size 2.54 2.54)) (justify right bottom))
     (uuid 381b01c9-e35c-4225-a83e-c93cd91c93d6)
   )
+  (text "@GRANT this enable currently has the 3.3K resistor\n\nSomewhat related: should it draw from VBATT_IN (to avoid having two enables)? \nThis is already after the foot switches"
+    (at 207.6196 135.6868 0)
+    (effects (font (size 1.27 1.27) (color 249 0 0 1)) (justify left bottom))
+    (uuid 38b55194-3b57-4efc-808d-3cd0b5b21127)
+  )
   (text "C" (at 196.3674 310.0324 0)
     (effects (font (size 2.54 2.54)) (justify right bottom))
     (uuid 3b8540df-201d-428d-be49-0722375196ca)
@@ -3121,8 +3126,8 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid f30227df-a1f3-4006-98ed-25a847d5f83d)
   )
-  (text "LDO for analog 3V3 supply?\nadd inductor, caps to filter things out?\n"
-    (at 25.4 228.6 0)
+  (text "LDO for analog 3V3 supply?\nadd inductor, caps to filter things out?\n\nShould I make an analog GND? I feel like I am fine.\n"
+    (at -34.2646 238.887 0)
     (effects (font (size 1.27 1.27) (color 255 0 0 1)) (justify left bottom))
     (uuid f88d92f1-d005-46de-ba63-3c9c107d99db)
   )
