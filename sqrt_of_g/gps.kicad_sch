@@ -667,11 +667,11 @@
     (uuid 9a52baeb-5976-4420-b953-a1c7a762ac70)
   )
 
-  (hierarchical_label "TX_GPS" (shape output) (at 132.6642 115.57 180) (fields_autoplaced)
+  (hierarchical_label "TX_TO_MICRO" (shape output) (at 132.6642 115.57 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 5df3cdeb-0344-4c7b-abb7-15db38b64e70)
   )
-  (hierarchical_label "RX_GPS" (shape input) (at 132.6642 118.11 180) (fields_autoplaced)
+  (hierarchical_label "RX_FROM_MICRO" (shape input) (at 132.6642 118.11 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 8c1ca5b6-fd52-45e0-866f-6142aa75b874)
   )
