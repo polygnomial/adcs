@@ -319,11 +319,15 @@ int Rm3100::Read(uint8_t reg, uint8_t *buffer, uint8_t count)
 
 int Rm3100::Write(uint8_t reg, uint8_t *buffer, uint8_t count)
 {
+    // first byte is register address
     uint8_t data[count + 1];
     data[0] = reg;
     memcpy(&data[1], buffer, count);
+
+    // transmit to device at address
     _wire.beginTransmission(_addr);
     _wire.write((const char *)data, count + 1);
     uint8_t bytes_sent = _wire.endTransmission();
+
     return bytes_sent ? RM3100_RET_OK : RM3100_RET_EIO;
 }
