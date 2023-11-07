@@ -437,4 +437,9 @@
     (solder_mask_margin 0.102) (tstamp 2012b57f-953f-487e-8a14-dc7a44d941f9))
   (pad "P14" smd circle (at 5.2 5.2) (size 0.39 0.39) (layers "F.Cu" "F.Paste" "F.Mask")
     (solder_mask_margin 0.102) (tstamp 76462091-9ddf-4979-83b3-e0b9ba30143e))
+  (model "${KIPRJMOD}/../models/MIMXRT1062DVJ6B.step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
 )
