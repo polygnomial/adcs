@@ -300,21 +300,20 @@ int Rm3100::Read(uint8_t reg, uint8_t *buffer, uint8_t count)
     // write the register address
     _wire.write(reg);
 
+    // end transmission
+    _wire.endTransmission();
+
     // request data from the device
-    _wire.requestFrom(_addr, count);
+    uint8_t bytes_recvd = _wire.requestFrom(_addr, count);
     
     // read the data
     uint8_t counter = 0;
     while (_wire.available()){
-        buffer[counter] = _wire.read();
+        char byte = _wire.read();
+        buffer[counter] = byte;
         counter++;
     }
-    char buf2[100];
-    sprintf(buf2, "bytes: %u, %u, %u, %u, %u, %u, %u, %u, %u", buffer[0], buffer[1], buffer[2], buffer[3], buffer[4], buffer[5], buffer[6], buffer[7], buffer[8]);
-    // Serial.print("elem: ");
-    Serial.println(buf2);
-    _wire.endTransmission();
-
+    
     return counter ? RM3100_RET_OK : RM3100_RET_EIO;
 }
 
