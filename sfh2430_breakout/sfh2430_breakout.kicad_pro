@@ -48,7 +48,13 @@
           "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -107,7 +113,7 @@
         "max_error": 0.005,
         "min_clearance": 0.0,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.0,
+        "min_copper_edge_clearance": 0.25,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.19999999999999998,
@@ -165,8 +171,15 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
-      "via_dimensions": [],
+      "track_widths": [
+        0.0
+      ],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "layer_presets": [],
@@ -473,20 +486,20 @@
       ""
     ],
     [
-      "aefe17ed-d57a-4116-8070-c3e8e7c2b109",
+      "08034879-5647-4192-a0be-607f3e22c831",
       "Photodiode 1"
     ],
     [
-      "c83e7e33-ba5e-42b8-80bf-aecaa4467d1e",
+      "99b4aaf4-f2cd-45e1-90c8-c869b56e6ed9",
       "Photodiode 2"
     ],
     [
-      "054b8154-bd6f-469e-9f3e-00c1cff11710",
-      "Photodiode 3"
+      "a927fea0-3fd2-41a8-bc17-b58a1e218ac9",
+      "Photodiode 4"
     ],
     [
-      "2fbb7cff-36cc-4beb-9af4-c89409b9105f",
-      "Photodiode 4"
+      "1f575afb-bf50-478b-870b-7e16fec15973",
+      "Photodiode 3"
     ]
   ],
   "text_variables": {}
