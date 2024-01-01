@@ -648,7 +648,7 @@
   (symbol (lib_id "mainboard:R-US_R0603") (at 118.3894 109.2962 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0b5e3469-4ba2-47da-b84d-e48287e0bd9f)
-    (property "Reference" "R31" (at 118.3894 111.8362 0)
+    (property "Reference" "R?" (at 118.3894 111.8362 0)
       (effects (font (size 1.4986 1.4986)))
     )
     (property "Value" "4.7K" (at 118.3894 114.3762 0)
@@ -663,41 +663,50 @@
     (property "Description" "4.7K 0603" (at 118.3894 109.2962 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Supplier 1" "" (at 118.3894 109.2962 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Unit Price" "" (at 118.3894 109.2962 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Unit Price (Proto)" "" (at 118.3894 109.2962 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 1a2824d6-3169-4660-8647-6398d2d333b1))
     (pin "2" (uuid dfe2b246-a9bb-4754-a589-26b3de408770))
     (instances
       (project "adcs-hardware"
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/96c1dca3-3491-4490-97b2-299dd5a0d462"
-          (reference "R31") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/2011b62c-b542-4899-89c4-f1a49629fe42"
           (reference "R?") (unit 1)
         )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/dbac343c-e1e8-4f27-95db-48905ebe6ac8"
-          (reference "R43") (unit 1)
+          (reference "R34") (unit 1)
         )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/2910d49c-2a7c-482a-86b8-0d5e23e76e11"
-          (reference "R6") (unit 1)
+          (reference "R20") (unit 1)
         )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/96c1dca3-3491-4490-97b2-299dd5a0d462/050cb11f-ff11-499c-a248-6fb9f1092987"
-          (reference "R56") (unit 1)
+          (reference "R40") (unit 1)
         )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/2011b62c-b542-4899-89c4-f1a49629fe42/050cb11f-ff11-499c-a248-6fb9f1092987"
-          (reference "R53") (unit 1)
+          (reference "R37") (unit 1)
         )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/1539ef5d-4f4f-4a9e-ae0a-b29bdc9f46f8/d7510623-5924-4e82-97b6-641ec54de302"
-          (reference "R2") (unit 1)
+          (reference "R43") (unit 1)
         )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/e6d989e1-3d58-4abb-9f22-cf061fe5e0a3"
-          (reference "R21") (unit 1)
+          (reference "R49") (unit 1)
         )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/09e775d0-de49-4fe2-956d-adceee72ccf4"
-          (reference "R13") (unit 1)
+          (reference "R46") (unit 1)
         )
       )
       (project "mainboard"
         (path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5dde"
-          (reference "R22") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
     )
@@ -725,25 +734,25 @@
           (reference "#FLG?") (unit 1)
         )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/96c1dca3-3491-4490-97b2-299dd5a0d462"
-          (reference "#FLG05") (unit 1)
+          (reference "#FLG?") (unit 1)
         )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/dbac343c-e1e8-4f27-95db-48905ebe6ac8"
-          (reference "#FLG09") (unit 1)
+          (reference "#FLG07") (unit 1)
         )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/2910d49c-2a7c-482a-86b8-0d5e23e76e11"
-          (reference "#FLG01") (unit 1)
+          (reference "#FLG06") (unit 1)
         )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/2011b62c-b542-4899-89c4-f1a49629fe42/050cb11f-ff11-499c-a248-6fb9f1092987"
-          (reference "#FLG010") (unit 1)
+          (reference "#FLG08") (unit 1)
         )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/96c1dca3-3491-4490-97b2-299dd5a0d462/050cb11f-ff11-499c-a248-6fb9f1092987"
-          (reference "#FLG011") (unit 1)
+          (reference "#FLG09") (unit 1)
         )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/1539ef5d-4f4f-4a9e-ae0a-b29bdc9f46f8/d7510623-5924-4e82-97b6-641ec54de302"
-          (reference "#FLG04") (unit 1)
+          (reference "#FLG010") (unit 1)
         )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/09e775d0-de49-4fe2-956d-adceee72ccf4"
-          (reference "#FLG05") (unit 1)
+          (reference "#FLG011") (unit 1)
         )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/e6d989e1-3d58-4abb-9f22-cf061fe5e0a3"
           (reference "#FLG012") (unit 1)
@@ -755,7 +764,7 @@
   (symbol (lib_id "mainboard:IRLML2803TRPBF") (at 126.0094 114.3762 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3c4fb9fe-9353-4bef-a034-f6ba2d1aacfa)
-    (property "Reference" "Q12" (at 131.0894 113.1062 0)
+    (property "Reference" "Q?" (at 131.0894 113.1062 0)
       (effects (font (size 1.4986 1.4986)) (justify left top))
     )
     (property "Value" "IRLML2803" (at 129.8194 118.1862 0)
@@ -776,10 +785,16 @@
     (property "Manufacturer_Name" "Infineon Technologies" (at 126.0094 114.3762 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Manufacturer_Part_Number" "IRLML2803TRPbF" (at 132.3594 110.5662 0)
+    (property "Proto" "2302" (at 126.0094 114.3762 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Proto" "2302" (at 126.0094 114.3762 0)
+    (property "Supplier 1" "" (at 126.0094 114.3762 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Unit Price" "" (at 126.0094 114.3762 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Unit Price (Proto)" "" (at 126.0094 114.3762 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 6020d635-9511-44bd-a812-83252bb4cd2e))
@@ -788,36 +803,36 @@
     (instances
       (project "adcs-hardware"
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/96c1dca3-3491-4490-97b2-299dd5a0d462"
-          (reference "Q12") (unit 1)
+          (reference "Q?") (unit 1)
         )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/2011b62c-b542-4899-89c4-f1a49629fe42"
           (reference "Q?") (unit 1)
         )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/dbac343c-e1e8-4f27-95db-48905ebe6ac8"
-          (reference "Q14") (unit 1)
+          (reference "Q4") (unit 1)
         )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/2910d49c-2a7c-482a-86b8-0d5e23e76e11"
-          (reference "Q1") (unit 1)
+          (reference "Q2") (unit 1)
         )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/96c1dca3-3491-4490-97b2-299dd5a0d462/050cb11f-ff11-499c-a248-6fb9f1092987"
-          (reference "Q18") (unit 1)
-        )
-        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/2011b62c-b542-4899-89c4-f1a49629fe42/050cb11f-ff11-499c-a248-6fb9f1092987"
-          (reference "Q16") (unit 1)
-        )
-        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/1539ef5d-4f4f-4a9e-ae0a-b29bdc9f46f8/d7510623-5924-4e82-97b6-641ec54de302"
-          (reference "Q3") (unit 1)
-        )
-        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/e6d989e1-3d58-4abb-9f22-cf061fe5e0a3"
           (reference "Q8") (unit 1)
         )
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/2011b62c-b542-4899-89c4-f1a49629fe42/050cb11f-ff11-499c-a248-6fb9f1092987"
+          (reference "Q6") (unit 1)
+        )
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/1539ef5d-4f4f-4a9e-ae0a-b29bdc9f46f8/d7510623-5924-4e82-97b6-641ec54de302"
+          (reference "Q10") (unit 1)
+        )
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/e6d989e1-3d58-4abb-9f22-cf061fe5e0a3"
+          (reference "Q14") (unit 1)
+        )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/09e775d0-de49-4fe2-956d-adceee72ccf4"
-          (reference "Q5") (unit 1)
+          (reference "Q12") (unit 1)
         )
       )
       (project "mainboard"
         (path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5dde"
-          (reference "Q1") (unit 1)
+          (reference "Q?") (unit 1)
         )
       )
     )
@@ -826,7 +841,7 @@
   (symbol (lib_id "mainboard:R-US_R0603") (at 128.5494 104.2162 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3fdea3de-bbdd-487b-bcd9-d13ab0ebded0)
-    (property "Reference" "R32" (at 126.8476 102.87 90)
+    (property "Reference" "R?" (at 126.8476 102.87 90)
       (effects (font (size 1.4986 1.4986)) (justify right))
     )
     (property "Value" "${source_resistor}" (at 126.8476 105.537 90)
@@ -841,50 +856,50 @@
     (property "Description" "0603" (at 129.3876 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "DigiKey Part Number" "" (at 128.5494 104.2162 0)
+    (property "Supplier 1" "" (at 128.5494 104.2162 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Tolerance" "" (at 128.5494 104.2162 0)
-      (effects (font (size 1.27 1.27)))
+    (property "Unit Price" "" (at 128.5494 104.2162 0)
+      (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Power Rating" "" (at 128.5494 104.2162 0)
-      (effects (font (size 1.27 1.27)))
+    (property "Unit Price (Proto)" "" (at 128.5494 104.2162 0)
+      (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid a0d6b162-c340-49a7-80a2-9978be1417b3))
     (pin "2" (uuid 6d93ce3c-130d-4ef2-b5f2-75948c22bd70))
     (instances
       (project "adcs-hardware"
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/96c1dca3-3491-4490-97b2-299dd5a0d462"
-          (reference "R32") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/2011b62c-b542-4899-89c4-f1a49629fe42"
           (reference "R?") (unit 1)
         )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/dbac343c-e1e8-4f27-95db-48905ebe6ac8"
-          (reference "R44") (unit 1)
+          (reference "R35") (unit 1)
         )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/2910d49c-2a7c-482a-86b8-0d5e23e76e11"
-          (reference "R45") (unit 1)
+          (reference "R21") (unit 1)
         )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/96c1dca3-3491-4490-97b2-299dd5a0d462/050cb11f-ff11-499c-a248-6fb9f1092987"
-          (reference "R57") (unit 1)
+          (reference "R41") (unit 1)
         )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/2011b62c-b542-4899-89c4-f1a49629fe42/050cb11f-ff11-499c-a248-6fb9f1092987"
-          (reference "R54") (unit 1)
+          (reference "R38") (unit 1)
         )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/1539ef5d-4f4f-4a9e-ae0a-b29bdc9f46f8/d7510623-5924-4e82-97b6-641ec54de302"
-          (reference "R3") (unit 1)
+          (reference "R44") (unit 1)
         )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/e6d989e1-3d58-4abb-9f22-cf061fe5e0a3"
-          (reference "R22") (unit 1)
+          (reference "R50") (unit 1)
         )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/09e775d0-de49-4fe2-956d-adceee72ccf4"
-          (reference "R14") (unit 1)
+          (reference "R47") (unit 1)
         )
       )
       (project "mainboard"
         (path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5dde"
-          (reference "R23") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
     )
@@ -893,7 +908,7 @@
   (symbol (lib_id "pycubed_mainboard:10NF_10000PF-50V-10%(0603)") (at 171.7294 114.3762 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5ed923c6-3dc0-4721-afb5-18bf5ead5ee0)
-    (property "Reference" "C51" (at 166.1414 110.6932 0)
+    (property "Reference" "C?" (at 166.1414 110.6932 0)
       (effects (font (size 1.4986 1.4986)) (justify left))
     )
     (property "Value" "4.7uF" (at 165.2524 115.3922 0)
@@ -905,48 +920,48 @@
     (property "Datasheet" "" (at 171.7294 114.3762 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "DigiKey Part Number" "" (at 171.7294 114.3762 0)
+    (property "Supplier 1" "" (at 171.7294 114.3762 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Tolerance" "" (at 171.7294 114.3762 0)
-      (effects (font (size 1.27 1.27)))
+    (property "Unit Price" "" (at 171.7294 114.3762 0)
+      (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Power Rating" "" (at 171.7294 114.3762 0)
-      (effects (font (size 1.27 1.27)))
+    (property "Unit Price (Proto)" "" (at 171.7294 114.3762 0)
+      (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 1e545509-c919-46c5-8df6-11bfaf30fd8d))
     (pin "2" (uuid 0ead5028-f629-4f46-b182-fed446a96ec6))
     (instances
       (project "adcs-hardware"
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/3472706a-4f86-4fa0-acec-6a7dc1abcee9"
-          (reference "C51") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/96c1dca3-3491-4490-97b2-299dd5a0d462"
-          (reference "C54") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/2011b62c-b542-4899-89c4-f1a49629fe42"
           (reference "C?") (unit 1)
         )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/dbac343c-e1e8-4f27-95db-48905ebe6ac8"
-          (reference "C61") (unit 1)
+          (reference "C41") (unit 1)
         )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/2910d49c-2a7c-482a-86b8-0d5e23e76e11"
-          (reference "C6") (unit 1)
+          (reference "C35") (unit 1)
         )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/2011b62c-b542-4899-89c4-f1a49629fe42/050cb11f-ff11-499c-a248-6fb9f1092987"
-          (reference "C42") (unit 1)
+          (reference "C43") (unit 1)
         )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/96c1dca3-3491-4490-97b2-299dd5a0d462/050cb11f-ff11-499c-a248-6fb9f1092987"
-          (reference "C63") (unit 1)
+          (reference "C45") (unit 1)
         )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/1539ef5d-4f4f-4a9e-ae0a-b29bdc9f46f8/d7510623-5924-4e82-97b6-641ec54de302"
-          (reference "C2") (unit 1)
+          (reference "C47") (unit 1)
         )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/09e775d0-de49-4fe2-956d-adceee72ccf4"
-          (reference "C4") (unit 1)
+          (reference "C49") (unit 1)
         )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/e6d989e1-3d58-4abb-9f22-cf061fe5e0a3"
-          (reference "C34") (unit 1)
+          (reference "C51") (unit 1)
         )
       )
     )
@@ -955,7 +970,7 @@
   (symbol (lib_id "adcs:NDS8434") (at 146.3294 101.6762 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 84d0ad85-c2cc-4b61-9599-c837216bbf41)
-    (property "Reference" "Q2" (at 146.3294 87.122 0)
+    (property "Reference" "Q3" (at 146.3294 87.122 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "NDS8434" (at 146.3294 89.662 0)
@@ -967,15 +982,6 @@
     (property "Datasheet" "https://www.onsemi.com/pdf/datasheet/nds8434-d.pdf" (at 146.3294 101.6762 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
-    (property "DigiKey Part Number" "" (at 146.3294 101.6762 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Tolerance" "" (at 146.3294 101.6762 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Power Rating" "" (at 146.3294 101.6762 0)
-      (effects (font (size 1.27 1.27)))
-    )
     (property "Flight" "NDS8434" (at 146.3294 101.6762 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -985,10 +991,16 @@
     (property "Manufacturer_Name" "ON Semiconductor" (at 146.3294 101.6762 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Manufacturer_Part_Number" "NDS8434" (at 145.0594 87.7062 0)
+    (property "Proto" "DMP2022LSS-13" (at 146.3294 101.6762 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Proto" "DMP2022LSS-13" (at 146.3294 101.6762 0)
+    (property "Supplier 1" "" (at 146.3294 101.6762 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Unit Price" "" (at 146.3294 101.6762 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Unit Price (Proto)" "" (at 146.3294 101.6762 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 9968b969-75f9-4c78-b610-8e788698146d))
@@ -1002,10 +1014,10 @@
     (instances
       (project "adcs-hardware"
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/2910d49c-2a7c-482a-86b8-0d5e23e76e11"
-          (reference "Q2") (unit 1)
+          (reference "Q3") (unit 1)
         )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/dbac343c-e1e8-4f27-95db-48905ebe6ac8"
-          (reference "Q4") (unit 1)
+          (reference "Q5") (unit 1)
         )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/2011b62c-b542-4899-89c4-f1a49629fe42/050cb11f-ff11-499c-a248-6fb9f1092987"
           (reference "Q7") (unit 1)
@@ -1014,13 +1026,13 @@
           (reference "Q9") (unit 1)
         )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/1539ef5d-4f4f-4a9e-ae0a-b29bdc9f46f8/d7510623-5924-4e82-97b6-641ec54de302"
-          (reference "Q10") (unit 1)
-        )
-        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/09e775d0-de49-4fe2-956d-adceee72ccf4"
           (reference "Q11") (unit 1)
         )
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/09e775d0-de49-4fe2-956d-adceee72ccf4"
+          (reference "Q13") (unit 1)
+        )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/e6d989e1-3d58-4abb-9f22-cf061fe5e0a3"
-          (reference "Q12") (unit 1)
+          (reference "Q15") (unit 1)
         )
       )
     )
@@ -1029,7 +1041,7 @@
   (symbol (lib_id "mainboard:R-US_R0603") (at 110.7694 114.3762 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 87070180-aa7f-487a-8279-abb5b63334c2)
-    (property "Reference" "R30" (at 109.0676 113.03 90)
+    (property "Reference" "R?" (at 109.0676 113.03 90)
       (effects (font (size 1.4986 1.4986)) (justify right))
     )
     (property "Value" "10K" (at 109.0676 115.697 90)
@@ -1044,41 +1056,50 @@
     (property "Description" "10K 0603" (at 111.6076 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Supplier 1" "" (at 110.7694 114.3762 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Unit Price" "" (at 110.7694 114.3762 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Unit Price (Proto)" "" (at 110.7694 114.3762 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid e57a442e-8ed0-418d-bf71-9aeeaaa4fce1))
     (pin "2" (uuid cca060ab-3f59-47c1-b63a-c2427490c47f))
     (instances
       (project "adcs-hardware"
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/96c1dca3-3491-4490-97b2-299dd5a0d462"
-          (reference "R30") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/2011b62c-b542-4899-89c4-f1a49629fe42"
           (reference "R?") (unit 1)
         )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/dbac343c-e1e8-4f27-95db-48905ebe6ac8"
-          (reference "R41") (unit 1)
+          (reference "R33") (unit 1)
         )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/2910d49c-2a7c-482a-86b8-0d5e23e76e11"
-          (reference "R5") (unit 1)
-        )
-        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/96c1dca3-3491-4490-97b2-299dd5a0d462/050cb11f-ff11-499c-a248-6fb9f1092987"
-          (reference "R55") (unit 1)
-        )
-        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/2011b62c-b542-4899-89c4-f1a49629fe42/050cb11f-ff11-499c-a248-6fb9f1092987"
-          (reference "R52") (unit 1)
-        )
-        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/1539ef5d-4f4f-4a9e-ae0a-b29bdc9f46f8/d7510623-5924-4e82-97b6-641ec54de302"
-          (reference "R1") (unit 1)
-        )
-        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/e6d989e1-3d58-4abb-9f22-cf061fe5e0a3"
           (reference "R19") (unit 1)
         )
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/96c1dca3-3491-4490-97b2-299dd5a0d462/050cb11f-ff11-499c-a248-6fb9f1092987"
+          (reference "R39") (unit 1)
+        )
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/2011b62c-b542-4899-89c4-f1a49629fe42/050cb11f-ff11-499c-a248-6fb9f1092987"
+          (reference "R36") (unit 1)
+        )
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/1539ef5d-4f4f-4a9e-ae0a-b29bdc9f46f8/d7510623-5924-4e82-97b6-641ec54de302"
+          (reference "R42") (unit 1)
+        )
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/e6d989e1-3d58-4abb-9f22-cf061fe5e0a3"
+          (reference "R48") (unit 1)
+        )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/09e775d0-de49-4fe2-956d-adceee72ccf4"
-          (reference "R7") (unit 1)
+          (reference "R45") (unit 1)
         )
       )
       (project "mainboard"
         (path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5dde"
-          (reference "R21") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
     )
@@ -1087,7 +1108,7 @@
   (symbol (lib_id "pycubed_mainboard:10NF_10000PF-50V-10%(0603)") (at 164.1094 114.3762 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8d29511f-58e7-489e-ab3c-7de13966611f)
-    (property "Reference" "C32" (at 158.5214 110.6932 0)
+    (property "Reference" "C?" (at 158.5214 110.6932 0)
       (effects (font (size 1.4986 1.4986)) (justify left))
     )
     (property "Value" "10nF" (at 157.6324 115.3922 0)
@@ -1099,48 +1120,48 @@
     (property "Datasheet" "" (at 164.1094 114.3762 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "DigiKey Part Number" "" (at 164.1094 114.3762 0)
+    (property "Supplier 1" "" (at 164.1094 114.3762 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Tolerance" "" (at 164.1094 114.3762 0)
-      (effects (font (size 1.27 1.27)))
+    (property "Unit Price" "" (at 164.1094 114.3762 0)
+      (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Power Rating" "" (at 164.1094 114.3762 0)
-      (effects (font (size 1.27 1.27)))
+    (property "Unit Price (Proto)" "" (at 164.1094 114.3762 0)
+      (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 2dad5795-26d2-4adf-8ff8-96b94493d170))
     (pin "2" (uuid 53a12964-9b50-4e06-9726-58c36f2cfe89))
     (instances
       (project "adcs-hardware"
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/3472706a-4f86-4fa0-acec-6a7dc1abcee9"
-          (reference "C32") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/96c1dca3-3491-4490-97b2-299dd5a0d462"
-          (reference "C53") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/2011b62c-b542-4899-89c4-f1a49629fe42"
           (reference "C?") (unit 1)
         )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/dbac343c-e1e8-4f27-95db-48905ebe6ac8"
-          (reference "C60") (unit 1)
+          (reference "C40") (unit 1)
         )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/2910d49c-2a7c-482a-86b8-0d5e23e76e11"
-          (reference "C5") (unit 1)
+          (reference "C34") (unit 1)
         )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/2011b62c-b542-4899-89c4-f1a49629fe42/050cb11f-ff11-499c-a248-6fb9f1092987"
-          (reference "C41") (unit 1)
+          (reference "C42") (unit 1)
         )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/96c1dca3-3491-4490-97b2-299dd5a0d462/050cb11f-ff11-499c-a248-6fb9f1092987"
-          (reference "C62") (unit 1)
+          (reference "C44") (unit 1)
         )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/1539ef5d-4f4f-4a9e-ae0a-b29bdc9f46f8/d7510623-5924-4e82-97b6-641ec54de302"
-          (reference "C1") (unit 1)
+          (reference "C46") (unit 1)
         )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/09e775d0-de49-4fe2-956d-adceee72ccf4"
-          (reference "C3") (unit 1)
+          (reference "C48") (unit 1)
         )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/e6d989e1-3d58-4abb-9f22-cf061fe5e0a3"
-          (reference "C33") (unit 1)
+          (reference "C50") (unit 1)
         )
       )
     )
@@ -1149,7 +1170,7 @@
   (symbol (lib_id "mainboard:GND") (at 110.7694 121.9962 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b4e1acd6-3fac-4045-8bc4-760a7771fbcc)
-    (property "Reference" "#GND020" (at 110.7694 121.9962 0)
+    (property "Reference" "#GND?" (at 110.7694 121.9962 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 108.2294 124.5362 0)
@@ -1165,36 +1186,36 @@
     (instances
       (project "adcs-hardware"
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/96c1dca3-3491-4490-97b2-299dd5a0d462"
-          (reference "#GND020") (unit 1)
+          (reference "#GND?") (unit 1)
         )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/2011b62c-b542-4899-89c4-f1a49629fe42"
           (reference "#GND?") (unit 1)
         )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/dbac343c-e1e8-4f27-95db-48905ebe6ac8"
-          (reference "#GND023") (unit 1)
+          (reference "#GND018") (unit 1)
         )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/2910d49c-2a7c-482a-86b8-0d5e23e76e11"
-          (reference "#GND03") (unit 1)
+          (reference "#GND09") (unit 1)
         )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/96c1dca3-3491-4490-97b2-299dd5a0d462/050cb11f-ff11-499c-a248-6fb9f1092987"
-          (reference "#GND024") (unit 1)
+          (reference "#GND020") (unit 1)
         )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/2011b62c-b542-4899-89c4-f1a49629fe42/050cb11f-ff11-499c-a248-6fb9f1092987"
-          (reference "#GND013") (unit 1)
+          (reference "#GND019") (unit 1)
         )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/1539ef5d-4f4f-4a9e-ae0a-b29bdc9f46f8/d7510623-5924-4e82-97b6-641ec54de302"
-          (reference "#GND01") (unit 1)
+          (reference "#GND021") (unit 1)
         )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/e6d989e1-3d58-4abb-9f22-cf061fe5e0a3"
-          (reference "#GND014") (unit 1)
+          (reference "#GND023") (unit 1)
         )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/09e775d0-de49-4fe2-956d-adceee72ccf4"
-          (reference "#GND07") (unit 1)
+          (reference "#GND022") (unit 1)
         )
       )
       (project "mainboard"
         (path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5dde"
-          (reference "#GND020") (unit 1)
+          (reference "#GND?") (unit 1)
         )
       )
     )
