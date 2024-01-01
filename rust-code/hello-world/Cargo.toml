@@ -1,5 +1,5 @@
 [package]
-name = "flight"
+name = "hello-world"
 version = "0.1.0"
 authors = ["Flynn Dreilinger <flynnd@stanford.edu>"]
 edition = "2021"
@@ -10,10 +10,6 @@ embedded-hal = "0.2"
 # Remove me if you don't want logging.
 log = "0.4"
 teensy4-panic = "0.2"
-nmea0183 = "0.3.1"
-nb = "1.0"
-nalgebra = { version = "*", default-features = false, features = [ "alloc", "libm"] }
-emballoc = "0.2.0"
 
 [dependencies.teensy4-bsp]
 version = "0.4"
