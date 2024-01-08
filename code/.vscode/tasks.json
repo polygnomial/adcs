@@ -1,0 +1,32 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "shell",
+			"command": "cargo build && cargo objcopy --release -- -O ihex flight.hex",
+			"problemMatcher": [
+				"$rustc"
+			],
+			"options": {
+				"cwd": "${workspaceFolder}/flight"
+			},
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"label": "rust: cargo build && cargo objcopy"
+		},
+		{
+			"type": "shell",
+			"command": "cargo build && cargo objcopy --release -- -O ihex flight.hex && teensy_loader_cli --mcu=TEENSY41 -w flight.hex -v",
+			"problemMatcher": [
+				"$rustc"
+			],
+			"options": {
+				"cwd": "${workspaceFolder}/flight"
+			},
+			"group": "build",
+			"label": "rust: upload firmware"
+		}
+	]
+}

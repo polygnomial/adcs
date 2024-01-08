@@ -486,9 +486,9 @@ where
         Ok(rev)
     }
 
-    fn read<T>(&mut self, reg: Register, buffer: &mut [u8]) -> Result<(), ReturnCode> {
-        let _reg = [reg as u8];
-        self.i2c.write_read(self.addr, &_reg, buffer);
+    fn read(&mut self, register_address: u8, buffer: &mut [u8]) -> Result<(), ReturnCode> {
+        // Write the register address to the device and then read data
+        self.i2c.write_read(self.addr, &[register_address], buffer)?;
         if Ok(buffer[0]) > 0 {
             Ok(())
         } else {
@@ -496,13 +496,37 @@ where
         }
     }
 
-    fn write<T>(&mut self, reg: Register, buffer: &T) -> Result<(), ReturnCode> {
-        // let data = [reg as u8].iter().chain(buffer.iter()).copied().collect::<Vec<u8>>();
-        let result = self.i2c.write(self.addr, &buffer);
+    // fn read<T>(&mut self, reg: Register, buffer: &mut [u8]) -> Result<(), ReturnCode> {
+    //     let _reg = [reg as u8];
+    //     self.i2c.write_read(self.addr, &_reg, buffer);
+    //     if Ok(buffer[0]) > 0 {
+    //         Ok(())
+    //     } else {
+    //         Err(ReturnCode::RM3100_RET_EIO)
+    //     }
+    // }
+    
+    pub fn write_data(&mut self, register_address: u8, data: &[u8]) -> Result<(), ReturnCode> {
+        // Write the register address to the target device
+        self.i2c.write(self.device_addr, &[register_address])?;
+
+        // Write the contents of the buffer to the target device
+        self.i2c.write(self.device_addr, data)?;
+
         if Ok(result) > 0 {
             Ok(())
         } else {
             Err(ReturnCode::RM3100_RET_EIO)
         }
     }
+
+    // fn write<T>(&mut self, reg: Register, buffer: &T) -> Result<(), ReturnCode> {
+    //     // let data = [reg as u8].iter().chain(buffer.iter()).copied().collect::<Vec<u8>>();
+    //     let result = self.i2c.write(self.addr, &buffer);
+    //     if Ok(result) > 0 {
+    //         Ok(())
+    //     } else {
+    //         Err(ReturnCode::RM3100_RET_EIO)
+    //     }
+    // }
 }
