@@ -160,10 +160,12 @@ fn main() -> ! {
         let reading2: u16 = adc1.read_blocking(&mut a2);
         let reading3: u16 = adc1.read_blocking(&mut a3);
 
-        // let angle1: f32 = photodiode::photodiode_pair(reading0, reading1).unwrap();
-        // let angle2: f32 = photodiode::photodiode_pair(reading2, reading3).unwrap();
-        // log::info!("ADC readings: {reading0}, {reading1}, {reading2}, {reading3}");
-        // log::info!("Angles: {angle1}, {angle2}");
+       
+        log::info!("ADC readings: {reading0}, {reading1}, {reading2}, {reading3}");
+
+        let angle1: f32 = photodiode::photodiode_pair(reading0, reading2).unwrap() * photodiode::DEGREES_PER_RADIAN;
+        let angle2: f32 = photodiode::photodiode_pair(reading1, reading3).unwrap() * photodiode::DEGREES_PER_RADIAN;
+        log::info!("Angles: {angle1}, {angle2}");
 
         // // read magnetometer
         let sample: rm3100::Sample = sensor.get_sample().unwrap();
