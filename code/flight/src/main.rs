@@ -35,6 +35,7 @@ use hal::adc;
 
 // mod Rm3100;
 mod rm3100;
+mod photodiode;
 
 
 /// CHANGE ME to vary the baud rate.
@@ -113,10 +114,24 @@ fn main() -> ! {
     sensor.begin();
     delay.block_ms(250);
     sensor.set_cycle_counts_xyz_equal(200);
+    
+    // this is the only way I've been able to configure the cycle counts
+    // let cc_arr = [0u8, 0u8, 0u8, 0u8, 0u8, 0u8, 200u8, 0u8, 200u8, 0u8, 200u8];
+    // sensor.write(rm3100::Register::RM3100_REG_CCX, &cc_arr );
     delay.block_ms(250);
+    let mut cc = rm3100::CycleCounts { x: 0, y: 0, z: 0 };
+    sensor.get_cycle_counts(&mut cc);
+    delay.block_ms(250);
+    let mut status_buffer = [0u8; 0x36]; // Adjust the size of the buffer as needed
+    sensor.read(rm3100::Register::RM3100_REG_POLL, &mut status_buffer);
+    
     sensor.set_rate(100.0);
     delay.block_ms(250);
+    sensor.read(rm3100::Register::RM3100_REG_POLL, &mut status_buffer);
+    
     sensor.set_continuous_measurement_mode_enabled(true);
+    delay.block_ms(250);
+    sensor.read(rm3100::Register::RM3100_REG_POLL, &mut status_buffer);
 
     // Configure the ADC pins.
     let adc1 = unsafe {ral::adc::ADC1::instance() };
@@ -127,6 +142,12 @@ fn main() -> ! {
     let mut a3 = adc::AnalogInput::new(pads.gpio_ad_b1.p06);
 
     let mut counter: u32 = 0;
+
+    // test read magnetometer
+    let sample: rm3100::Sample = sensor.get_sample().unwrap();
+        
+    log::info!("RM3100 sample: {}, {}, {}", sample.x, sample.y, sample.z);
+
     loop {
         led.toggle();
 
@@ -139,9 +160,12 @@ fn main() -> ! {
         let reading2: u16 = adc1.read_blocking(&mut a2);
         let reading3: u16 = adc1.read_blocking(&mut a3);
 
-        log::info!("ADC readings: {reading0}, {reading1}, {reading2}, {reading3}");
+        // let angle1: f32 = photodiode::photodiode_pair(reading0, reading1).unwrap();
+        // let angle2: f32 = photodiode::photodiode_pair(reading2, reading3).unwrap();
+        // log::info!("ADC readings: {reading0}, {reading1}, {reading2}, {reading3}");
+        // log::info!("Angles: {angle1}, {angle2}");
 
-        // read magnetometer
+        // // read magnetometer
         let sample: rm3100::Sample = sensor.get_sample().unwrap();
         
         log::info!("RM3100 sample: {}, {}, {}", sample.x, sample.y, sample.z);

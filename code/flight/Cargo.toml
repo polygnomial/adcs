@@ -5,9 +5,11 @@ authors = ["Flynn Dreilinger <flynnd@stanford.edu>"]
 edition = "2021"
 
 [dependencies]
+bitfield-struct = "0.5.6"
 bytemuck = {version = "1.14.0", features = ["derive"]}
 cortex-m = "0.7"
 embedded-hal = "0.2"
+libm = "0.2.8"
 # Remove me if you don't want logging.
 log = "0.4"
 teensy4-panic = "0.2"

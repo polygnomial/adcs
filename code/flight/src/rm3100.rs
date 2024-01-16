@@ -27,6 +27,7 @@ use embedded_hal::blocking::i2c::{Read, Write, WriteRead};
 use embedded_hal::blocking::i2c;
 
 use bytemuck;
+use bitfield_struct::bitfield;
 
 pub struct RM3100Driver<I2C> {
     i2c: I2C,
@@ -87,22 +88,27 @@ pub enum DataReadyMode {
     RM3100_DRDM_MASK = 0x03,
 }
 
-#[derive(Copy, Clone, bytemuck::Pod, bytemuck::Zeroable)]
-#[repr(C)]
+
+#[bitfield(u8)]
+#[derive(bytemuck::Pod, bytemuck::Zeroable)]
 pub struct ContinuousMeasurementMode {
-    start: u8,
-    res1: u8,
-    drdm: u8,
-    cmx: u8,
-    cmy: u8,
-    cmz: u8,
-    res7: u8,
+    
+    start: bool,
+    res1: bool,
+    #[bits(2)]
+    drdm: usize,
+    cmx: bool,
+    cmy: bool,
+    cmz: bool,
+    res7: bool,
 }
 
+// #[derive(Copy, Clone, bytemuck::Pod, bytemuck::Zeroable)]
+// #[repr(C)]
 pub struct CycleCounts {
-    x: u16,
-    y: u16,
-    z: u16,
+    pub x: u16,
+    pub y: u16,
+    pub z: u16,
 }
 
 pub struct ContinuousMeasurementModeUpdateRate;
@@ -206,14 +212,13 @@ where
     }
 
     pub fn begin(&mut self) -> Result<(), ReturnCode> {
-        let mut revid: u8 = 0x00;
+        let mut revid = [0u8, 1];
         let mut cc = CycleCounts { x: 0, y: 0, z: 0 };
 
         // self.i2c.begin(); // no begin needed in rust
 
         self.get_hardware_revision(&mut revid);
-
-        if revid != RM3100_REVID {
+        if revid[0] != RM3100_REVID {
             return Err(ReturnCode::RM3100_RET_ENODEV);
         }
 
@@ -290,9 +295,10 @@ where
         cmm: &ContinuousMeasurementMode,
     ) -> Result<(), E> {
         let mut byte_slice: &[u8];
-        // bincode::serialize_into(&mut byte_slice, &cmm).unwrap();
+        // // bincode::serialize_into(&mut byte_slice, &cmm).unwrap();
         let byte_slice: &[u8] = bytemuck::bytes_of(cmm);
-        self.write(Register::RM3100_REG_CMM, byte_slice)
+        self.write(Register::RM3100_REG_CMM, byte_slice);
+        Ok(())
     }
 
     pub fn set_continuous_measurement_mode_xyz(
@@ -303,15 +309,14 @@ where
         y: bool,
         z: bool,
     ) -> Result<(), E> {
-        let cmm = ContinuousMeasurementMode {
-            start: enabled as u8,
-            res1: 0,
-            drdm: drdm & DataReadyMode::RM3100_DRDM_MASK as u8,
-            cmx: x as u8,
-            cmy: y as u8,
-            cmz: z as u8,
-            res7: 0,
-        };
+        let cmm = ContinuousMeasurementMode::new()
+            .with_start(enabled)
+            .with_res1(false)
+            .with_drdm((drdm & DataReadyMode::RM3100_DRDM_MASK as u8) as usize)
+            .with_cmx(x)
+            .with_cmy(y)
+            .with_cmz(z)
+            .with_res7(false);
         self.set_continuous_measurement_mode(&cmm)
     }
 
@@ -334,13 +339,13 @@ where
         self.scale.z = 1.0 / ((cc.z as f32 * 0.3627) + 1.85);
     }
 
-    pub fn get_hardware_revision(&mut self, rev: &mut u8) -> Result<(), E> {
-        let mut rev = [0u8];
-        self.read(Register::RM3100_REG_REVID, &mut rev)?;
+    pub fn get_hardware_revision(&mut self, rev: &mut [u8]) -> Result<(), E> {
+        // let mut rev = [0u8];
+        self.read(Register::RM3100_REG_REVID, rev)?;
         Ok(())
     }
 
-    pub fn get_measurement(&mut self, m: &Measurement) -> Result<Measurement, E> {
+    pub fn get_measurement(&mut self) -> Result<Measurement, E> {
         let mut buffer = [0u8; 9];
         self.read(Register::RM3100_REG_MX, &mut buffer);
         let x = ((buffer[0] as i8) as i32) << 16
@@ -356,28 +361,36 @@ where
     }
 
     pub fn get_sample(&mut self) -> Result<Sample, E> {
-        let mut m = Measurement { x: 0, y: 0, z: 0 };
-        self.get_measurement(&mut m, );
-        let x = m.x as f32 * self.scale.x;
-        let y = m.y as f32 * self.scale.y;
-        let z = m.z as f32 * self.scale.z;
-        Ok(Sample { x, y, z })
+        let mut m = self.get_measurement();
+        match(m) {
+            Ok(m) => {
+                let x = m.x as f32 * self.scale.x;
+                let y = m.y as f32 * self.scale.y;
+                let z = m.z as f32 * self.scale.z;
+                return Ok(Sample { x, y, z });
+            },
+            Err(e) => {
+                let x = 0.0;
+                let y = 0.0;
+                let z = 0.0;
+                return Ok(Sample { x, y, z });
+            },
+        }   
     }
 
     pub fn read(&mut self, register_address: u8, buffer: &mut [u8]) -> Result<(), E> {
         // Write the register address to the device and then read data
         self.i2c.write_read(self.device_addr, &[register_address], buffer)?;
-        log::info!("read: {:?}", buffer);
         Ok(())
     }
 
     pub fn write(&mut self, register_address: u8, data: &[u8]) -> Result<(), E> {
-        // Write the register address to the target device
-        self.i2c.write(self.device_addr, &[register_address])?;
-
-        // Write the contents of the buffer to the target device
-        self.i2c.write(self.device_addr, data)?;
-
+        // Write the register address and data to the target device
+        let new_len = data.len() + 1;
+        let mut data_and_addr = [0u8; 256];
+        data_and_addr[0] = register_address;
+        data_and_addr[1..new_len].copy_from_slice(data);
+        self.i2c.write(self.device_addr, &data_and_addr[0..new_len])?;
         Ok(())
     }
 }
