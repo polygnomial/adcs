@@ -47,6 +47,9 @@ mod allocator;
 mod time;
 mod solarsystem_model;
 mod linear_algebra;
+mod attitude_determination;
+
+use attitude_determination::triad;
 
 /// CHANGE ME to vary the baud rate.
 const UART_BAUD: u32 = 9600;
@@ -159,7 +162,7 @@ fn main() -> ! {
     // test read magnetometer
     let sample: rm3100::Sample = sensor.get_sample().unwrap();
         
-    log::info!("RM3100 sample: {}, {}, {}", sample.x, sample.y, sample.z);
+    // log::info!("RM3100 sample: {}, {}, {}", sample.x, sample.y, sample.z);
     
 
     let mut nmea = NMEA::new();
@@ -171,10 +174,10 @@ fn main() -> ! {
     string.push_str("$GPGGA,161229.487,3723.2475,N,12158.3416,W,1,07,1.0,9.0,M,,,,0000*18\r\n");
     // string.push_str("$GNGLL,4315.68533,N,07955.20234,W,080023.000,A,A*5D\r\n");
     nmea.update(&string);
-    log::info!("longitude: {}", nmea.longitude.unwrap());
-    log::info!("latitude: {}", nmea.latitude.unwrap());
-    log::info!("altitude: {}", nmea.altitude.unwrap());
-    log::info!("time: {:?}", nmea.utc.unwrap());
+    // log::info!("longitude: {}", nmea.longitude.unwrap());
+    // log::info!("latitude: {}", nmea.latitude.unwrap());
+    // log::info!("altitude: {}", nmea.altitude.unwrap());
+    // log::info!("time: {:?}", nmea.utc.unwrap());
 
     // test converting time to julian date
     let date = time::Date {
@@ -189,11 +192,11 @@ fn main() -> ! {
         millisecond: 0,
     };
     let jd = time::utc_to_jd(date, time).unwrap();
-    log::info!("julian date: {}", jd);
+    // log::info!("julian date: {}", jd);
 
     // test sun position
     let sun_position = solarsystem_model::sun_position(jd).unwrap();
-    log::info!("sun position: {}, {}, {}", sun_position.x, sun_position.y, sun_position.z);
+    // log::info!("sun position: {}, {}, {}", sun_position.x, sun_position.y, sun_position.z);
 
     let l = GeodeticLocation::new(102.0, 24.0, 1.9);
     let days_decimal = 2021.1;
@@ -202,10 +205,18 @@ fn main() -> ! {
     // let igrf = IGRF::new(days_decimal).unwrap();
 
     let m = wmm.single(l);
-    log::info!("{:?}", m);
+    // log::info!("{:?}", m);
 
     // let m = igrf.single(l);
     // log::info!("{:?}", m);
+
+    // test triad
+    // let r1 = linear_algebra::vec3::new(1.0, 0.0, 0.0);
+    // let r2 = linear_algebra::vec3::new(0.0, 1.0, 0.0);
+    // let R1 = linear_algebra::vec3::new(0.0, 0.0, 1.0);
+    // let R2 = linear_algebra::vec3::new(0.0, 1.0, 0.0);
+    // let res = triad(R1, R2, r1, r2);
+    // log::info!("{:?}", res);
 
     loop {
         led.toggle();
