@@ -26,7 +26,7 @@ pub fn voltage_to_angle(v_meas: u16) -> Result<f32, &'static str> {
 pub fn photodiode_pair(m1: u16, m2: u16) -> Result<f32, &'static str> {
     let i1 = m1 as f32 * ADC_SCALE / R_PHOTODIODE;
     let i2 = m2 as f32 * ADC_SCALE / R_PHOTODIODE;
-    // //log::info!("v1: {}, v2: {}", i1, i2);
+    // log::info!("v1: {}, v2: {}", i1, i2);
     let angle: f32 = acos(((i2 - i1) as f32 / PHOTODIODE_PAIR_DENOM) as f64) as f32;
     if angle != 0.0{
         Ok(angle)
