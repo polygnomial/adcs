@@ -15,8 +15,14 @@ use bsp::{
     board,
     hal::{lpi2c::ControllerStatus, timer::Blocking},
 };
+use embedded_hal::prelude::_embedded_hal_serial_Read;
 
 use bsp::hal::iomuxc;
+
+use tiny_nmea::NMEA;
+use heapless::String;
+
+use libgeomag::{GeodeticLocation, ModelExt, IGRF, WMM};
 
 const I2C_PIN_CONFIG: iomuxc::Config = iomuxc::Config::zero()
     .set_open_drain(iomuxc::OpenDrain::Enabled)
@@ -34,9 +40,13 @@ use bsp::ral as ral;
 use hal::adc;
 
 // mod Rm3100;
+mod constants;
 mod rm3100;
 mod photodiode;
-
+mod allocator;
+mod time;
+mod solarsystem_model;
+mod linear_algebra;
 
 /// CHANGE ME to vary the baud rate.
 const UART_BAUD: u32 = 9600;
@@ -93,6 +103,9 @@ fn main() -> ! {
     let mut lpi2c1: board::Lpi2c1 =
         board::lpi2c(lpi2c1, pins.p19, pins.p18, board::Lpi2cClockSpeed::KHz100);
 
+    let mut lpuart4: board::Lpuart4 =
+        board::lpuart(lpuart4, pins.p8, pins.p7, UART_BAUD);
+
     // let mut rm3100 = RM3100Driver::new(lpi2c1, 0x20);
     let mut status_buffer = [0u8; 1]; // Adjust the size of the buffer as needed
 
@@ -146,7 +159,51 @@ fn main() -> ! {
     // test read magnetometer
     let sample: rm3100::Sample = sensor.get_sample().unwrap();
         
-    log::info!("RM3100 sample: {}, {}, {}", sample.x, sample.y, sample.z);
+    //log::info!("RM3100 sample: {}, {}, {}", sample.x, sample.y, sample.z);
+    
+
+    let mut nmea = NMEA::new();
+    
+
+    let mut string: String<84> = String::new();
+
+    // Add characters to the string
+    string.push_str("$GPGGA,161229.487,3723.2475,N,12158.3416,W,1,07,1.0,9.0,M,,,,0000*18\r\n");
+    // string.push_str("$GNGLL,4315.68533,N,07955.20234,W,080023.000,A,A*5D\r\n");
+    nmea.update(&string);
+    //log::info!("longitude: {}", nmea.longitude.unwrap());
+    //log::info!("latitude: {}", nmea.latitude.unwrap());
+    //log::info!("altitude: {}", nmea.altitude.unwrap());
+    //log::info!("time: {:?}", nmea.utc.unwrap());
+
+    // test converting time to julian date
+    let date = time::Date {
+        day: 1,
+        month: 1,
+        year: 2021,
+    };
+    let time = time::Time {
+        hour: 0,
+        minute: 0,
+        second: 0,
+        millisecond: 0,
+    };
+    let jd = time::utc_to_jd(date, time).unwrap();
+    //log::info!("julian date: {}", jd);
+
+    // test sun position
+    let sun_position = solarsystem_model::sun_position(jd).unwrap();
+    //log::info!("sun position: {}, {}, {}", sun_position.x, sun_position.y, sun_position.z);
+
+    let l = GeodeticLocation::new(102.0, 24.0, 1.9);
+    let days_decimal = 2021.1;
+
+    // let wmm = WMM::new(days_decimal).unwrap();
+    let igrf = IGRF::new(days_decimal).unwrap();
+
+    // let m = wmm.single(l);
+    let m = igrf.single(l);
+    log::info!("magnetic field: {} {} {}", (m.x * 1000000.0) as i32, (m.y * 1000000.0) as i32, (m.z * 1000000.0) as i32);
 
     loop {
         led.toggle();
@@ -161,16 +218,16 @@ fn main() -> ! {
         let reading3: u16 = adc1.read_blocking(&mut a3);
 
        
-        log::info!("ADC readings: {reading0}, {reading1}, {reading2}, {reading3}");
+        // //log::info!("ADC readings: {reading0}, {reading1}, {reading2}, {reading3}");
 
         let angle1: f32 = photodiode::photodiode_pair(reading0, reading2).unwrap() * photodiode::DEGREES_PER_RADIAN;
         let angle2: f32 = photodiode::photodiode_pair(reading1, reading3).unwrap() * photodiode::DEGREES_PER_RADIAN;
-        log::info!("Angles: {angle1}, {angle2}");
+        // //log::info!("Angles: {angle1}, {angle2}");
 
         // // read magnetometer
         let sample: rm3100::Sample = sensor.get_sample().unwrap();
         
-        log::info!("RM3100 sample: {}, {}, {}", sample.x, sample.y, sample.z);
+        // //log::info!("RM3100 sample: {}, {}, {}", sample.x, sample.y, sample.z);
     }
 }
 

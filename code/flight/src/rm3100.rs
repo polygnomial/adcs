@@ -362,7 +362,7 @@ where
 
     pub fn get_sample(&mut self) -> Result<Sample, E> {
         let mut m = self.get_measurement();
-        match(m) {
+        match m {
             Ok(m) => {
                 let x = m.x as f32 * self.scale.x;
                 let y = m.y as f32 * self.scale.y;
