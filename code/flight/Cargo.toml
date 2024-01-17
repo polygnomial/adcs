@@ -8,15 +8,18 @@ edition = "2021"
 bitfield-struct = "0.5.6"
 bytemuck = {version = "1.14.0", features = ["derive"]}
 cortex-m = "0.7"
+embedded-alloc = "0.5.1"
 embedded-hal = "0.2"
+heapless = "0.8.0"
+libgeomag = {path = "./crates/libgeomag"}
 libm = "0.2.8"
 # Remove me if you don't want logging.
 log = "0.4"
 teensy4-panic = "0.2"
-#nmea0183 = "0.3.1"
+tiny-nmea = {path = "./crates/tiny-nmea"}
 #nb = "1.0"
-#nalgebra = { version = "*", default-features = false, features = [ "alloc", "libm"] }
-#emballoc = "0.2.0"
+nalgebra = { version = "*", default-features = false, features = ["libm"] }
+
 
 [dependencies.teensy4-bsp]
 version = "0.4"
@@ -31,4 +34,4 @@ features = [
 # Don't optimize build dependencies, like proc macros.
 # Helps with build times.
 [profile.release.build-override]
-opt-level = 0
+opt-level = 2
