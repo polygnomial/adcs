@@ -1,0 +1,6 @@
+[submodule "code/flight/crates/libgeomag"]
+	path = code/flight/crates/libgeomag
+	url = git@github.com:polygnomial/libgeomag.git
+[submodule "code/flight/crates/tiny-nmea"]
+	path = code/flight/crates/tiny-nmea
+	url = git@github.com:polygnomial/tiny-mea.git
