@@ -13,7 +13,7 @@ use teensy4_panic as _;
 
 use bsp::{
     board,
-    hal::{lpi2c::ControllerStatus, timer::Blocking},
+    hal::{timer::Blocking},
 };
 use embedded_hal::prelude::_embedded_hal_serial_Read;
 
@@ -22,7 +22,7 @@ use bsp::hal::iomuxc;
 use tiny_nmea::NMEA;
 use heapless::String;
 
-use libgeomag::{GeodeticLocation, ModelExt, IGRF, WMM};
+use libgeomag::{GeodeticLocation, ModelExt, WMM};
 
 const I2C_PIN_CONFIG: iomuxc::Config = iomuxc::Config::zero()
     .set_open_drain(iomuxc::OpenDrain::Enabled)
@@ -103,14 +103,14 @@ fn main() -> ! {
     iomuxc::configure(&mut pins.p19, I2C_PIN_CONFIG);
 
     // configure I2C object
-    let mut lpi2c1: board::Lpi2c1 =
+    let lpi2c1: board::Lpi2c1 =
         board::lpi2c(lpi2c1, pins.p19, pins.p18, board::Lpi2cClockSpeed::KHz100);
 
-    let mut lpuart4: board::Lpuart4 =
+    let lpuart4: board::Lpuart4 =
         board::lpuart(lpuart4, pins.p8, pins.p7, UART_BAUD);
 
     // let mut rm3100 = RM3100Driver::new(lpi2c1, 0x20);
-    let mut status_buffer = [0u8; 1]; // Adjust the size of the buffer as needed
+    let _status_buffer = [0u8; 1]; // Adjust the size of the buffer as needed
 
     // This configures the LED as a GPIO output.
     let led = board::led(&mut gpio2, pins.p13);

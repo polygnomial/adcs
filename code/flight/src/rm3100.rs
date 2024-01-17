@@ -24,7 +24,7 @@
 
 
 use embedded_hal::blocking::i2c::{Read, Write, WriteRead};
-use embedded_hal::blocking::i2c;
+
 
 use bytemuck;
 use bitfield_struct::bitfield;
@@ -229,12 +229,12 @@ where
         Ok(())
     }
 
-    pub fn get_cycle_counts(&mut self, cc: &CycleCounts) -> Result<(), ReturnCode> {
+    pub fn get_cycle_counts(&mut self, _cc: &CycleCounts) -> Result<(), ReturnCode> {
         let mut buffer = [0u8; 6];
         self.read(Register::RM3100_REG_CCX, &mut buffer);
-        let x = u16::from_be_bytes(buffer[0..2].try_into().unwrap());
-        let y = u16::from_be_bytes(buffer[2..4].try_into().unwrap());
-        let z = u16::from_be_bytes(buffer[4..6].try_into().unwrap());
+        let _x = u16::from_be_bytes(buffer[0..2].try_into().unwrap());
+        let _y = u16::from_be_bytes(buffer[2..4].try_into().unwrap());
+        let _z = u16::from_be_bytes(buffer[4..6].try_into().unwrap());
         Ok(())
     }
 
@@ -294,7 +294,7 @@ where
         &mut self,
         cmm: &ContinuousMeasurementMode,
     ) -> Result<(), E> {
-        let mut byte_slice: &[u8];
+        let mut _byte_slice: &[u8];
         // // bincode::serialize_into(&mut byte_slice, &cmm).unwrap();
         let byte_slice: &[u8] = bytemuck::bytes_of(cmm);
         self.write(Register::RM3100_REG_CMM, byte_slice);
@@ -361,7 +361,7 @@ where
     }
 
     pub fn get_sample(&mut self) -> Result<Sample, E> {
-        let mut m = self.get_measurement();
+        let m = self.get_measurement();
         match m {
             Ok(m) => {
                 let x = m.x as f32 * self.scale.x;
@@ -369,7 +369,7 @@ where
                 let z = m.z as f32 * self.scale.z;
                 return Ok(Sample { x, y, z });
             },
-            Err(e) => {
+            Err(_e) => {
                 let x = 0.0;
                 let y = 0.0;
                 let z = 0.0;

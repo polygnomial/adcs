@@ -1,6 +1,6 @@
 use crate::constants::*;
 use crate::linear_algebra::vec3;
-use libm::{floorf, sinf, cosf, atan2f, asinf};
+use libm::{sinf, cosf};
 
 
 pub fn sun_unit_vector(jd: f32) -> Result<vec3, ()>{
