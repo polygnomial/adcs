@@ -1,8 +1,7 @@
-use crate::linear_algebra::{vec3, mat3};
-
+use crate::linear_algebra::{vec3, mat3, quat};
 // TODO create warning if near singularity
 
-pub fn triad(R1: vec3, R2: vec3, r1: vec3, r2: vec3) -> Result<mat3, ()>{
+pub fn triad(R1: vec3, R2: vec3, r1: vec3, r2: vec3) -> Result<quat, ()>{
     let r1_hat = r1.normalize();
     let r2_hat = r2.normalize();
     let R1_hat = R1.normalize();
@@ -29,6 +28,6 @@ pub fn triad(R1: vec3, R2: vec3, r1: vec3, r2: vec3) -> Result<mat3, ()>{
     );
 
     let C = A * B.transpose();
-
-    Ok(C)
+    let q = quat::from_matrix(&C);
+    Ok(q)
 }

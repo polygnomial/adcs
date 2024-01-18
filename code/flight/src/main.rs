@@ -8,8 +8,9 @@
 #![no_main]
 #![no_std]
 
-use teensy4_bsp as bsp;
+
 use teensy4_panic as _;
+use teensy4_bsp as bsp;
 
 use bsp::{
     board,
@@ -22,7 +23,7 @@ use bsp::hal::iomuxc;
 use tiny_nmea::NMEA;
 use heapless::String;
 
-use libgeomag::{GeodeticLocation, ModelExt, WMM};
+use libgeomag::{GeodeticLocation, ModelExt, WMM, IGRF};
 
 const I2C_PIN_CONFIG: iomuxc::Config = iomuxc::Config::zero()
     .set_open_drain(iomuxc::OpenDrain::Enabled)
@@ -50,12 +51,14 @@ mod linear_algebra;
 mod attitude_determination;
 
 use attitude_determination::triad;
+use linear_algebra::vec3;
+use libm::{sinf, cosf};
 
 /// CHANGE ME to vary the baud rate.
 const UART_BAUD: u32 = 9600;
 /// Milliseconds to delay before toggling the LED
 /// and writing text outputs.
-const DELAY_MS: u32 = 500;
+const DELAY_MS: u32 = 50;
 
 #[bsp::rt::entry]
 fn main() -> ! {
@@ -158,16 +161,13 @@ fn main() -> ! {
     let mut a3 = adc::AnalogInput::new(pads.gpio_ad_b1.p06);
 
     let mut counter: u32 = 0;
-
-    // test read magnetometer
-    let sample: rm3100::Sample = sensor.get_sample().unwrap();
-        
-    // log::info!("RM3100 sample: {}, {}, {}", sample.x, sample.y, sample.z);
     
+    // test read magnetometer
+    
+    // log::info!("RM3100 sample: {}, {}, {}", sample.x, sample.y, sample.z);
 
     let mut nmea = NMEA::new();
     
-
     let mut string: String<84> = String::new();
 
     // Add characters to the string
@@ -181,46 +181,33 @@ fn main() -> ! {
 
     // test converting time to julian date
     let date = time::Date {
-        day: 1,
+        day: 17,
         month: 1,
-        year: 2021,
+        year: 2020,
     };
     let time = time::Time {
-        hour: 0,
-        minute: 0,
+        hour: 10,
+        minute: 45,
         second: 0,
         millisecond: 0,
     };
     let jd = time::utc_to_jd(date, time).unwrap();
     // log::info!("julian date: {}", jd);
+    // log::info!("sun position: {}, {}, {}", sun_pos_model.x, sun_pos_model.y, sun_pos_model.z);
 
-    // test sun position
-    let sun_position = solarsystem_model::sun_position(jd).unwrap();
-    // log::info!("sun position: {}, {}, {}", sun_position.x, sun_position.y, sun_position.z);
+    // Stanford
+    let l = GeodeticLocation::new(37.4277, -122.1701, 0.028956);
+    let days_decimal = 2020.0;
 
-    let l = GeodeticLocation::new(102.0, 24.0, 1.9);
-    let days_decimal = 2021.1;
+    // let wmm = WMM::new(days_decimal).unwrap();
+    let igrf = IGRF::new(days_decimal).unwrap();
 
-    let wmm = WMM::new(days_decimal).unwrap();
-    // let igrf = IGRF::new(days_decimal).unwrap();
-
-    let m = wmm.single(l);
+    // log::info!("created models");
+    // let m = wmm.single(l);
     // log::info!("{:?}", m);
-
-    // let m = igrf.single(l);
-    // log::info!("{:?}", m);
-
-    // test triad
-    // let r1 = linear_algebra::vec3::new(1.0, 0.0, 0.0);
-    // let r2 = linear_algebra::vec3::new(0.0, 1.0, 0.0);
-    // let R1 = linear_algebra::vec3::new(0.0, 0.0, 1.0);
-    // let R2 = linear_algebra::vec3::new(0.0, 1.0, 0.0);
-    // let res = triad(R1, R2, r1, r2);
-    // log::info!("{:?}", res);
 
     loop {
         led.toggle();
-
         delay.block_ms(DELAY_MS);
         counter = counter.wrapping_add(1);
         
@@ -230,16 +217,29 @@ fn main() -> ! {
         let reading2: u16 = adc1.read_blocking(&mut a2);
         let reading3: u16 = adc1.read_blocking(&mut a3);
 
-       
-        // log::info!("ADC readings: {reading0}, {reading1}, {reading2}, {reading3}");
+        // read magnetometer
+        let sample: rm3100::Sample = sensor.get_sample().unwrap();
+        let mag_vec_measurement = vec3::new(sample.x as f32, sample.y as f32, sample.z as f32) * 1000.0; // to nT
 
-        let angle1: f32 = photodiode::photodiode_pair(reading0, reading2).unwrap() * photodiode::DEGREES_PER_RADIAN;
-        let angle2: f32 = photodiode::photodiode_pair(reading1, reading3).unwrap() * photodiode::DEGREES_PER_RADIAN;
-        // log::info!("Angles: {angle1}, {angle2}");
+        let θ: f32 = photodiode::photodiode_pair(reading2, reading0).unwrap() * photodiode::DEGREES_PER_RADIAN;
+        let ψ: f32 = photodiode::photodiode_pair(reading3, reading1).unwrap() * photodiode::DEGREES_PER_RADIAN;
+        let sun_vec_measurement = vec3::new(
+            sinf(ψ)*sinf(θ), 
+            cosf(ψ), 
+            sinf(ψ)*cosf(θ)
+        );
 
         // // read magnetometer
         let sample: rm3100::Sample = sensor.get_sample().unwrap();
         
+        let m = igrf.single(l);
+        let mag_vec_model = vec3::new(m.x as f32, m.y as f32, m.z as f32);
+
+        let sun_pos_model: vec3 = solarsystem_model::sun_position(jd).unwrap();
+
+        // test triad
+        let res = triad(sun_pos_model, mag_vec_model, sun_vec_measurement, mag_vec_measurement);
+        log::info!("Triad test {:?}", res);
         // log::info!("RM3100 sample: {}, {}, {}", sample.x, sample.y, sample.z);
     }
 }
