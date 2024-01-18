@@ -5,20 +5,19 @@ authors = ["Flynn Dreilinger <flynnd@stanford.edu>"]
 edition = "2021"
 
 [dependencies]
-bitfield-struct = "0.5.6"
-bytemuck = {version = "1.14.0", features = ["derive"]}
+bitfield-struct = "0.5"
+bytemuck = {version = "1.14", features = ["derive"]}
 cortex-m = "0.7"
-embedded-alloc = "0.5.1"
+embedded-alloc = "0.5"
 embedded-hal = "0.2"
-heapless = "0.8.0"
+heapless = "0.8"
 libgeomag = {path = "./crates/libgeomag"}
-libm = "0.2.8"
-# Remove me if you don't want logging.
+libm = "0.2"
 log = "0.4"
 teensy4-panic = "0.2"
 tiny-nmea = {path = "./crates/tiny-nmea"}
-#nb = "1.0"
 nalgebra = { version = "*", default-features = false, features = ["libm"] }
+embedded-sdmmc = "0.6.0"
 
 
 [dependencies.teensy4-bsp]
@@ -31,8 +30,10 @@ features = [
     "usb-logging",
 ]
 
-# Don't optimize build dependencies, like proc macros.
-# Helps with build times.
 # Optimize all dependencies
 [profile.dev.package."*"]
 opt-level = "z"
+
+# Don't optimize the `libm` crate (for debugging purposes)
+# [profile.dev.package.libm]
+# opt-level = 0
