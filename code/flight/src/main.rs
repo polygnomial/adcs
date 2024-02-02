@@ -212,23 +212,24 @@ fn main() -> ! {
         counter = counter.wrapping_add(1);
         
         // read photodiodes
-        let reading0: u16 = adc1.read_blocking(&mut a0);
-        let reading1: u16 = adc1.read_blocking(&mut a1);
-        let reading2: u16 = adc1.read_blocking(&mut a2);
-        let reading3: u16 = adc1.read_blocking(&mut a3);
+        let v_z_plus: u16 = adc1.read_blocking(&mut a0);
+        let v_y_plus: u16 = adc1.read_blocking(&mut a1);
+        let v_z_minus: u16 = adc1.read_blocking(&mut a2);
+        let v_y_minus: u16 = adc1.read_blocking(&mut a3);
 
+        log::info!("readings {} {} {} {}", v_z_minus, v_z_plus, v_y_minus, v_y_plus);
         // read magnetometer
         let sample: rm3100::Sample = sensor.get_sample().unwrap();
         let mag_vec_measurement = vec3::new(sample.x as f32, sample.y as f32, sample.z as f32) * 1000.0; // to nT
-
-        let θ: f32 = photodiode::photodiode_pair(reading2, reading0).unwrap() * photodiode::DEGREES_PER_RADIAN;
-        let ψ: f32 = photodiode::photodiode_pair(reading3, reading1).unwrap() * photodiode::DEGREES_PER_RADIAN;
+        // log::info!("mag_vec_measurement: {}, {}, {}", mag_vec_measurement.x, mag_vec_measurement.y, mag_vec_measurement.z);
+        let θ: f32 = photodiode::photodiode_pair(v_z_minus, v_z_plus).unwrap() * photodiode::DEGREES_PER_RADIAN;
+        let ψ: f32 = photodiode::photodiode_pair(v_y_minus, v_y_plus).unwrap() * photodiode::DEGREES_PER_RADIAN;
         let sun_vec_measurement = vec3::new(
             sinf(ψ)*sinf(θ), 
             cosf(ψ), 
             sinf(ψ)*cosf(θ)
         );
-
+        log::info!("sun_vec_measurement: {}, {}, {}", sun_vec_measurement.x, sun_vec_measurement.y, sun_vec_measurement.z);
         // // read magnetometer
         let sample: rm3100::Sample = sensor.get_sample().unwrap();
         
@@ -238,7 +239,7 @@ fn main() -> ! {
         let sun_pos_model: vec3 = solarsystem_model::sun_position(jd).unwrap();
 
         // test triad
-        let res = triad(sun_pos_model, mag_vec_model, sun_vec_measurement, mag_vec_measurement);
+        let res = triad(sun_pos_model, mag_vec_model, sun_vec_measurement, mag_vec_model);
         log::info!("Triad test {:?}", res);
         // log::info!("RM3100 sample: {}, {}, {}", sample.x, sample.y, sample.z);
     }

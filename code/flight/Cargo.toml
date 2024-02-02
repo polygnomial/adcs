@@ -37,3 +37,7 @@ opt-level = "z"
 # Don't optimize the `libm` crate (for debugging purposes)
 # [profile.dev.package.libm]
 # opt-level = 0
+
+[profile.release]
+# v This is now used by default, if not provided
+strip = "debuginfo"
