@@ -7256,9 +7256,6 @@
     (pin "8" (uuid 5d00a844-d362-4a7f-a4b7-7bcea60215e1))
     (instances
       (project "adcs-hardware"
-        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/2910d49c-2a7c-482a-86b8-0d5e23e76e11"
-          (reference "Q?") (unit 1)
-        )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/dbac343c-e1e8-4f27-95db-48905ebe6ac8"
           (reference "Q?") (unit 1)
         )

@@ -1082,17 +1082,23 @@
     (pin "2" (uuid 65e71985-4e05-4169-9143-ab2f92448157))
     (instances
       (project "adcs-hardware"
-        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/2330b672-4bcc-471f-8d1d-4a7296f3fdb6"
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/83c87db7-d1bb-426f-9b76-1806fae0df95"
           (reference "R54") (unit 1)
         )
-        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/8f7fbaff-9284-457d-8bc0-964b588cf9e5"
-          (reference "R72") (unit 1)
-        )
-        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/65c43545-ac13-43c9-9f06-d6ab418e333e"
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/2fd9f2c4-27be-4821-aed0-63532dcbc7e3"
           (reference "R60") (unit 1)
         )
-        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/4258b50e-0ff3-4dcc-8b3a-b4d072928957"
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/14fd9bcc-fdcc-4b2f-8184-0a7227b6ec32"
+          (reference "R72") (unit 1)
+        )
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/2aad3884-faef-44fb-b8ef-d03736261cea"
           (reference "R66") (unit 1)
+        )
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/8f12fba8-df43-49da-9f50-de3fd315b3c2"
+          (reference "R84") (unit 1)
+        )
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/7338a5c7-105f-4d83-89cf-be2bf0b0220e"
+          (reference "R78") (unit 1)
         )
       )
       (project "motor_controller"
@@ -1134,17 +1140,23 @@
     (pin "2" (uuid 0cb387b8-0b96-4795-8ab3-800ab782665d))
     (instances
       (project "adcs-hardware"
-        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/2330b672-4bcc-471f-8d1d-4a7296f3fdb6"
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/83c87db7-d1bb-426f-9b76-1806fae0df95"
           (reference "C54") (unit 1)
         )
-        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/8f7fbaff-9284-457d-8bc0-964b588cf9e5"
-          (reference "C90") (unit 1)
-        )
-        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/65c43545-ac13-43c9-9f06-d6ab418e333e"
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/2fd9f2c4-27be-4821-aed0-63532dcbc7e3"
           (reference "C66") (unit 1)
         )
-        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/4258b50e-0ff3-4dcc-8b3a-b4d072928957"
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/14fd9bcc-fdcc-4b2f-8184-0a7227b6ec32"
+          (reference "C90") (unit 1)
+        )
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/2aad3884-faef-44fb-b8ef-d03736261cea"
           (reference "C78") (unit 1)
+        )
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/8f12fba8-df43-49da-9f50-de3fd315b3c2"
+          (reference "C114") (unit 1)
+        )
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/7338a5c7-105f-4d83-89cf-be2bf0b0220e"
+          (reference "C102") (unit 1)
         )
       )
       (project "motor_controller"
@@ -1173,17 +1185,23 @@
     (pin "1" (uuid ee1592cd-9b28-40f1-94b6-4137ca08d50c))
     (instances
       (project "adcs-hardware"
-        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/2330b672-4bcc-471f-8d1d-4a7296f3fdb6"
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/83c87db7-d1bb-426f-9b76-1806fae0df95"
           (reference "#PWR051") (unit 1)
         )
-        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/8f7fbaff-9284-457d-8bc0-964b588cf9e5"
-          (reference "#PWR063") (unit 1)
-        )
-        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/65c43545-ac13-43c9-9f06-d6ab418e333e"
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/2fd9f2c4-27be-4821-aed0-63532dcbc7e3"
           (reference "#PWR055") (unit 1)
         )
-        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/4258b50e-0ff3-4dcc-8b3a-b4d072928957"
-          (reference "#PWR059") (unit 1)
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/14fd9bcc-fdcc-4b2f-8184-0a7227b6ec32"
+          (reference "#PWR064") (unit 1)
+        )
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/2aad3884-faef-44fb-b8ef-d03736261cea"
+          (reference "#PWR060") (unit 1)
+        )
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/8f12fba8-df43-49da-9f50-de3fd315b3c2"
+          (reference "#PWR072") (unit 1)
+        )
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/7338a5c7-105f-4d83-89cf-be2bf0b0220e"
+          (reference "#PWR068") (unit 1)
         )
       )
       (project "motor_controller"
@@ -1215,17 +1233,23 @@
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/3472706a-4f86-4fa0-acec-6a7dc1abcee9"
           (reference "TP?") (unit 1)
         )
-        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/2330b672-4bcc-471f-8d1d-4a7296f3fdb6"
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/83c87db7-d1bb-426f-9b76-1806fae0df95"
+          (reference "TP?") (unit 1)
+        )
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/2fd9f2c4-27be-4821-aed0-63532dcbc7e3"
+          (reference "TP4") (unit 1)
+        )
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/14fd9bcc-fdcc-4b2f-8184-0a7227b6ec32"
+          (reference "TP16") (unit 1)
+        )
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/2aad3884-faef-44fb-b8ef-d03736261cea"
           (reference "TP10") (unit 1)
         )
-        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/4258b50e-0ff3-4dcc-8b3a-b4d072928957"
-          (reference "TP22") (unit 1)
-        )
-        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/8f7fbaff-9284-457d-8bc0-964b588cf9e5"
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/8f12fba8-df43-49da-9f50-de3fd315b3c2"
           (reference "TP28") (unit 1)
         )
-        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/65c43545-ac13-43c9-9f06-d6ab418e333e"
-          (reference "TP16") (unit 1)
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/7338a5c7-105f-4d83-89cf-be2bf0b0220e"
+          (reference "TP22") (unit 1)
         )
       )
       (project "Teensy4.1-example"
@@ -1260,17 +1284,23 @@
     (pin "2" (uuid 58ae1397-fa1f-470b-a0a1-e39017141efe))
     (instances
       (project "adcs-hardware"
-        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/2330b672-4bcc-471f-8d1d-4a7296f3fdb6"
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/83c87db7-d1bb-426f-9b76-1806fae0df95"
           (reference "R55") (unit 1)
         )
-        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/8f7fbaff-9284-457d-8bc0-964b588cf9e5"
-          (reference "R73") (unit 1)
-        )
-        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/65c43545-ac13-43c9-9f06-d6ab418e333e"
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/2fd9f2c4-27be-4821-aed0-63532dcbc7e3"
           (reference "R61") (unit 1)
         )
-        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/4258b50e-0ff3-4dcc-8b3a-b4d072928957"
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/14fd9bcc-fdcc-4b2f-8184-0a7227b6ec32"
+          (reference "R73") (unit 1)
+        )
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/2aad3884-faef-44fb-b8ef-d03736261cea"
           (reference "R67") (unit 1)
+        )
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/8f12fba8-df43-49da-9f50-de3fd315b3c2"
+          (reference "R85") (unit 1)
+        )
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/7338a5c7-105f-4d83-89cf-be2bf0b0220e"
+          (reference "R79") (unit 1)
         )
       )
       (project "motor_controller"
@@ -1299,17 +1329,23 @@
     (pin "1" (uuid e3cc8011-f745-476a-a551-33e6b9daf406))
     (instances
       (project "adcs-hardware"
-        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/2330b672-4bcc-471f-8d1d-4a7296f3fdb6"
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/83c87db7-d1bb-426f-9b76-1806fae0df95"
           (reference "#PWR053") (unit 1)
         )
-        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/8f7fbaff-9284-457d-8bc0-964b588cf9e5"
-          (reference "#PWR065") (unit 1)
-        )
-        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/65c43545-ac13-43c9-9f06-d6ab418e333e"
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/2fd9f2c4-27be-4821-aed0-63532dcbc7e3"
           (reference "#PWR057") (unit 1)
         )
-        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/4258b50e-0ff3-4dcc-8b3a-b4d072928957"
-          (reference "#PWR061") (unit 1)
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/14fd9bcc-fdcc-4b2f-8184-0a7227b6ec32"
+          (reference "#PWR066") (unit 1)
+        )
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/2aad3884-faef-44fb-b8ef-d03736261cea"
+          (reference "#PWR062") (unit 1)
+        )
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/8f12fba8-df43-49da-9f50-de3fd315b3c2"
+          (reference "#PWR074") (unit 1)
+        )
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/7338a5c7-105f-4d83-89cf-be2bf0b0220e"
+          (reference "#PWR070") (unit 1)
         )
       )
       (project "motor_controller"
@@ -1339,17 +1375,23 @@
     (pin "2" (uuid de1c7e12-fa2f-4192-ad7e-c0e3385266c0))
     (instances
       (project "adcs-hardware"
-        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/2330b672-4bcc-471f-8d1d-4a7296f3fdb6"
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/83c87db7-d1bb-426f-9b76-1806fae0df95"
           (reference "R52") (unit 1)
         )
-        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/8f7fbaff-9284-457d-8bc0-964b588cf9e5"
-          (reference "R70") (unit 1)
-        )
-        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/65c43545-ac13-43c9-9f06-d6ab418e333e"
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/2fd9f2c4-27be-4821-aed0-63532dcbc7e3"
           (reference "R58") (unit 1)
         )
-        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/4258b50e-0ff3-4dcc-8b3a-b4d072928957"
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/14fd9bcc-fdcc-4b2f-8184-0a7227b6ec32"
+          (reference "R70") (unit 1)
+        )
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/2aad3884-faef-44fb-b8ef-d03736261cea"
           (reference "R64") (unit 1)
+        )
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/8f12fba8-df43-49da-9f50-de3fd315b3c2"
+          (reference "R82") (unit 1)
+        )
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/7338a5c7-105f-4d83-89cf-be2bf0b0220e"
+          (reference "R76") (unit 1)
         )
       )
       (project "motor_controller"
@@ -1381,17 +1423,23 @@
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/3472706a-4f86-4fa0-acec-6a7dc1abcee9"
           (reference "TP?") (unit 1)
         )
-        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/2330b672-4bcc-471f-8d1d-4a7296f3fdb6"
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/83c87db7-d1bb-426f-9b76-1806fae0df95"
+          (reference "TP?") (unit 1)
+        )
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/2fd9f2c4-27be-4821-aed0-63532dcbc7e3"
+          (reference "TP5") (unit 1)
+        )
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/14fd9bcc-fdcc-4b2f-8184-0a7227b6ec32"
+          (reference "TP17") (unit 1)
+        )
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/2aad3884-faef-44fb-b8ef-d03736261cea"
           (reference "TP11") (unit 1)
         )
-        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/4258b50e-0ff3-4dcc-8b3a-b4d072928957"
-          (reference "TP23") (unit 1)
-        )
-        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/8f7fbaff-9284-457d-8bc0-964b588cf9e5"
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/8f12fba8-df43-49da-9f50-de3fd315b3c2"
           (reference "TP29") (unit 1)
         )
-        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/65c43545-ac13-43c9-9f06-d6ab418e333e"
-          (reference "TP17") (unit 1)
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/7338a5c7-105f-4d83-89cf-be2bf0b0220e"
+          (reference "TP23") (unit 1)
         )
       )
       (project "Teensy4.1-example"
@@ -1428,17 +1476,23 @@
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/3472706a-4f86-4fa0-acec-6a7dc1abcee9"
           (reference "TP?") (unit 1)
         )
-        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/2330b672-4bcc-471f-8d1d-4a7296f3fdb6"
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/83c87db7-d1bb-426f-9b76-1806fae0df95"
+          (reference "TP?") (unit 1)
+        )
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/2fd9f2c4-27be-4821-aed0-63532dcbc7e3"
+          (reference "TP6") (unit 1)
+        )
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/14fd9bcc-fdcc-4b2f-8184-0a7227b6ec32"
+          (reference "TP18") (unit 1)
+        )
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/2aad3884-faef-44fb-b8ef-d03736261cea"
           (reference "TP12") (unit 1)
         )
-        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/4258b50e-0ff3-4dcc-8b3a-b4d072928957"
-          (reference "TP24") (unit 1)
-        )
-        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/8f7fbaff-9284-457d-8bc0-964b588cf9e5"
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/8f12fba8-df43-49da-9f50-de3fd315b3c2"
           (reference "TP30") (unit 1)
         )
-        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/65c43545-ac13-43c9-9f06-d6ab418e333e"
-          (reference "TP18") (unit 1)
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/7338a5c7-105f-4d83-89cf-be2bf0b0220e"
+          (reference "TP24") (unit 1)
         )
       )
       (project "Teensy4.1-example"
@@ -1473,17 +1527,23 @@
     (pin "2" (uuid c51b5cfd-d33c-49fe-ab17-354c3fa34286))
     (instances
       (project "adcs-hardware"
-        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/2330b672-4bcc-471f-8d1d-4a7296f3fdb6"
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/83c87db7-d1bb-426f-9b76-1806fae0df95"
           (reference "C60") (unit 1)
         )
-        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/8f7fbaff-9284-457d-8bc0-964b588cf9e5"
-          (reference "C96") (unit 1)
-        )
-        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/65c43545-ac13-43c9-9f06-d6ab418e333e"
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/2fd9f2c4-27be-4821-aed0-63532dcbc7e3"
           (reference "C72") (unit 1)
         )
-        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/4258b50e-0ff3-4dcc-8b3a-b4d072928957"
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/14fd9bcc-fdcc-4b2f-8184-0a7227b6ec32"
+          (reference "C96") (unit 1)
+        )
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/2aad3884-faef-44fb-b8ef-d03736261cea"
           (reference "C84") (unit 1)
+        )
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/8f12fba8-df43-49da-9f50-de3fd315b3c2"
+          (reference "C120") (unit 1)
+        )
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/7338a5c7-105f-4d83-89cf-be2bf0b0220e"
+          (reference "C108") (unit 1)
         )
       )
       (project "motor_controller"
@@ -1581,17 +1641,23 @@
     (pin "9" (uuid 8ee26e62-2935-4eec-87d3-e0bbcdd96078))
     (instances
       (project "adcs-hardware"
-        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/2330b672-4bcc-471f-8d1d-4a7296f3fdb6"
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/83c87db7-d1bb-426f-9b76-1806fae0df95"
           (reference "U10") (unit 1)
         )
-        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/8f7fbaff-9284-457d-8bc0-964b588cf9e5"
-          (reference "U13") (unit 1)
-        )
-        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/65c43545-ac13-43c9-9f06-d6ab418e333e"
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/2fd9f2c4-27be-4821-aed0-63532dcbc7e3"
           (reference "U11") (unit 1)
         )
-        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/4258b50e-0ff3-4dcc-8b3a-b4d072928957"
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/14fd9bcc-fdcc-4b2f-8184-0a7227b6ec32"
+          (reference "U13") (unit 1)
+        )
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/2aad3884-faef-44fb-b8ef-d03736261cea"
           (reference "U12") (unit 1)
+        )
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/8f12fba8-df43-49da-9f50-de3fd315b3c2"
+          (reference "U15") (unit 1)
+        )
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/7338a5c7-105f-4d83-89cf-be2bf0b0220e"
+          (reference "U14") (unit 1)
         )
       )
       (project "motor_controller"
@@ -1621,17 +1687,23 @@
     (pin "2" (uuid 0e23fbc0-950e-4ac1-9c19-5d2a601cacbe))
     (instances
       (project "adcs-hardware"
-        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/2330b672-4bcc-471f-8d1d-4a7296f3fdb6"
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/83c87db7-d1bb-426f-9b76-1806fae0df95"
           (reference "C57") (unit 1)
         )
-        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/8f7fbaff-9284-457d-8bc0-964b588cf9e5"
-          (reference "C93") (unit 1)
-        )
-        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/65c43545-ac13-43c9-9f06-d6ab418e333e"
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/2fd9f2c4-27be-4821-aed0-63532dcbc7e3"
           (reference "C69") (unit 1)
         )
-        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/4258b50e-0ff3-4dcc-8b3a-b4d072928957"
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/14fd9bcc-fdcc-4b2f-8184-0a7227b6ec32"
+          (reference "C93") (unit 1)
+        )
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/2aad3884-faef-44fb-b8ef-d03736261cea"
           (reference "C81") (unit 1)
+        )
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/8f12fba8-df43-49da-9f50-de3fd315b3c2"
+          (reference "C117") (unit 1)
+        )
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/7338a5c7-105f-4d83-89cf-be2bf0b0220e"
+          (reference "C105") (unit 1)
         )
       )
       (project "motor_controller"
@@ -1673,17 +1745,23 @@
     (pin "2" (uuid 03eb4989-2c31-464b-a33a-1baf24f2eefc))
     (instances
       (project "adcs-hardware"
-        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/2330b672-4bcc-471f-8d1d-4a7296f3fdb6"
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/83c87db7-d1bb-426f-9b76-1806fae0df95"
           (reference "C52") (unit 1)
         )
-        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/8f7fbaff-9284-457d-8bc0-964b588cf9e5"
-          (reference "C88") (unit 1)
-        )
-        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/65c43545-ac13-43c9-9f06-d6ab418e333e"
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/2fd9f2c4-27be-4821-aed0-63532dcbc7e3"
           (reference "C64") (unit 1)
         )
-        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/4258b50e-0ff3-4dcc-8b3a-b4d072928957"
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/14fd9bcc-fdcc-4b2f-8184-0a7227b6ec32"
+          (reference "C88") (unit 1)
+        )
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/2aad3884-faef-44fb-b8ef-d03736261cea"
           (reference "C76") (unit 1)
+        )
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/8f12fba8-df43-49da-9f50-de3fd315b3c2"
+          (reference "C112") (unit 1)
+        )
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/7338a5c7-105f-4d83-89cf-be2bf0b0220e"
+          (reference "C100") (unit 1)
         )
       )
       (project "motor_controller"
@@ -1715,17 +1793,23 @@
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/3472706a-4f86-4fa0-acec-6a7dc1abcee9"
           (reference "TP?") (unit 1)
         )
-        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/2330b672-4bcc-471f-8d1d-4a7296f3fdb6"
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/83c87db7-d1bb-426f-9b76-1806fae0df95"
+          (reference "TP?") (unit 1)
+        )
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/2fd9f2c4-27be-4821-aed0-63532dcbc7e3"
+          (reference "TP2") (unit 1)
+        )
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/14fd9bcc-fdcc-4b2f-8184-0a7227b6ec32"
+          (reference "TP14") (unit 1)
+        )
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/2aad3884-faef-44fb-b8ef-d03736261cea"
           (reference "TP8") (unit 1)
         )
-        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/4258b50e-0ff3-4dcc-8b3a-b4d072928957"
-          (reference "TP20") (unit 1)
-        )
-        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/8f7fbaff-9284-457d-8bc0-964b588cf9e5"
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/8f12fba8-df43-49da-9f50-de3fd315b3c2"
           (reference "TP26") (unit 1)
         )
-        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/65c43545-ac13-43c9-9f06-d6ab418e333e"
-          (reference "TP14") (unit 1)
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/7338a5c7-105f-4d83-89cf-be2bf0b0220e"
+          (reference "TP20") (unit 1)
         )
       )
       (project "Teensy4.1-example"
@@ -1760,17 +1844,23 @@
     (pin "2" (uuid eed508f3-8036-4fb3-9321-3e1f9b59a9f7))
     (instances
       (project "adcs-hardware"
-        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/2330b672-4bcc-471f-8d1d-4a7296f3fdb6"
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/83c87db7-d1bb-426f-9b76-1806fae0df95"
           (reference "R56") (unit 1)
         )
-        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/8f7fbaff-9284-457d-8bc0-964b588cf9e5"
-          (reference "R74") (unit 1)
-        )
-        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/65c43545-ac13-43c9-9f06-d6ab418e333e"
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/2fd9f2c4-27be-4821-aed0-63532dcbc7e3"
           (reference "R62") (unit 1)
         )
-        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/4258b50e-0ff3-4dcc-8b3a-b4d072928957"
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/14fd9bcc-fdcc-4b2f-8184-0a7227b6ec32"
+          (reference "R74") (unit 1)
+        )
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/2aad3884-faef-44fb-b8ef-d03736261cea"
           (reference "R68") (unit 1)
+        )
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/8f12fba8-df43-49da-9f50-de3fd315b3c2"
+          (reference "R86") (unit 1)
+        )
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/7338a5c7-105f-4d83-89cf-be2bf0b0220e"
+          (reference "R80") (unit 1)
         )
       )
       (project "motor_controller"
@@ -1812,17 +1902,23 @@
     (pin "2" (uuid 56b00545-6565-46e2-832d-ee82022c2455))
     (instances
       (project "adcs-hardware"
-        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/2330b672-4bcc-471f-8d1d-4a7296f3fdb6"
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/83c87db7-d1bb-426f-9b76-1806fae0df95"
           (reference "C61") (unit 1)
         )
-        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/8f7fbaff-9284-457d-8bc0-964b588cf9e5"
-          (reference "C97") (unit 1)
-        )
-        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/65c43545-ac13-43c9-9f06-d6ab418e333e"
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/2fd9f2c4-27be-4821-aed0-63532dcbc7e3"
           (reference "C73") (unit 1)
         )
-        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/4258b50e-0ff3-4dcc-8b3a-b4d072928957"
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/14fd9bcc-fdcc-4b2f-8184-0a7227b6ec32"
+          (reference "C97") (unit 1)
+        )
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/2aad3884-faef-44fb-b8ef-d03736261cea"
           (reference "C85") (unit 1)
+        )
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/8f12fba8-df43-49da-9f50-de3fd315b3c2"
+          (reference "C121") (unit 1)
+        )
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/7338a5c7-105f-4d83-89cf-be2bf0b0220e"
+          (reference "C109") (unit 1)
         )
       )
       (project "motor_controller"
@@ -1852,17 +1948,23 @@
     (pin "2" (uuid 6cc60191-d22e-463c-8c6e-6042635d4d76))
     (instances
       (project "adcs-hardware"
-        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/2330b672-4bcc-471f-8d1d-4a7296f3fdb6"
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/83c87db7-d1bb-426f-9b76-1806fae0df95"
           (reference "R51") (unit 1)
         )
-        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/8f7fbaff-9284-457d-8bc0-964b588cf9e5"
-          (reference "R69") (unit 1)
-        )
-        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/65c43545-ac13-43c9-9f06-d6ab418e333e"
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/2fd9f2c4-27be-4821-aed0-63532dcbc7e3"
           (reference "R57") (unit 1)
         )
-        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/4258b50e-0ff3-4dcc-8b3a-b4d072928957"
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/14fd9bcc-fdcc-4b2f-8184-0a7227b6ec32"
+          (reference "R69") (unit 1)
+        )
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/2aad3884-faef-44fb-b8ef-d03736261cea"
           (reference "R63") (unit 1)
+        )
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/8f12fba8-df43-49da-9f50-de3fd315b3c2"
+          (reference "R81") (unit 1)
+        )
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/7338a5c7-105f-4d83-89cf-be2bf0b0220e"
+          (reference "R75") (unit 1)
         )
       )
       (project "motor_controller"
@@ -1894,17 +1996,23 @@
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/3472706a-4f86-4fa0-acec-6a7dc1abcee9"
           (reference "TP?") (unit 1)
         )
-        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/2330b672-4bcc-471f-8d1d-4a7296f3fdb6"
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/83c87db7-d1bb-426f-9b76-1806fae0df95"
+          (reference "TP?") (unit 1)
+        )
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/2fd9f2c4-27be-4821-aed0-63532dcbc7e3"
+          (reference "TP1") (unit 1)
+        )
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/14fd9bcc-fdcc-4b2f-8184-0a7227b6ec32"
+          (reference "TP13") (unit 1)
+        )
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/2aad3884-faef-44fb-b8ef-d03736261cea"
           (reference "TP7") (unit 1)
         )
-        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/4258b50e-0ff3-4dcc-8b3a-b4d072928957"
-          (reference "TP19") (unit 1)
-        )
-        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/8f7fbaff-9284-457d-8bc0-964b588cf9e5"
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/8f12fba8-df43-49da-9f50-de3fd315b3c2"
           (reference "TP25") (unit 1)
         )
-        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/65c43545-ac13-43c9-9f06-d6ab418e333e"
-          (reference "TP13") (unit 1)
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/7338a5c7-105f-4d83-89cf-be2bf0b0220e"
+          (reference "TP19") (unit 1)
         )
       )
       (project "Teensy4.1-example"
@@ -1939,17 +2047,23 @@
     (pin "2" (uuid b9e552f8-498b-473d-80e1-0ca28061da42))
     (instances
       (project "adcs-hardware"
-        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/2330b672-4bcc-471f-8d1d-4a7296f3fdb6"
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/83c87db7-d1bb-426f-9b76-1806fae0df95"
           (reference "R53") (unit 1)
         )
-        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/8f7fbaff-9284-457d-8bc0-964b588cf9e5"
-          (reference "R71") (unit 1)
-        )
-        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/65c43545-ac13-43c9-9f06-d6ab418e333e"
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/2fd9f2c4-27be-4821-aed0-63532dcbc7e3"
           (reference "R59") (unit 1)
         )
-        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/4258b50e-0ff3-4dcc-8b3a-b4d072928957"
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/14fd9bcc-fdcc-4b2f-8184-0a7227b6ec32"
+          (reference "R71") (unit 1)
+        )
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/2aad3884-faef-44fb-b8ef-d03736261cea"
           (reference "R65") (unit 1)
+        )
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/8f12fba8-df43-49da-9f50-de3fd315b3c2"
+          (reference "R83") (unit 1)
+        )
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/7338a5c7-105f-4d83-89cf-be2bf0b0220e"
+          (reference "R77") (unit 1)
         )
       )
       (project "motor_controller"
@@ -1991,17 +2105,23 @@
     (pin "2" (uuid 804495cd-1870-45c7-8dc3-6d659ccf9c13))
     (instances
       (project "adcs-hardware"
-        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/2330b672-4bcc-471f-8d1d-4a7296f3fdb6"
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/83c87db7-d1bb-426f-9b76-1806fae0df95"
           (reference "C53") (unit 1)
         )
-        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/8f7fbaff-9284-457d-8bc0-964b588cf9e5"
-          (reference "C89") (unit 1)
-        )
-        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/65c43545-ac13-43c9-9f06-d6ab418e333e"
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/2fd9f2c4-27be-4821-aed0-63532dcbc7e3"
           (reference "C65") (unit 1)
         )
-        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/4258b50e-0ff3-4dcc-8b3a-b4d072928957"
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/14fd9bcc-fdcc-4b2f-8184-0a7227b6ec32"
+          (reference "C89") (unit 1)
+        )
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/2aad3884-faef-44fb-b8ef-d03736261cea"
           (reference "C77") (unit 1)
+        )
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/8f12fba8-df43-49da-9f50-de3fd315b3c2"
+          (reference "C113") (unit 1)
+        )
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/7338a5c7-105f-4d83-89cf-be2bf0b0220e"
+          (reference "C101") (unit 1)
         )
       )
       (project "motor_controller"
@@ -2043,17 +2163,23 @@
     (pin "2" (uuid 45398dfd-0331-4755-b7c5-39f436869505))
     (instances
       (project "adcs-hardware"
-        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/2330b672-4bcc-471f-8d1d-4a7296f3fdb6"
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/83c87db7-d1bb-426f-9b76-1806fae0df95"
           (reference "C59") (unit 1)
         )
-        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/8f7fbaff-9284-457d-8bc0-964b588cf9e5"
-          (reference "C95") (unit 1)
-        )
-        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/65c43545-ac13-43c9-9f06-d6ab418e333e"
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/2fd9f2c4-27be-4821-aed0-63532dcbc7e3"
           (reference "C71") (unit 1)
         )
-        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/4258b50e-0ff3-4dcc-8b3a-b4d072928957"
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/14fd9bcc-fdcc-4b2f-8184-0a7227b6ec32"
+          (reference "C95") (unit 1)
+        )
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/2aad3884-faef-44fb-b8ef-d03736261cea"
           (reference "C83") (unit 1)
+        )
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/8f12fba8-df43-49da-9f50-de3fd315b3c2"
+          (reference "C119") (unit 1)
+        )
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/7338a5c7-105f-4d83-89cf-be2bf0b0220e"
+          (reference "C107") (unit 1)
         )
       )
       (project "motor_controller"
@@ -2095,17 +2221,23 @@
     (pin "2" (uuid 86725381-6ffb-4107-b18e-6ee4fe7e4792))
     (instances
       (project "adcs-hardware"
-        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/2330b672-4bcc-471f-8d1d-4a7296f3fdb6"
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/83c87db7-d1bb-426f-9b76-1806fae0df95"
           (reference "C56") (unit 1)
         )
-        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/8f7fbaff-9284-457d-8bc0-964b588cf9e5"
-          (reference "C92") (unit 1)
-        )
-        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/65c43545-ac13-43c9-9f06-d6ab418e333e"
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/2fd9f2c4-27be-4821-aed0-63532dcbc7e3"
           (reference "C68") (unit 1)
         )
-        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/4258b50e-0ff3-4dcc-8b3a-b4d072928957"
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/14fd9bcc-fdcc-4b2f-8184-0a7227b6ec32"
+          (reference "C92") (unit 1)
+        )
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/2aad3884-faef-44fb-b8ef-d03736261cea"
           (reference "C80") (unit 1)
+        )
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/8f12fba8-df43-49da-9f50-de3fd315b3c2"
+          (reference "C116") (unit 1)
+        )
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/7338a5c7-105f-4d83-89cf-be2bf0b0220e"
+          (reference "C104") (unit 1)
         )
       )
       (project "motor_controller"
@@ -2134,17 +2266,23 @@
     (pin "1" (uuid efee48c2-958e-45e3-b0cb-b790ba109832))
     (instances
       (project "adcs-hardware"
-        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/2330b672-4bcc-471f-8d1d-4a7296f3fdb6"
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/83c87db7-d1bb-426f-9b76-1806fae0df95"
           (reference "#PWR052") (unit 1)
         )
-        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/8f7fbaff-9284-457d-8bc0-964b588cf9e5"
-          (reference "#PWR064") (unit 1)
-        )
-        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/65c43545-ac13-43c9-9f06-d6ab418e333e"
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/2fd9f2c4-27be-4821-aed0-63532dcbc7e3"
           (reference "#PWR056") (unit 1)
         )
-        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/4258b50e-0ff3-4dcc-8b3a-b4d072928957"
-          (reference "#PWR060") (unit 1)
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/14fd9bcc-fdcc-4b2f-8184-0a7227b6ec32"
+          (reference "#PWR065") (unit 1)
+        )
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/2aad3884-faef-44fb-b8ef-d03736261cea"
+          (reference "#PWR061") (unit 1)
+        )
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/8f12fba8-df43-49da-9f50-de3fd315b3c2"
+          (reference "#PWR073") (unit 1)
+        )
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/7338a5c7-105f-4d83-89cf-be2bf0b0220e"
+          (reference "#PWR069") (unit 1)
         )
       )
       (project "motor_controller"
@@ -2176,17 +2314,23 @@
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/3472706a-4f86-4fa0-acec-6a7dc1abcee9"
           (reference "TP?") (unit 1)
         )
-        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/2330b672-4bcc-471f-8d1d-4a7296f3fdb6"
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/83c87db7-d1bb-426f-9b76-1806fae0df95"
+          (reference "TP?") (unit 1)
+        )
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/2fd9f2c4-27be-4821-aed0-63532dcbc7e3"
+          (reference "TP3") (unit 1)
+        )
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/14fd9bcc-fdcc-4b2f-8184-0a7227b6ec32"
+          (reference "TP15") (unit 1)
+        )
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/2aad3884-faef-44fb-b8ef-d03736261cea"
           (reference "TP9") (unit 1)
         )
-        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/4258b50e-0ff3-4dcc-8b3a-b4d072928957"
-          (reference "TP21") (unit 1)
-        )
-        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/8f7fbaff-9284-457d-8bc0-964b588cf9e5"
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/8f12fba8-df43-49da-9f50-de3fd315b3c2"
           (reference "TP27") (unit 1)
         )
-        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/65c43545-ac13-43c9-9f06-d6ab418e333e"
-          (reference "TP15") (unit 1)
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/7338a5c7-105f-4d83-89cf-be2bf0b0220e"
+          (reference "TP21") (unit 1)
         )
       )
       (project "Teensy4.1-example"
@@ -2233,17 +2377,23 @@
     (pin "2" (uuid f626e49c-9436-42ff-b51d-439fb6c4a958))
     (instances
       (project "adcs-hardware"
-        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/2330b672-4bcc-471f-8d1d-4a7296f3fdb6"
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/83c87db7-d1bb-426f-9b76-1806fae0df95"
           (reference "C62") (unit 1)
         )
-        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/8f7fbaff-9284-457d-8bc0-964b588cf9e5"
-          (reference "C98") (unit 1)
-        )
-        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/65c43545-ac13-43c9-9f06-d6ab418e333e"
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/2fd9f2c4-27be-4821-aed0-63532dcbc7e3"
           (reference "C74") (unit 1)
         )
-        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/4258b50e-0ff3-4dcc-8b3a-b4d072928957"
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/14fd9bcc-fdcc-4b2f-8184-0a7227b6ec32"
+          (reference "C98") (unit 1)
+        )
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/2aad3884-faef-44fb-b8ef-d03736261cea"
           (reference "C86") (unit 1)
+        )
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/8f12fba8-df43-49da-9f50-de3fd315b3c2"
+          (reference "C122") (unit 1)
+        )
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/7338a5c7-105f-4d83-89cf-be2bf0b0220e"
+          (reference "C110") (unit 1)
         )
       )
       (project "motor_controller"
@@ -2285,17 +2435,23 @@
     (pin "2" (uuid 76a4a829-6928-4ce5-85dc-59b291bd0176))
     (instances
       (project "adcs-hardware"
-        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/2330b672-4bcc-471f-8d1d-4a7296f3fdb6"
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/83c87db7-d1bb-426f-9b76-1806fae0df95"
           (reference "C58") (unit 1)
         )
-        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/8f7fbaff-9284-457d-8bc0-964b588cf9e5"
-          (reference "C94") (unit 1)
-        )
-        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/65c43545-ac13-43c9-9f06-d6ab418e333e"
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/2fd9f2c4-27be-4821-aed0-63532dcbc7e3"
           (reference "C70") (unit 1)
         )
-        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/4258b50e-0ff3-4dcc-8b3a-b4d072928957"
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/14fd9bcc-fdcc-4b2f-8184-0a7227b6ec32"
+          (reference "C94") (unit 1)
+        )
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/2aad3884-faef-44fb-b8ef-d03736261cea"
           (reference "C82") (unit 1)
+        )
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/8f12fba8-df43-49da-9f50-de3fd315b3c2"
+          (reference "C118") (unit 1)
+        )
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/7338a5c7-105f-4d83-89cf-be2bf0b0220e"
+          (reference "C106") (unit 1)
         )
       )
       (project "motor_controller"
@@ -2324,17 +2480,23 @@
     (pin "1" (uuid 972613a6-d6a4-41a4-b190-b77b81f01687))
     (instances
       (project "adcs-hardware"
-        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/2330b672-4bcc-471f-8d1d-4a7296f3fdb6"
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/83c87db7-d1bb-426f-9b76-1806fae0df95"
           (reference "#PWR050") (unit 1)
         )
-        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/8f7fbaff-9284-457d-8bc0-964b588cf9e5"
-          (reference "#PWR062") (unit 1)
-        )
-        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/65c43545-ac13-43c9-9f06-d6ab418e333e"
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/2fd9f2c4-27be-4821-aed0-63532dcbc7e3"
           (reference "#PWR054") (unit 1)
         )
-        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/4258b50e-0ff3-4dcc-8b3a-b4d072928957"
-          (reference "#PWR058") (unit 1)
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/14fd9bcc-fdcc-4b2f-8184-0a7227b6ec32"
+          (reference "#PWR063") (unit 1)
+        )
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/2aad3884-faef-44fb-b8ef-d03736261cea"
+          (reference "#PWR059") (unit 1)
+        )
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/8f12fba8-df43-49da-9f50-de3fd315b3c2"
+          (reference "#PWR071") (unit 1)
+        )
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/7338a5c7-105f-4d83-89cf-be2bf0b0220e"
+          (reference "#PWR067") (unit 1)
         )
       )
       (project "motor_controller"
@@ -2364,17 +2526,23 @@
     (pin "2" (uuid 6c4ef16e-3402-401c-aa8b-4fb341d22a7a))
     (instances
       (project "adcs-hardware"
-        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/2330b672-4bcc-471f-8d1d-4a7296f3fdb6"
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/83c87db7-d1bb-426f-9b76-1806fae0df95"
           (reference "C55") (unit 1)
         )
-        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/8f7fbaff-9284-457d-8bc0-964b588cf9e5"
-          (reference "C91") (unit 1)
-        )
-        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/65c43545-ac13-43c9-9f06-d6ab418e333e"
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/2fd9f2c4-27be-4821-aed0-63532dcbc7e3"
           (reference "C67") (unit 1)
         )
-        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/4258b50e-0ff3-4dcc-8b3a-b4d072928957"
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/14fd9bcc-fdcc-4b2f-8184-0a7227b6ec32"
+          (reference "C91") (unit 1)
+        )
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/2aad3884-faef-44fb-b8ef-d03736261cea"
           (reference "C79") (unit 1)
+        )
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/8f12fba8-df43-49da-9f50-de3fd315b3c2"
+          (reference "C115") (unit 1)
+        )
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/7338a5c7-105f-4d83-89cf-be2bf0b0220e"
+          (reference "C103") (unit 1)
         )
       )
       (project "motor_controller"
@@ -2404,17 +2572,23 @@
     (pin "2" (uuid 0bc654b4-e4c9-4dea-97d7-df5f864e4079))
     (instances
       (project "adcs-hardware"
-        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/2330b672-4bcc-471f-8d1d-4a7296f3fdb6"
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/83c87db7-d1bb-426f-9b76-1806fae0df95"
           (reference "C63") (unit 1)
         )
-        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/8f7fbaff-9284-457d-8bc0-964b588cf9e5"
-          (reference "C99") (unit 1)
-        )
-        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/65c43545-ac13-43c9-9f06-d6ab418e333e"
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/2fd9f2c4-27be-4821-aed0-63532dcbc7e3"
           (reference "C75") (unit 1)
         )
-        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/4258b50e-0ff3-4dcc-8b3a-b4d072928957"
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/14fd9bcc-fdcc-4b2f-8184-0a7227b6ec32"
+          (reference "C99") (unit 1)
+        )
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/2aad3884-faef-44fb-b8ef-d03736261cea"
           (reference "C87") (unit 1)
+        )
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/8f12fba8-df43-49da-9f50-de3fd315b3c2"
+          (reference "C123") (unit 1)
+        )
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/7338a5c7-105f-4d83-89cf-be2bf0b0220e"
+          (reference "C111") (unit 1)
         )
       )
       (project "motor_controller"

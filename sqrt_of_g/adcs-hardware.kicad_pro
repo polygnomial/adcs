@@ -490,10 +490,6 @@
       "MCU"
     ],
     [
-      "2910d49c-2a7c-482a-86b8-0d5e23e76e11",
-      "Coil Power Enable"
-    ],
-    [
       "2011b62c-b542-4899-89c4-f1a49629fe42",
       "IMU1_and_MAG1"
     ],
@@ -528,6 +524,30 @@
     [
       "e6d989e1-3d58-4abb-9f22-cf061fe5e0a3",
       "Photodiode Enable 2"
+    ],
+    [
+      "83c87db7-d1bb-426f-9b76-1806fae0df95",
+      "Motor Controller 1"
+    ],
+    [
+      "2fd9f2c4-27be-4821-aed0-63532dcbc7e3",
+      "Motor Controller 2"
+    ],
+    [
+      "2aad3884-faef-44fb-b8ef-d03736261cea",
+      "Motor Controller 3"
+    ],
+    [
+      "14fd9bcc-fdcc-4b2f-8184-0a7227b6ec32",
+      "Motor Controller 4"
+    ],
+    [
+      "7338a5c7-105f-4d83-89cf-be2bf0b0220e",
+      "Magnetorquer Controller 1"
+    ],
+    [
+      "8f12fba8-df43-49da-9f50-de3fd315b3c2",
+      "Magnetorquer Controller 6"
     ]
   ],
   "text_variables": {}

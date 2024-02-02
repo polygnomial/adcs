@@ -685,9 +685,6 @@
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/dbac343c-e1e8-4f27-95db-48905ebe6ac8"
           (reference "R34") (unit 1)
         )
-        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/2910d49c-2a7c-482a-86b8-0d5e23e76e11"
-          (reference "R20") (unit 1)
-        )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/96c1dca3-3491-4490-97b2-299dd5a0d462/050cb11f-ff11-499c-a248-6fb9f1092987"
           (reference "R40") (unit 1)
         )
@@ -738,9 +735,6 @@
         )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/dbac343c-e1e8-4f27-95db-48905ebe6ac8"
           (reference "#FLG07") (unit 1)
-        )
-        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/2910d49c-2a7c-482a-86b8-0d5e23e76e11"
-          (reference "#FLG06") (unit 1)
         )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/2011b62c-b542-4899-89c4-f1a49629fe42/050cb11f-ff11-499c-a248-6fb9f1092987"
           (reference "#FLG08") (unit 1)
@@ -811,9 +805,6 @@
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/dbac343c-e1e8-4f27-95db-48905ebe6ac8"
           (reference "Q4") (unit 1)
         )
-        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/2910d49c-2a7c-482a-86b8-0d5e23e76e11"
-          (reference "Q2") (unit 1)
-        )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/96c1dca3-3491-4490-97b2-299dd5a0d462/050cb11f-ff11-499c-a248-6fb9f1092987"
           (reference "Q8") (unit 1)
         )
@@ -878,9 +869,6 @@
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/dbac343c-e1e8-4f27-95db-48905ebe6ac8"
           (reference "R35") (unit 1)
         )
-        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/2910d49c-2a7c-482a-86b8-0d5e23e76e11"
-          (reference "R21") (unit 1)
-        )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/96c1dca3-3491-4490-97b2-299dd5a0d462/050cb11f-ff11-499c-a248-6fb9f1092987"
           (reference "R41") (unit 1)
         )
@@ -944,9 +932,6 @@
         )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/dbac343c-e1e8-4f27-95db-48905ebe6ac8"
           (reference "C41") (unit 1)
-        )
-        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/2910d49c-2a7c-482a-86b8-0d5e23e76e11"
-          (reference "C35") (unit 1)
         )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/2011b62c-b542-4899-89c4-f1a49629fe42/050cb11f-ff11-499c-a248-6fb9f1092987"
           (reference "C43") (unit 1)
@@ -1013,9 +998,6 @@
     (pin "8" (uuid 388fe455-14e2-4141-aa70-ae4c3c8ccc09))
     (instances
       (project "adcs-hardware"
-        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/2910d49c-2a7c-482a-86b8-0d5e23e76e11"
-          (reference "Q3") (unit 1)
-        )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/dbac343c-e1e8-4f27-95db-48905ebe6ac8"
           (reference "Q5") (unit 1)
         )
@@ -1077,9 +1059,6 @@
         )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/dbac343c-e1e8-4f27-95db-48905ebe6ac8"
           (reference "R33") (unit 1)
-        )
-        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/2910d49c-2a7c-482a-86b8-0d5e23e76e11"
-          (reference "R19") (unit 1)
         )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/96c1dca3-3491-4490-97b2-299dd5a0d462/050cb11f-ff11-499c-a248-6fb9f1092987"
           (reference "R39") (unit 1)
@@ -1145,9 +1124,6 @@
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/dbac343c-e1e8-4f27-95db-48905ebe6ac8"
           (reference "C40") (unit 1)
         )
-        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/2910d49c-2a7c-482a-86b8-0d5e23e76e11"
-          (reference "C34") (unit 1)
-        )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/2011b62c-b542-4899-89c4-f1a49629fe42/050cb11f-ff11-499c-a248-6fb9f1092987"
           (reference "C42") (unit 1)
         )
@@ -1193,9 +1169,6 @@
         )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/dbac343c-e1e8-4f27-95db-48905ebe6ac8"
           (reference "#GND018") (unit 1)
-        )
-        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/2910d49c-2a7c-482a-86b8-0d5e23e76e11"
-          (reference "#GND09") (unit 1)
         )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/96c1dca3-3491-4490-97b2-299dd5a0d462/050cb11f-ff11-499c-a248-6fb9f1092987"
           (reference "#GND020") (unit 1)
