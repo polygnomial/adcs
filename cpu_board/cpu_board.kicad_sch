@@ -1,0 +1,150 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 132.08 35.56) (size 30.48 20.32) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 0a33bd80-4856-46ea-ab2b-780eb050e9ec)
+    (property "Sheetname" "RT1176 #3" (at 132.08 34.8484 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "rt1176_3.kicad_sch" (at 132.08 56.4646 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "cpu_board"
+        (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3" (page "4"))
+      )
+    )
+  )
+
+  (sheet (at 88.9 35.56) (size 30.48 20.32) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 41b8ad77-fc22-40ff-9aa2-f9a432177b3d)
+    (property "Sheetname" "RT1176 #2" (at 88.9 34.8484 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "rt1176_2.kicad_sch" (at 88.9 56.4646 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "cpu_board"
+        (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 73.66 121.92) (size 28.575 20.955) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 7dc61a70-8d21-4309-b5a7-f9382e73e709)
+    (property "Sheetname" "SDRAM" (at 73.66 121.2084 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "sdram.kicad_sch" (at 73.66 143.4596 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "cpu_board"
+        (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3" (page "7"))
+      )
+    )
+  )
+
+  (sheet (at 160.02 83.82) (size 22.86 12.7) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 7fac9943-67c1-4bb1-9a63-8a5404d1c1d4)
+    (property "Sheetname" "Power" (at 160.02 83.1084 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "power.kicad_sch" (at 160.02 97.1046 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "cpu_board"
+        (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3" (page "8"))
+      )
+    )
+  )
+
+  (sheet (at 78.105 67.31) (size 31.115 19.05) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 9731aa38-0e10-4933-be9a-ef60ac630199)
+    (property "Sheetname" "MRAM" (at 78.105 66.5984 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "mram.kicad_sch" (at 78.105 86.9446 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "cpu_board"
+        (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3" (page "5"))
+      )
+    )
+  )
+
+  (sheet (at 45.72 35.56) (size 30.48 20.32) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 9cbcd73e-afcb-4ff3-8583-4372f7e826ca)
+    (property "Sheetname" "RT1176 #1" (at 45.72 34.8484 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "rt1176_1.kicad_sch" (at 45.72 56.4646 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "cpu_board"
+        (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 182.245 50.8) (size 36.83 21.59) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid cea27ea3-b252-471b-8ae3-89651d2bf5e1)
+    (property "Sheetname" "Interface" (at 182.245 50.0884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "interface.kicad_sch" (at 182.245 72.9746 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "cpu_board"
+        (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3" (page "9"))
+      )
+    )
+  )
+
+  (sheet (at 135.255 123.19) (size 23.495 15.875) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid db53455c-7bb1-4978-a276-1508facfd1c0)
+    (property "Sheetname" "USB-C" (at 135.255 122.4784 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "usbc.kicad_sch" (at 135.255 139.6496 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "cpu_board"
+        (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3" (page "6"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
