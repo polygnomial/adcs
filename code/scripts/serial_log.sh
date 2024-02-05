@@ -14,7 +14,7 @@ get_git_metadata() {
 
 # Function to check if a serial device is connected
 is_device_connected() {
-    if [ -e "/dev/tty.usbmodem1101" ] || [ -e "/dev/tty.usbmodem101" ]; then
+    if [ -e "/dev/tty.usbmodem101" ] || [ -e "/dev/tty.usbmodem1101" ]; then
         return 0  # Device is connected
     else
         return 1  # Device is not connected
@@ -23,13 +23,13 @@ is_device_connected() {
 
 # Function to connect to the serial device using screen and log data
 connect_to_device() {
-    local log_file="serial_log_$(date +'%Y%m%d_%H%M%S').txt"
+    local log_file="serial_log1_$(date +'%Y%m%d_%H%M%S').txt"
     
     # Log Git metadata to the file
     get_git_metadata >> "$log_file"
     
     # Connect to the serial device using screen and log data
-    screen -L -Logfile "$log_file" "/dev/tty.usbmodem1101" || screen -L -Logfile "$log_file" "/dev/tty.usbmodem101"
+    screen -L -Logfile "$log_file" "/dev/tty.usbmodem101" || screen -L -Logfile "$log_file" "/dev/tty.usbmodem1101"
 }
 
 # Main loop
