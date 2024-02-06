@@ -9,8 +9,8 @@
       (effects (font (size 1.524 1.524) (thickness 0.05)) (justify mirror))
     (tstamp 1c9e0085-2137-4a41-a40a-42ccb651d676)
   )
-  (pad "A" smd rect (at -0.375 0) (size 0.5 0.7) (layers "F.Cu") (tstamp c7043b47-9f50-4303-8678-bb89edbb2871))
-  (pad "K" smd rect (at 0.375 0) (size 0.5 0.7) (layers "F.Cu") (tstamp 7b371437-84a5-44ea-ba18-86c45d020230))
+  (pad "1" smd rect (at -0.375 0) (size 0.5 0.7) (layers "F.Cu") (tstamp c7043b47-9f50-4303-8678-bb89edbb2871))
+  (pad "2" smd rect (at 0.375 0) (size 0.5 0.7) (layers "F.Cu") (tstamp 7b371437-84a5-44ea-ba18-86c45d020230))
   (model "./wrlshp/1EC1113E-8122.wrl"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))

@@ -8,8 +8,8 @@
   )
 
 
-  (text "Changes from Coral Schematic:\n- removed PMIC, added individual switching regs (TPS54) and LDOs (TPS7A)\n- added MRAM on FlexSPI A CS1 to test booting from it.\n- changed USB-C component to use same P/N as PyCubed\n- changed some of the GPIO banks from 1.8V to 3.3V\n- added a few connectors for RBF + interface with a PyCubed\n-- removed USB-C controller (since we do not need OTG functionality)\n- changed most unused pin names to generic RT1176 names\n-- left: SD Card, Camera, TPU, ethernet (in order of likelihood that we add these things)"
-    (at 17.78 53.34 0)
+  (text "Changes from Coral Schematic:\n- removed PMIC, added individual switching regs (TPS54) and LDOs (TPS7A)\n- added MRAM on FlexSPI A CS1 to test booting from it.\n- 24mhz crystal -> TCXO\n- changed NAND flash to be 2GB instead of 1GB (since that is what is available on JLCPCB)\n- changed USB-C component to use same P/N as PyCubed\n- changed some of the GPIO banks from 1.8V to 3.3V\n- added a few connectors for RBF + interface with a PyCubed\n-- removed USB-C controller (since we do not need OTG functionality)\n- changed most unused pin names to generic RT1176 names\n-- left: SD Card, Camera, TPU, ethernet (in order of likelihood that we add these things)"
+    (at 93.98 60.96 0)
     (effects (font (size 2.54 2.54)) (justify left bottom))
     (uuid 1644a82d-207d-4502-a178-7e5ca2dff62c)
   )
