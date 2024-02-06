@@ -10,8 +10,13 @@
 
   (text "Changes from Coral Schematic:\n- removed PMIC, added individual switching regs (TPS54) and LDOs (TPS7A)\n- added MRAM on FlexSPI A CS1 to test booting from it.\n- 24mhz crystal -> TCXO\n- changed NAND flash to be 2GB instead of 1GB (since that is what is available on JLCPCB)\n- changed USB-C component to use same P/N as PyCubed\n- changed some of the GPIO banks from 1.8V to 3.3V\n- added a few connectors for RBF + interface with a PyCubed\n-- removed USB-C controller (since we do not need OTG functionality)\n- changed most unused pin names to generic RT1176 names\n-- left: SD Card, Camera, TPU, ethernet (in order of likelihood that we add these things)"
     (at 93.98 60.96 0)
-    (effects (font (size 2.54 2.54)) (justify left bottom))
+    (effects (font (size 2.54 2.54) (color 132 0 0 1)) (justify left bottom))
     (uuid 1644a82d-207d-4502-a178-7e5ca2dff62c)
+  )
+  (text "TODOs\n- [ ] Add DNPs\n- [x] Switch fixed regs to variable\n- [ ] Spec passives\n- [x] Make sure most components are on JLCPCB\n- [ ] Double check GPIOs and GPIO voltages\n- [ ] Double check power circuitry\n- [x] Fix the $source_resistor\n- [x] Double check D1/D2\n- [ ] Check boot configuration (I think I need to re-add this)\n- [ ] decide on 0402 vs. 0603\n- [ ] 3D part models\n- [x] add boot circuitry\n- [ ] double check boot enable for GPIOs after boot\n- [ ] double check xSPI MRAM\n"
+    (at 151.13 141.605 0)
+    (effects (font (size 2.54 2.54)) (justify left bottom))
+    (uuid b4979e13-f462-43d0-b20d-fe2e22f308f7)
   )
 
   (sheet (at 95.25 90.805) (size 30.48 20.32) (fields_autoplaced)
@@ -78,6 +83,23 @@
     (instances
       (project "cpu_board"
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3" (page "8"))
+      )
+    )
+  )
+
+  (sheet (at 62.865 59.69) (size 26.67 19.685) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 95b2d6af-eaff-4ad3-a3d4-1ab23407d141)
+    (property "Sheetname" "Boot Config" (at 62.865 58.9784 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "boot_config.kicad_sch" (at 62.865 79.9596 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "cpu_board"
+        (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3" (page "12"))
       )
     )
   )

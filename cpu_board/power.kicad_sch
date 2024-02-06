@@ -1249,11 +1249,7 @@
     (effects (font (size 1.0668 1.0668)) (justify left bottom))
     (uuid 8d602e48-2f45-4ac6-af67-fae06aa1e094)
   )
-  (text "what should I do with en?" (at 245.11 160.655 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid afdf35c4-11cc-473e-a61a-a6829d65cc0d)
-  )
-  (text "Do I need a PMIC? In my read of datasheet, PMIC on req and PMIC standby req are just outputs of the RT1176"
+  (text "Do I need a PMIC? In my read of datasheet, PMIC on req and PMIC standby req are just outputs of the RT1176\nWhat should I do with the enables on my regulators?\n- I think most effective debugging would be to have a way to power cycle the whole board. But if we do that while the wheels are spinning, we will mess stuff up"
     (at 159.385 75.565 0)
     (effects (font (size 1.27 1.27) (color 194 0 0 1)) (justify left bottom))
     (uuid ca83e5cf-c1af-4da8-8b10-63f14cd84418)
