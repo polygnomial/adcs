@@ -13,7 +13,7 @@
     (effects (font (size 2.54 2.54) (color 132 0 0 1)) (justify left bottom))
     (uuid 1644a82d-207d-4502-a178-7e5ca2dff62c)
   )
-  (text "TODOs\n- [ ] Add DNPs\n- [x] Switch fixed regs to variable\n- [ ] Spec passives\n- [x] Make sure most components are on JLCPCB\n- [ ] Double check GPIOs and GPIO voltages\n- [ ] Double check power circuitry\n- [x] Fix the $source_resistor\n- [x] Double check D1/D2\n- [ ] Check boot configuration (I think I need to re-add this)\n- [ ] decide on 0402 vs. 0603\n- [ ] 3D part models\n- [x] add boot circuitry\n- [ ] double check boot enable for GPIOs after boot\n- [ ] double check xSPI MRAM\n"
+  (text "TODOs\n- [ ] Add DNPs\n- [x] Switch fixed regs to variable\n- [ ] Spec passives\n- [x] Make sure most components are on JLCPCB\n- [ ] Double check GPIOs and GPIO voltages\n- [ ] Double check power circuitry\n- [x] Fix the $source_resistor\n- [x] Double check D1/D2\n- [ ] Check boot configuration (I think I need to re-add this)\n- [ ] decide on 0402 vs. 0603\n- [ ] 3D part models\n- [x] add boot circuitry\n- [ ] double check boot enable for GPIOs after boot\n- [ ] double check xSPI MRAM\n- [x] clean up label sizing\n- [ ] check global label directions\n- [ ] beautify schematic"
     (at 151.13 141.605 0)
     (effects (font (size 2.54 2.54)) (justify left bottom))
     (uuid b4979e13-f462-43d0-b20d-fe2e22f308f7)
