@@ -961,7 +961,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 211.455 93.345 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 07209a29-7867-4e83-8b41-2ebb28e0f855)
-    (property "Reference" "#FLG01" (at 211.455 91.44 0)
+    (property "Reference" "#FLG?" (at 211.455 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 213.995 88.265 0)
@@ -977,12 +977,12 @@
     (instances
       (project "adcs-hardware"
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50"
-          (reference "#FLG01") (unit 1)
+          (reference "#FLG?") (unit 1)
         )
       )
       (project "cpu_board"
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/cea27ea3-b252-471b-8ae3-89651d2bf5e1"
-          (reference "#FLG01") (unit 1)
+          (reference "#FLG025") (unit 1)
         )
       )
     )
@@ -991,7 +991,7 @@
   (symbol (lib_id "mainboard:35362-0650") (at 188.595 161.925 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 272e9155-2837-41fa-901a-f5c45b8f1675)
-    (property "Reference" "J5" (at 187.2234 148.336 0)
+    (property "Reference" "J?" (at 187.2234 148.336 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "353620650" (at 196.2658 150.2918 0)
@@ -1030,12 +1030,12 @@
     (instances
       (project "adcs-hardware"
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50"
-          (reference "J5") (unit 1)
+          (reference "J?") (unit 1)
         )
       )
       (project "cpu_board"
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/cea27ea3-b252-471b-8ae3-89651d2bf5e1"
-          (reference "J3") (unit 1)
+          (reference "J4") (unit 1)
         )
       )
       (project "mainboard"
@@ -1068,12 +1068,12 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50"
-          (reference "#PWR09") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
       (project "cpu_board"
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/cea27ea3-b252-471b-8ae3-89651d2bf5e1"
-          (reference "#PWR050") (unit 1)
+          (reference "#PWR059") (unit 1)
         )
       )
       (project "mainboard"
@@ -1087,7 +1087,7 @@
   (symbol (lib_id "power:GND") (at 222.885 170.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4b8b44f0-e1c3-478c-ac0e-4df5d893b3d3)
-    (property "Reference" "#PWR048" (at 222.885 176.53 0)
+    (property "Reference" "#PWR060" (at 222.885 176.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 222.885 174.625 0)
@@ -1103,7 +1103,7 @@
     (instances
       (project "cpu_board"
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/cea27ea3-b252-471b-8ae3-89651d2bf5e1"
-          (reference "#PWR048") (unit 1)
+          (reference "#PWR060") (unit 1)
         )
       )
     )
@@ -1166,12 +1166,12 @@
           (reference "J?") (unit 1)
         )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50"
-          (reference "J7") (unit 1)
+          (reference "J?") (unit 1)
         )
       )
       (project "cpu_board"
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/cea27ea3-b252-471b-8ae3-89651d2bf5e1"
-          (reference "J7") (unit 1)
+          (reference "J6") (unit 1)
         )
       )
       (project "mainboard"
@@ -1185,16 +1185,16 @@
   (symbol (lib_id "Device:R_Small_US") (at 218.5416 149.86 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 57ec265a-a835-40d8-aff5-ec1af251a87a)
-    (property "Reference" "R1" (at 221.0816 148.59 0)
+    (property "Reference" "R?" (at 221.0816 148.59 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10kΩ" (at 221.0816 151.13 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 218.5416 149.86 0)
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" (at 218.5416 149.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 218.5416 149.86 0)
+    (property "Datasheet" "" (at 218.5416 149.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 7f6b746e-cbdb-4abd-8897-d8b09c8d741f))
@@ -1202,22 +1202,22 @@
     (instances
       (project "cpu_board"
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/9cbcd73e-afcb-4ff3-8583-4372f7e826ca"
-          (reference "R1") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/41b8ad77-fc22-40ff-9aa2-f9a432177b3d"
-          (reference "R17") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/0a33bd80-4856-46ea-ab2b-780eb050e9ec"
-          (reference "R18") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/7dc61a70-8d21-4309-b5a7-f9382e73e709"
-          (reference "R22") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/7fac9943-67c1-4bb1-9a63-8a5404d1c1d4"
-          (reference "R31") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/cea27ea3-b252-471b-8ae3-89651d2bf5e1"
-          (reference "R33") (unit 1)
+          (reference "R40") (unit 1)
         )
       )
     )
@@ -1280,12 +1280,12 @@
           (reference "J?") (unit 1)
         )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50"
-          (reference "J7") (unit 1)
+          (reference "J?") (unit 1)
         )
       )
       (project "cpu_board"
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/cea27ea3-b252-471b-8ae3-89651d2bf5e1"
-          (reference "J5") (unit 1)
+          (reference "J7") (unit 1)
         )
       )
       (project "mainboard"
@@ -1299,7 +1299,7 @@
   (symbol (lib_id "mainboard:35362-0650") (at 196.215 88.265 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 735a4d93-a3d7-482c-8aef-ac34b41dd10e)
-    (property "Reference" "J6" (at 189.0014 79.5782 0)
+    (property "Reference" "J?" (at 189.0014 79.5782 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "353620650" (at 189.23 87.5792 90)
@@ -1338,12 +1338,12 @@
     (instances
       (project "adcs-hardware"
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50"
-          (reference "J6") (unit 1)
+          (reference "J?") (unit 1)
         )
       )
       (project "cpu_board"
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/cea27ea3-b252-471b-8ae3-89651d2bf5e1"
-          (reference "J4") (unit 1)
+          (reference "J5") (unit 1)
         )
       )
       (project "mainboard"
@@ -1357,7 +1357,7 @@
   (symbol (lib_id "Device:L") (at 212.8774 80.645 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 819e0990-8b96-479a-b30a-09c4dd5843aa)
-    (property "Reference" "L1" (at 212.9028 78.4606 90)
+    (property "Reference" "L?" (at 212.9028 78.4606 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "330uH" (at 212.8266 82.0674 90)
@@ -1389,7 +1389,7 @@
     (instances
       (project "adcs-hardware"
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50"
-          (reference "L1") (unit 1)
+          (reference "L?") (unit 1)
         )
       )
       (project "cpu_board"
@@ -1403,7 +1403,7 @@
   (symbol (lib_name "GND_1") (lib_id "power:GND") (at 184.8866 221.869 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9006ee76-fbef-4d66-909e-b2623938c322)
-    (property "Reference" "#PWR016" (at 184.8866 228.219 0)
+    (property "Reference" "#PWR?" (at 184.8866 228.219 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 184.8866 226.949 0)
@@ -1419,17 +1419,17 @@
     (instances
       (project "adcs-hardware"
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/3472706a-4f86-4fa0-acec-6a7dc1abcee9"
-          (reference "#PWR016") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
       (project "cpu_board"
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/cea27ea3-b252-471b-8ae3-89651d2bf5e1"
-          (reference "#PWR046") (unit 1)
+          (reference "#PWR058") (unit 1)
         )
       )
       (project "rt1062"
         (path "/d3b6420a-e88e-4c41-ada5-6a62fc9adbe0"
-          (reference "#PWR016") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -1438,7 +1438,7 @@
   (symbol (lib_id "mainboard:35362-0650") (at 188.595 122.555 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 956da2b9-686d-44a9-ad96-85bf47b5b746)
-    (property "Reference" "J5" (at 187.2234 108.966 0)
+    (property "Reference" "J?" (at 187.2234 108.966 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "353620650" (at 196.2658 110.9218 0)
@@ -1477,12 +1477,12 @@
     (instances
       (project "adcs-hardware"
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50"
-          (reference "J5") (unit 1)
+          (reference "J?") (unit 1)
         )
       )
       (project "cpu_board"
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/cea27ea3-b252-471b-8ae3-89651d2bf5e1"
-          (reference "J6") (unit 1)
+          (reference "J3") (unit 1)
         )
       )
       (project "mainboard"
@@ -1496,7 +1496,7 @@
   (symbol (lib_id "mainboard:GND") (at 208.915 95.885 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b9c6abd4-c573-4b0f-96f8-422c95cb7e9d)
-    (property "Reference" "#GND01" (at 208.915 95.885 0)
+    (property "Reference" "#GND?" (at 208.915 95.885 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 206.375 98.425 0)
@@ -1512,12 +1512,12 @@
     (instances
       (project "adcs-hardware"
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50"
-          (reference "#GND01") (unit 1)
+          (reference "#GND?") (unit 1)
         )
       )
       (project "cpu_board"
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/cea27ea3-b252-471b-8ae3-89651d2bf5e1"
-          (reference "#GND011") (unit 1)
+          (reference "#GND08") (unit 1)
         )
       )
       (project "mainboard"
@@ -1531,7 +1531,7 @@
   (symbol (lib_id "Connector:Conn_ARM_JTAG_SWD_10") (at 186.1566 205.74 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d355b00a-1348-463b-896e-aadd0fc137cc)
-    (property "Reference" "J22" (at 178.0794 191.6176 0)
+    (property "Reference" "J?" (at 178.0794 191.6176 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "JTAG_SWD_10" (at 177.9778 199.0344 90)
@@ -1577,7 +1577,7 @@
     (instances
       (project "adcs-hardware"
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/3472706a-4f86-4fa0-acec-6a7dc1abcee9"
-          (reference "J22") (unit 1)
+          (reference "J?") (unit 1)
         )
       )
       (project "cpu_board"
@@ -1587,7 +1587,7 @@
       )
       (project "rt1062"
         (path "/d3b6420a-e88e-4c41-ada5-6a62fc9adbe0"
-          (reference "J22") (unit 1)
+          (reference "J?") (unit 1)
         )
       )
     )

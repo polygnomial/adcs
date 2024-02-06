@@ -644,7 +644,7 @@
     (property "Value" "${source_resistor}" (at 129.7432 91.4908 90)
       (effects (font (size 1.4986 1.4986)) (justify right))
     )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 131.445 90.17 0)
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" (at 131.445 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 131.445 90.17 0)
@@ -673,27 +673,27 @@
           (reference "R?") (unit 1)
         )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/dbac343c-e1e8-4f27-95db-48905ebe6ac8"
-          (reference "R35") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/96c1dca3-3491-4490-97b2-299dd5a0d462/050cb11f-ff11-499c-a248-6fb9f1092987"
-          (reference "R41") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/2011b62c-b542-4899-89c4-f1a49629fe42/050cb11f-ff11-499c-a248-6fb9f1092987"
-          (reference "R38") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/1539ef5d-4f4f-4a9e-ae0a-b29bdc9f46f8/d7510623-5924-4e82-97b6-641ec54de302"
-          (reference "R44") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/e6d989e1-3d58-4abb-9f22-cf061fe5e0a3"
-          (reference "R50") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/09e775d0-de49-4fe2-956d-adceee72ccf4"
-          (reference "R47") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
       (project "cpu_board"
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/cea27ea3-b252-471b-8ae3-89651d2bf5e1/fef67fc1-8026-4168-9599-05f275dfb457"
-          (reference "R36") (unit 1)
+          (reference "R43") (unit 1)
         )
       )
       (project "mainboard"
@@ -729,27 +729,27 @@
           (reference "#GND?") (unit 1)
         )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/dbac343c-e1e8-4f27-95db-48905ebe6ac8"
-          (reference "#GND018") (unit 1)
+          (reference "#GND?") (unit 1)
         )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/96c1dca3-3491-4490-97b2-299dd5a0d462/050cb11f-ff11-499c-a248-6fb9f1092987"
-          (reference "#GND020") (unit 1)
+          (reference "#GND?") (unit 1)
         )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/2011b62c-b542-4899-89c4-f1a49629fe42/050cb11f-ff11-499c-a248-6fb9f1092987"
-          (reference "#GND019") (unit 1)
+          (reference "#GND?") (unit 1)
         )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/1539ef5d-4f4f-4a9e-ae0a-b29bdc9f46f8/d7510623-5924-4e82-97b6-641ec54de302"
-          (reference "#GND021") (unit 1)
+          (reference "#GND?") (unit 1)
         )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/e6d989e1-3d58-4abb-9f22-cf061fe5e0a3"
-          (reference "#GND023") (unit 1)
+          (reference "#GND?") (unit 1)
         )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/09e775d0-de49-4fe2-956d-adceee72ccf4"
-          (reference "#GND022") (unit 1)
+          (reference "#GND?") (unit 1)
         )
       )
       (project "cpu_board"
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/cea27ea3-b252-471b-8ae3-89651d2bf5e1/fef67fc1-8026-4168-9599-05f275dfb457"
-          (reference "#GND012") (unit 1)
+          (reference "#GND09") (unit 1)
         )
       )
       (project "mainboard"
@@ -769,7 +769,7 @@
     (property "Value" "4.7uF" (at 168.148 101.346 0)
       (effects (font (size 1.4986 1.4986)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 174.625 100.33 0)
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" (at 174.625 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 174.625 100.33 0)
@@ -798,27 +798,27 @@
           (reference "C?") (unit 1)
         )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/dbac343c-e1e8-4f27-95db-48905ebe6ac8"
-          (reference "C41") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/2011b62c-b542-4899-89c4-f1a49629fe42/050cb11f-ff11-499c-a248-6fb9f1092987"
-          (reference "C43") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/96c1dca3-3491-4490-97b2-299dd5a0d462/050cb11f-ff11-499c-a248-6fb9f1092987"
-          (reference "C45") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/1539ef5d-4f4f-4a9e-ae0a-b29bdc9f46f8/d7510623-5924-4e82-97b6-641ec54de302"
-          (reference "C47") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/09e775d0-de49-4fe2-956d-adceee72ccf4"
-          (reference "C49") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/e6d989e1-3d58-4abb-9f22-cf061fe5e0a3"
-          (reference "C51") (unit 1)
+          (reference "C?") (unit 1)
         )
       )
       (project "cpu_board"
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/cea27ea3-b252-471b-8ae3-89651d2bf5e1/fef67fc1-8026-4168-9599-05f275dfb457"
-          (reference "C80") (unit 1)
+          (reference "C91") (unit 1)
         )
       )
     )
@@ -827,7 +827,7 @@
   (symbol (lib_id "adcs:NDS8434") (at 149.225 87.63 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 604c7698-a53d-436b-a7d7-2664d30a3d4c)
-    (property "Reference" "Q5" (at 149.225 73.0758 0)
+    (property "Reference" "Q?" (at 149.225 73.0758 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "NDS8434" (at 149.225 75.6158 0)
@@ -871,22 +871,22 @@
     (instances
       (project "adcs-hardware"
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/dbac343c-e1e8-4f27-95db-48905ebe6ac8"
-          (reference "Q5") (unit 1)
+          (reference "Q?") (unit 1)
         )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/2011b62c-b542-4899-89c4-f1a49629fe42/050cb11f-ff11-499c-a248-6fb9f1092987"
-          (reference "Q7") (unit 1)
+          (reference "Q?") (unit 1)
         )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/96c1dca3-3491-4490-97b2-299dd5a0d462/050cb11f-ff11-499c-a248-6fb9f1092987"
-          (reference "Q9") (unit 1)
+          (reference "Q?") (unit 1)
         )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/1539ef5d-4f4f-4a9e-ae0a-b29bdc9f46f8/d7510623-5924-4e82-97b6-641ec54de302"
-          (reference "Q11") (unit 1)
+          (reference "Q?") (unit 1)
         )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/09e775d0-de49-4fe2-956d-adceee72ccf4"
-          (reference "Q13") (unit 1)
+          (reference "Q?") (unit 1)
         )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/e6d989e1-3d58-4abb-9f22-cf061fe5e0a3"
-          (reference "Q15") (unit 1)
+          (reference "Q?") (unit 1)
         )
       )
       (project "cpu_board"
@@ -903,10 +903,10 @@
     (property "Reference" "R?" (at 121.285 97.79 0)
       (effects (font (size 1.4986 1.4986)))
     )
-    (property "Value" "4.7K" (at 121.285 100.33 0)
+    (property "Value" "4.7kΩ" (at 121.285 100.33 0)
       (effects (font (size 1.4986 1.4986)))
     )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 121.285 95.25 0)
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" (at 121.285 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 121.285 95.25 0)
@@ -935,27 +935,27 @@
           (reference "R?") (unit 1)
         )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/dbac343c-e1e8-4f27-95db-48905ebe6ac8"
-          (reference "R34") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/96c1dca3-3491-4490-97b2-299dd5a0d462/050cb11f-ff11-499c-a248-6fb9f1092987"
-          (reference "R40") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/2011b62c-b542-4899-89c4-f1a49629fe42/050cb11f-ff11-499c-a248-6fb9f1092987"
-          (reference "R37") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/1539ef5d-4f4f-4a9e-ae0a-b29bdc9f46f8/d7510623-5924-4e82-97b6-641ec54de302"
-          (reference "R43") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/e6d989e1-3d58-4abb-9f22-cf061fe5e0a3"
-          (reference "R49") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/09e775d0-de49-4fe2-956d-adceee72ccf4"
-          (reference "R46") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
       (project "cpu_board"
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/cea27ea3-b252-471b-8ae3-89651d2bf5e1/fef67fc1-8026-4168-9599-05f275dfb457"
-          (reference "R35") (unit 1)
+          (reference "R42") (unit 1)
         )
       )
       (project "mainboard"
@@ -972,10 +972,10 @@
     (property "Reference" "R?" (at 111.9632 98.9838 90)
       (effects (font (size 1.4986 1.4986)) (justify right))
     )
-    (property "Value" "10K" (at 111.9632 101.6508 90)
+    (property "Value" "10kΩ" (at 111.9632 101.6508 90)
       (effects (font (size 1.4986 1.4986)) (justify right))
     )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 113.665 100.33 0)
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" (at 113.665 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 113.665 100.33 0)
@@ -1004,27 +1004,27 @@
           (reference "R?") (unit 1)
         )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/dbac343c-e1e8-4f27-95db-48905ebe6ac8"
-          (reference "R33") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/96c1dca3-3491-4490-97b2-299dd5a0d462/050cb11f-ff11-499c-a248-6fb9f1092987"
-          (reference "R39") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/2011b62c-b542-4899-89c4-f1a49629fe42/050cb11f-ff11-499c-a248-6fb9f1092987"
-          (reference "R36") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/1539ef5d-4f4f-4a9e-ae0a-b29bdc9f46f8/d7510623-5924-4e82-97b6-641ec54de302"
-          (reference "R42") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/e6d989e1-3d58-4abb-9f22-cf061fe5e0a3"
-          (reference "R48") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/09e775d0-de49-4fe2-956d-adceee72ccf4"
-          (reference "R45") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
       (project "cpu_board"
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/cea27ea3-b252-471b-8ae3-89651d2bf5e1/fef67fc1-8026-4168-9599-05f275dfb457"
-          (reference "R34") (unit 1)
+          (reference "R41") (unit 1)
         )
       )
       (project "mainboard"
@@ -1060,27 +1060,27 @@
           (reference "#FLG?") (unit 1)
         )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/dbac343c-e1e8-4f27-95db-48905ebe6ac8"
-          (reference "#FLG07") (unit 1)
+          (reference "#FLG?") (unit 1)
         )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/2011b62c-b542-4899-89c4-f1a49629fe42/050cb11f-ff11-499c-a248-6fb9f1092987"
-          (reference "#FLG08") (unit 1)
+          (reference "#FLG?") (unit 1)
         )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/96c1dca3-3491-4490-97b2-299dd5a0d462/050cb11f-ff11-499c-a248-6fb9f1092987"
-          (reference "#FLG09") (unit 1)
+          (reference "#FLG?") (unit 1)
         )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/1539ef5d-4f4f-4a9e-ae0a-b29bdc9f46f8/d7510623-5924-4e82-97b6-641ec54de302"
-          (reference "#FLG010") (unit 1)
+          (reference "#FLG?") (unit 1)
         )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/09e775d0-de49-4fe2-956d-adceee72ccf4"
-          (reference "#FLG011") (unit 1)
+          (reference "#FLG?") (unit 1)
         )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/e6d989e1-3d58-4abb-9f22-cf061fe5e0a3"
-          (reference "#FLG012") (unit 1)
+          (reference "#FLG?") (unit 1)
         )
       )
       (project "cpu_board"
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/cea27ea3-b252-471b-8ae3-89651d2bf5e1/fef67fc1-8026-4168-9599-05f275dfb457"
-          (reference "#FLG02") (unit 1)
+          (reference "#FLG026") (unit 1)
         )
       )
     )
@@ -1095,7 +1095,7 @@
     (property "Value" "10nF" (at 160.528 101.346 0)
       (effects (font (size 1.4986 1.4986)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 167.005 100.33 0)
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" (at 167.005 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 167.005 100.33 0)
@@ -1124,27 +1124,27 @@
           (reference "C?") (unit 1)
         )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/dbac343c-e1e8-4f27-95db-48905ebe6ac8"
-          (reference "C40") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/2011b62c-b542-4899-89c4-f1a49629fe42/050cb11f-ff11-499c-a248-6fb9f1092987"
-          (reference "C42") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/96c1dca3-3491-4490-97b2-299dd5a0d462/050cb11f-ff11-499c-a248-6fb9f1092987"
-          (reference "C44") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/1539ef5d-4f4f-4a9e-ae0a-b29bdc9f46f8/d7510623-5924-4e82-97b6-641ec54de302"
-          (reference "C46") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/09e775d0-de49-4fe2-956d-adceee72ccf4"
-          (reference "C48") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/e6d989e1-3d58-4abb-9f22-cf061fe5e0a3"
-          (reference "C50") (unit 1)
+          (reference "C?") (unit 1)
         )
       )
       (project "cpu_board"
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/cea27ea3-b252-471b-8ae3-89651d2bf5e1/fef67fc1-8026-4168-9599-05f275dfb457"
-          (reference "C79") (unit 1)
+          (reference "C90") (unit 1)
         )
       )
     )
@@ -1198,22 +1198,22 @@
           (reference "Q?") (unit 1)
         )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/dbac343c-e1e8-4f27-95db-48905ebe6ac8"
-          (reference "Q4") (unit 1)
+          (reference "Q?") (unit 1)
         )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/96c1dca3-3491-4490-97b2-299dd5a0d462/050cb11f-ff11-499c-a248-6fb9f1092987"
-          (reference "Q8") (unit 1)
+          (reference "Q?") (unit 1)
         )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/2011b62c-b542-4899-89c4-f1a49629fe42/050cb11f-ff11-499c-a248-6fb9f1092987"
-          (reference "Q6") (unit 1)
+          (reference "Q?") (unit 1)
         )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/1539ef5d-4f4f-4a9e-ae0a-b29bdc9f46f8/d7510623-5924-4e82-97b6-641ec54de302"
-          (reference "Q10") (unit 1)
+          (reference "Q?") (unit 1)
         )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/e6d989e1-3d58-4abb-9f22-cf061fe5e0a3"
-          (reference "Q14") (unit 1)
+          (reference "Q?") (unit 1)
         )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/09e775d0-de49-4fe2-956d-adceee72ccf4"
-          (reference "Q12") (unit 1)
+          (reference "Q?") (unit 1)
         )
       )
       (project "cpu_board"

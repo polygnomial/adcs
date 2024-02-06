@@ -1565,7 +1565,7 @@
   (symbol (lib_id "power:GND") (at 66.04 112.395 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0c2d36d8-5034-413b-9973-55f32a3a658d)
-    (property "Reference" "#PWR044" (at 66.04 118.745 0)
+    (property "Reference" "#PWR055" (at 66.04 118.745 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 66.04 116.84 0)
@@ -1581,7 +1581,7 @@
     (instances
       (project "cpu_board"
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/7dc61a70-8d21-4309-b5a7-f9382e73e709"
-          (reference "#PWR044") (unit 1)
+          (reference "#PWR055") (unit 1)
         )
       )
     )
@@ -1590,7 +1590,7 @@
   (symbol (lib_id "power:GND") (at 154.305 170.815 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 62f058ab-7d2d-45c8-9922-bd38211d0472)
-    (property "Reference" "#PWR045" (at 154.305 177.165 0)
+    (property "Reference" "#PWR057" (at 154.305 177.165 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 154.305 175.26 0)
@@ -1606,7 +1606,7 @@
     (instances
       (project "cpu_board"
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/7dc61a70-8d21-4309-b5a7-f9382e73e709"
-          (reference "#PWR045") (unit 1)
+          (reference "#PWR057") (unit 1)
         )
       )
     )
@@ -1615,16 +1615,16 @@
   (symbol (lib_id "Device:C_Small") (at 86.995 42.545 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 670bec07-702e-4f3e-9cf3-c3248629c34d)
-    (property "Reference" "C1" (at 89.535 41.2813 0)
+    (property "Reference" "C?" (at 89.535 41.2813 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22uF" (at 89.535 43.8213 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 86.995 42.545 0)
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" (at 86.995 42.545 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 86.995 42.545 0)
+    (property "Datasheet" "" (at 86.995 42.545 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "DigiKey Part Number" "" (at 86.995 42.545 0)
@@ -1641,10 +1641,10 @@
     (instances
       (project "cpu_board"
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/9cbcd73e-afcb-4ff3-8583-4372f7e826ca"
-          (reference "C1") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/7dc61a70-8d21-4309-b5a7-f9382e73e709"
-          (reference "C56") (unit 1)
+          (reference "C67") (unit 1)
         )
       )
     )
@@ -1653,16 +1653,16 @@
   (symbol (lib_id "Device:C_Small") (at 147.32 42.545 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 73fa32ea-ff42-4fac-96e2-abe359e7ed27)
-    (property "Reference" "C3" (at 149.86 41.2813 0)
+    (property "Reference" "C?" (at 149.86 41.2813 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 149.86 43.8213 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 147.32 42.545 0)
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" (at 147.32 42.545 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 147.32 42.545 0)
+    (property "Datasheet" "" (at 147.32 42.545 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "DigiKey Part Number" "" (at 147.32 42.545 0)
@@ -1679,10 +1679,10 @@
     (instances
       (project "cpu_board"
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/9cbcd73e-afcb-4ff3-8583-4372f7e826ca"
-          (reference "C3") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/7dc61a70-8d21-4309-b5a7-f9382e73e709"
-          (reference "C61") (unit 1)
+          (reference "C72") (unit 1)
         )
       )
     )
@@ -1691,13 +1691,13 @@
   (symbol (lib_id "11 SDRAM-SchDoc-rescue:SDRAM_MT48H32M16LFB4-6-") (at 149.225 81.915 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 78c346c6-5fc9-4ebc-a245-71da244a60ca)
-    (property "Reference" "U18" (at 148.209 80.391 0)
+    (property "Reference" "U?" (at 148.209 80.391 0)
       (effects (font (size 1.524 1.524)) (justify left bottom))
     )
     (property "Value" "~" (at 149.225 81.915 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "" (at 149.225 81.915 0)
+    (property "Footprint" "adcs:BGA54C80P6X9_800X800X100" (at 149.225 81.915 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 149.225 81.915 0)
@@ -1805,6 +1805,15 @@
     (property "CrossRef" "7" (at -43.815 81.915 90)
       (effects (font (size 1.524 1.524)) hide)
     )
+    (property "DigiKey Part Number" "" (at 149.225 81.915 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Tolerance" "" (at 149.225 81.915 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Power Rating" "" (at 149.225 81.915 0)
+      (effects (font (size 1.27 1.27)))
+    )
     (pin "A1" (uuid c2be4e6d-427c-4e5a-8ee1-de8e355e7e71))
     (pin "A2" (uuid 51dd7b0b-00a9-4330-9d26-49e727da3b02))
     (pin "A3" (uuid d9e2d88b-c5bf-4127-9fe6-9fe96eb8e5cf))
@@ -1862,17 +1871,17 @@
     (instances
       (project "Coral Dev Board Micro"
         (path "/3efafd4f-4e9e-4d6c-82b6-6bc1fb98e0f8/21393075-2590-4f9e-bf48-0431e7246f77"
-          (reference "U18") (unit 1)
+          (reference "U?") (unit 1)
         )
       )
       (project "11 SDRAM-SchDoc"
         (path "/b5f536ac-9494-4c1a-b952-2c6e57519c27"
-          (reference "U18") (unit 1)
+          (reference "U?") (unit 1)
         )
       )
       (project "cpu_board"
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/7dc61a70-8d21-4309-b5a7-f9382e73e709"
-          (reference "U4") (unit 1)
+          (reference "U6") (unit 1)
         )
       )
     )
@@ -1881,16 +1890,16 @@
   (symbol (lib_id "Device:C_Small") (at 116.84 42.545 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 80ccc986-4d8e-4c51-a7cb-123a4db81242)
-    (property "Reference" "C3" (at 119.38 41.2813 0)
+    (property "Reference" "C?" (at 119.38 41.2813 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 119.38 43.8213 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 116.84 42.545 0)
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" (at 116.84 42.545 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 116.84 42.545 0)
+    (property "Datasheet" "" (at 116.84 42.545 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "DigiKey Part Number" "" (at 116.84 42.545 0)
@@ -1907,10 +1916,10 @@
     (instances
       (project "cpu_board"
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/9cbcd73e-afcb-4ff3-8583-4372f7e826ca"
-          (reference "C3") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/7dc61a70-8d21-4309-b5a7-f9382e73e709"
-          (reference "C58") (unit 1)
+          (reference "C69") (unit 1)
         )
       )
     )
@@ -1919,16 +1928,16 @@
   (symbol (lib_id "Device:C_Small") (at 177.8 42.545 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 934fdde6-e2ec-4fa9-947b-c24f17183a61)
-    (property "Reference" "C3" (at 180.34 41.2813 0)
+    (property "Reference" "C?" (at 180.34 41.2813 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 180.34 43.8213 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 177.8 42.545 0)
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" (at 177.8 42.545 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 177.8 42.545 0)
+    (property "Datasheet" "" (at 177.8 42.545 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "DigiKey Part Number" "" (at 177.8 42.545 0)
@@ -1945,10 +1954,10 @@
     (instances
       (project "cpu_board"
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/9cbcd73e-afcb-4ff3-8583-4372f7e826ca"
-          (reference "C3") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/7dc61a70-8d21-4309-b5a7-f9382e73e709"
-          (reference "C64") (unit 1)
+          (reference "C75") (unit 1)
         )
       )
     )
@@ -1957,16 +1966,16 @@
   (symbol (lib_id "Device:C_Small") (at 127 42.545 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 954c4962-686d-4674-8bd8-aea185552c8e)
-    (property "Reference" "C3" (at 129.54 41.2813 0)
+    (property "Reference" "C?" (at 129.54 41.2813 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 129.54 43.8213 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 127 42.545 0)
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" (at 127 42.545 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 127 42.545 0)
+    (property "Datasheet" "" (at 127 42.545 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "DigiKey Part Number" "" (at 127 42.545 0)
@@ -1983,10 +1992,10 @@
     (instances
       (project "cpu_board"
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/9cbcd73e-afcb-4ff3-8583-4372f7e826ca"
-          (reference "C3") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/7dc61a70-8d21-4309-b5a7-f9382e73e709"
-          (reference "C59") (unit 1)
+          (reference "C70") (unit 1)
         )
       )
     )
@@ -1995,16 +2004,16 @@
   (symbol (lib_id "Device:C_Small") (at 137.16 42.545 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 97029ca5-4d3d-422f-aeaf-040b83a007d1)
-    (property "Reference" "C3" (at 139.7 41.2813 0)
+    (property "Reference" "C?" (at 139.7 41.2813 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 139.7 43.8213 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 137.16 42.545 0)
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" (at 137.16 42.545 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 137.16 42.545 0)
+    (property "Datasheet" "" (at 137.16 42.545 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "DigiKey Part Number" "" (at 137.16 42.545 0)
@@ -2021,10 +2030,10 @@
     (instances
       (project "cpu_board"
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/9cbcd73e-afcb-4ff3-8583-4372f7e826ca"
-          (reference "C3") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/7dc61a70-8d21-4309-b5a7-f9382e73e709"
-          (reference "C60") (unit 1)
+          (reference "C71") (unit 1)
         )
       )
     )
@@ -2033,13 +2042,13 @@
   (symbol (lib_id "Device:R_Small_US") (at 120.65 94.615 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a2af5807-a263-4bcc-b869-720bc424424a)
-    (property "Reference" "R1" (at 121.285 97.155 90)
+    (property "Reference" "R?" (at 121.285 97.155 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "0" (at 123.19 97.155 90)
+    (property "Value" "0Ω" (at 123.19 97.155 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 120.65 94.615 0)
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" (at 120.65 94.615 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 120.65 94.615 0)
@@ -2050,16 +2059,16 @@
     (instances
       (project "cpu_board"
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/9cbcd73e-afcb-4ff3-8583-4372f7e826ca"
-          (reference "R1") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/41b8ad77-fc22-40ff-9aa2-f9a432177b3d"
-          (reference "R17") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/0a33bd80-4856-46ea-ab2b-780eb050e9ec"
-          (reference "R18") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/7dc61a70-8d21-4309-b5a7-f9382e73e709"
-          (reference "R23") (unit 1)
+          (reference "R31") (unit 1)
         )
       )
     )
@@ -2068,7 +2077,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 167.64 40.005 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a4a57e03-e7b0-43c9-af3d-c8271560f99e)
-    (property "Reference" "#FLG05" (at 167.64 38.1 0)
+    (property "Reference" "#FLG?" (at 167.64 38.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 167.64 35.56 0)
@@ -2084,13 +2093,13 @@
     (instances
       (project "cpu_board"
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/0a33bd80-4856-46ea-ab2b-780eb050e9ec"
-          (reference "#FLG05") (unit 1)
+          (reference "#FLG?") (unit 1)
         )
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/9cbcd73e-afcb-4ff3-8583-4372f7e826ca"
-          (reference "#FLG011") (unit 1)
+          (reference "#FLG?") (unit 1)
         )
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/7dc61a70-8d21-4309-b5a7-f9382e73e709"
-          (reference "#FLG026") (unit 1)
+          (reference "#FLG022") (unit 1)
         )
       )
     )
@@ -2099,16 +2108,16 @@
   (symbol (lib_id "Device:C_Small") (at 97.155 42.545 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a692902c-7d5f-4558-a154-bada7dc3a78e)
-    (property "Reference" "C2" (at 99.695 41.2813 0)
+    (property "Reference" "C?" (at 99.695 41.2813 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7uF" (at 99.695 43.8213 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 97.155 42.545 0)
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" (at 97.155 42.545 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 97.155 42.545 0)
+    (property "Datasheet" "" (at 97.155 42.545 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "DigiKey Part Number" "" (at 97.155 42.545 0)
@@ -2125,10 +2134,10 @@
     (instances
       (project "cpu_board"
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/9cbcd73e-afcb-4ff3-8583-4372f7e826ca"
-          (reference "C2") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/7dc61a70-8d21-4309-b5a7-f9382e73e709"
-          (reference "C57") (unit 1)
+          (reference "C68") (unit 1)
         )
       )
     )
@@ -2137,16 +2146,16 @@
   (symbol (lib_id "Device:C_Small") (at 157.48 42.545 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a723babe-b051-46b8-a354-d4fffc5a161e)
-    (property "Reference" "C3" (at 160.02 41.2813 0)
+    (property "Reference" "C?" (at 160.02 41.2813 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 160.02 43.8213 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 157.48 42.545 0)
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" (at 157.48 42.545 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 157.48 42.545 0)
+    (property "Datasheet" "" (at 157.48 42.545 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "DigiKey Part Number" "" (at 157.48 42.545 0)
@@ -2163,10 +2172,10 @@
     (instances
       (project "cpu_board"
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/9cbcd73e-afcb-4ff3-8583-4372f7e826ca"
-          (reference "C3") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/7dc61a70-8d21-4309-b5a7-f9382e73e709"
-          (reference "C62") (unit 1)
+          (reference "C73") (unit 1)
         )
       )
     )
@@ -2175,7 +2184,7 @@
   (symbol (lib_id "power:GND") (at 86.995 45.085 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ac62c66a-9e41-4b58-a60a-5d62bacabdb7)
-    (property "Reference" "#PWR03" (at 86.995 51.435 0)
+    (property "Reference" "#PWR?" (at 86.995 51.435 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 86.995 50.165 0)
@@ -2191,10 +2200,10 @@
     (instances
       (project "cpu_board"
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/9cbcd73e-afcb-4ff3-8583-4372f7e826ca"
-          (reference "#PWR03") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/7dc61a70-8d21-4309-b5a7-f9382e73e709"
-          (reference "#PWR043") (unit 1)
+          (reference "#PWR056") (unit 1)
         )
       )
     )
@@ -2203,13 +2212,13 @@
   (symbol (lib_id "Device:FerriteBead_Small") (at 74.295 40.005 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b9400996-3e61-4bb0-b39b-bc61d60905cb)
-    (property "Reference" "FB1" (at 74.2569 33.655 90)
+    (property "Reference" "FB?" (at 74.2569 33.655 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "190mΩ" (at 74.2569 36.195 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 74.295 41.783 90)
+    (property "Footprint" "adcs:L0402_H0.55MM" (at 74.295 41.783 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 74.295 40.005 0)
@@ -2220,10 +2229,10 @@
     (instances
       (project "cpu_board"
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/9cbcd73e-afcb-4ff3-8583-4372f7e826ca"
-          (reference "FB1") (unit 1)
+          (reference "FB?") (unit 1)
         )
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/0a33bd80-4856-46ea-ab2b-780eb050e9ec"
-          (reference "FB5") (unit 1)
+          (reference "FB?") (unit 1)
         )
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/7dc61a70-8d21-4309-b5a7-f9382e73e709"
           (reference "FB6") (unit 1)
@@ -2235,16 +2244,16 @@
   (symbol (lib_id "Device:R_Small_US") (at 66.04 107.315 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c605f73f-c073-4db8-bec6-3a46b1117cdc)
-    (property "Reference" "R1" (at 68.58 106.045 0)
+    (property "Reference" "R?" (at 68.58 106.045 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "100k" (at 68.58 108.585 0)
+    (property "Value" "100kΩ" (at 68.58 108.585 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 66.04 107.315 0)
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" (at 66.04 107.315 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 66.04 107.315 0)
+    (property "Datasheet" "" (at 66.04 107.315 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid d5675d5b-d78c-44de-997d-50cb295f0331))
@@ -2252,16 +2261,16 @@
     (instances
       (project "cpu_board"
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/9cbcd73e-afcb-4ff3-8583-4372f7e826ca"
-          (reference "R1") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/41b8ad77-fc22-40ff-9aa2-f9a432177b3d"
-          (reference "R17") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/0a33bd80-4856-46ea-ab2b-780eb050e9ec"
-          (reference "R18") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/7dc61a70-8d21-4309-b5a7-f9382e73e709"
-          (reference "R25") (unit 1)
+          (reference "R29") (unit 1)
         )
       )
     )
@@ -2270,13 +2279,13 @@
   (symbol (lib_id "Device:R_Small_US") (at 111.76 81.915 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c8d0b936-538c-4110-89e6-7abfe4c285d9)
-    (property "Reference" "R1" (at 113.665 80.645 0)
+    (property "Reference" "R?" (at 113.665 80.645 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7K - DNP" (at 113.665 83.185 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 111.76 81.915 0)
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" (at 111.76 81.915 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 111.76 81.915 0)
@@ -2287,16 +2296,16 @@
     (instances
       (project "cpu_board"
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/9cbcd73e-afcb-4ff3-8583-4372f7e826ca"
-          (reference "R1") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/41b8ad77-fc22-40ff-9aa2-f9a432177b3d"
-          (reference "R17") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/0a33bd80-4856-46ea-ab2b-780eb050e9ec"
-          (reference "R18") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/7dc61a70-8d21-4309-b5a7-f9382e73e709"
-          (reference "R22") (unit 1)
+          (reference "R30") (unit 1)
         )
       )
     )
@@ -2305,16 +2314,16 @@
   (symbol (lib_id "Device:C_Small") (at 167.64 42.545 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e8441331-88ff-4e74-9b0a-f2b34e576d41)
-    (property "Reference" "C3" (at 170.18 41.2813 0)
+    (property "Reference" "C?" (at 170.18 41.2813 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 170.18 43.8213 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 167.64 42.545 0)
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" (at 167.64 42.545 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 167.64 42.545 0)
+    (property "Datasheet" "" (at 167.64 42.545 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "DigiKey Part Number" "" (at 167.64 42.545 0)
@@ -2331,10 +2340,10 @@
     (instances
       (project "cpu_board"
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/9cbcd73e-afcb-4ff3-8583-4372f7e826ca"
-          (reference "C3") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/7dc61a70-8d21-4309-b5a7-f9382e73e709"
-          (reference "C63") (unit 1)
+          (reference "C74") (unit 1)
         )
       )
     )

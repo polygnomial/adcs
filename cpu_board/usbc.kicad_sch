@@ -1352,13 +1352,13 @@
   (symbol (lib_id "Device:C_Small") (at 191.77 157.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 096dfb14-907b-4f97-b0df-861baf0b7147)
-    (property "Reference" "C55" (at 194.31 154.94 0)
+    (property "Reference" "C66" (at 194.31 154.94 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7uF" (at 194.31 157.48 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 191.77 157.48 0)
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" (at 191.77 157.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 191.77 157.48 0)
@@ -1372,12 +1372,12 @@
     (instances
       (project "cpu_board"
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/db53455c-7bb1-4978-a276-1508facfd1c0"
-          (reference "C55") (unit 1)
+          (reference "C66") (unit 1)
         )
       )
       (project "mainboard"
         (path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec60eb"
-          (reference "C29") (unit 1)
+          (reference "C?") (unit 1)
         )
       )
     )
@@ -1386,13 +1386,13 @@
   (symbol (lib_id "Device:R_US") (at 168.91 146.05 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2214b402-365d-45fd-b58a-ef47cbeb8cab)
-    (property "Reference" "R20" (at 166.37 143.51 0)
+    (property "Reference" "R27" (at 166.37 143.51 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "5.1k" (at 165.1 146.05 0)
+    (property "Value" "5.1kΩ" (at 165.1 146.05 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 169.926 145.796 90)
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" (at 169.926 145.796 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 168.91 146.05 0)
@@ -1406,12 +1406,12 @@
     (instances
       (project "cpu_board"
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/db53455c-7bb1-4978-a276-1508facfd1c0"
-          (reference "R20") (unit 1)
+          (reference "R27") (unit 1)
         )
       )
       (project "mainboard"
         (path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec60eb"
-          (reference "R39") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
     )
@@ -1420,7 +1420,7 @@
   (symbol (lib_id "power:GNDREF") (at 171.45 154.305 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 28719797-bbeb-4ffd-915b-5b049faaa084)
-    (property "Reference" "#PWR040" (at 171.45 160.655 0)
+    (property "Reference" "#PWR052" (at 171.45 160.655 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDREF" (at 171.577 158.6992 0)
@@ -1436,12 +1436,12 @@
     (instances
       (project "cpu_board"
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/db53455c-7bb1-4978-a276-1508facfd1c0"
-          (reference "#PWR040") (unit 1)
+          (reference "#PWR052") (unit 1)
         )
       )
       (project "mainboard"
         (path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec60eb"
-          (reference "#PWR0107") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -1450,13 +1450,13 @@
   (symbol (lib_id "Device:R_US") (at 171.45 143.51 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 36388bcf-6ed7-4b3c-bcac-7da80adf4d31)
-    (property "Reference" "R21" (at 168.91 140.97 0)
+    (property "Reference" "R28" (at 168.91 140.97 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "5.1k" (at 175.26 144.78 0)
+    (property "Value" "5.1kΩ" (at 175.26 144.78 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 172.466 143.256 90)
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" (at 172.466 143.256 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 171.45 143.51 0)
@@ -1470,12 +1470,12 @@
     (instances
       (project "cpu_board"
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/db53455c-7bb1-4978-a276-1508facfd1c0"
-          (reference "R21") (unit 1)
+          (reference "R28") (unit 1)
         )
       )
       (project "mainboard"
         (path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec60eb"
-          (reference "R40") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
     )
@@ -1484,13 +1484,13 @@
   (symbol (lib_id "Connector:TestPoint") (at 172.085 134.62 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3d607e75-45b1-4c42-af02-bd0132e24ca8)
-    (property "Reference" "TP9" (at 174.625 130.048 0)
+    (property "Reference" "TP10" (at 174.625 130.048 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TestPoint" (at 174.625 132.588 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 177.165 134.62 0)
+    (property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm" (at 177.165 134.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 177.165 134.62 0)
@@ -1500,7 +1500,7 @@
     (instances
       (project "cpu_board"
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/db53455c-7bb1-4978-a276-1508facfd1c0"
-          (reference "TP9") (unit 1)
+          (reference "TP10") (unit 1)
         )
       )
     )
@@ -1509,7 +1509,7 @@
   (symbol (lib_id "adcs:USBLC6-2SC6") (at 226.695 133.35 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3f0ad287-50e1-4d48-9b81-c1ec7bbb1816)
-    (property "Reference" "U3" (at 243.205 125.73 0)
+    (property "Reference" "U5" (at 243.205 125.73 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "USBLC6-2SC6" (at 243.205 128.27 0)
@@ -1539,7 +1539,7 @@
     (instances
       (project "cpu_board"
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/db53455c-7bb1-4978-a276-1508facfd1c0"
-          (reference "U3") (unit 1)
+          (reference "U5") (unit 1)
         )
       )
     )
@@ -1548,7 +1548,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 180.34 172.72 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4ccf3ec2-8e11-4871-824b-3b7be893402c)
-    (property "Reference" "#FLG05" (at 180.34 170.815 0)
+    (property "Reference" "#FLG?" (at 180.34 170.815 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 180.34 168.275 0)
@@ -1564,13 +1564,13 @@
     (instances
       (project "cpu_board"
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/0a33bd80-4856-46ea-ab2b-780eb050e9ec"
-          (reference "#FLG05") (unit 1)
+          (reference "#FLG?") (unit 1)
         )
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/9cbcd73e-afcb-4ff3-8583-4372f7e826ca"
-          (reference "#FLG011") (unit 1)
+          (reference "#FLG?") (unit 1)
         )
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/db53455c-7bb1-4978-a276-1508facfd1c0"
-          (reference "#FLG025") (unit 1)
+          (reference "#FLG021") (unit 1)
         )
       )
     )
@@ -1608,7 +1608,7 @@
       )
       (project "cpu_board"
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/db53455c-7bb1-4978-a276-1508facfd1c0"
-          (reference "IC15") (unit 1)
+          (reference "IC2") (unit 1)
         )
       )
     )
@@ -1650,7 +1650,7 @@
       )
       (project "mainboard"
         (path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec60eb"
-          (reference "J13") (unit 1)
+          (reference "J?") (unit 1)
         )
       )
     )
@@ -1659,7 +1659,7 @@
   (symbol (lib_id "power:GND") (at 211.455 146.05 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid be68772d-c390-4adb-9879-69abff73f83f)
-    (property "Reference" "#PWR042" (at 211.455 152.4 0)
+    (property "Reference" "#PWR054" (at 211.455 152.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 211.455 150.495 0)
@@ -1675,7 +1675,7 @@
     (instances
       (project "cpu_board"
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/db53455c-7bb1-4978-a276-1508facfd1c0"
-          (reference "#PWR042") (unit 1)
+          (reference "#PWR054") (unit 1)
         )
       )
     )
@@ -1684,7 +1684,7 @@
   (symbol (lib_id "power:GNDREF") (at 191.77 172.72 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c43d1bff-169e-4525-bd48-f3f79445b59c)
-    (property "Reference" "#PWR041" (at 191.77 179.07 0)
+    (property "Reference" "#PWR053" (at 191.77 179.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDREF" (at 191.897 177.1142 0)
@@ -1700,12 +1700,12 @@
     (instances
       (project "cpu_board"
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/db53455c-7bb1-4978-a276-1508facfd1c0"
-          (reference "#PWR041") (unit 1)
+          (reference "#PWR053") (unit 1)
         )
       )
       (project "mainboard"
         (path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec60eb"
-          (reference "#PWR0101") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )

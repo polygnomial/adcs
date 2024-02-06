@@ -4013,7 +4013,7 @@
   (symbol (lib_id "power:GND") (at 99.06 222.25 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 093efe32-9b61-476c-ba59-dce9f67ac81c)
-    (property "Reference" "#PWR049" (at 99.06 228.6 0)
+    (property "Reference" "#PWR?" (at 99.06 228.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 99.06 226.695 0)
@@ -4029,10 +4029,10 @@
     (instances
       (project "cpu_board"
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/cea27ea3-b252-471b-8ae3-89651d2bf5e1"
-          (reference "#PWR049") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/ff5944eb-9859-4dab-aeb3-20c6124220de"
-          (reference "#PWR049") (unit 1)
+          (reference "#PWR061") (unit 1)
         )
       )
     )
@@ -4041,7 +4041,7 @@
   (symbol (lib_id "power:GND") (at 310.515 219.075 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3a8efebd-6e7d-4384-ab27-85d35f9199d6)
-    (property "Reference" "#PWR061" (at 310.515 225.425 0)
+    (property "Reference" "#PWR?" (at 310.515 225.425 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 310.515 224.155 0)
@@ -4057,10 +4057,10 @@
     (instances
       (project "cpu_board"
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/cea27ea3-b252-471b-8ae3-89651d2bf5e1"
-          (reference "#PWR061") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/ff5944eb-9859-4dab-aeb3-20c6124220de"
-          (reference "#PWR061") (unit 1)
+          (reference "#PWR064") (unit 1)
         )
       )
     )
@@ -4069,7 +4069,7 @@
   (symbol (lib_id "power:GND") (at 282.575 216.535 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a449f62f-96cd-4d68-804a-6dcd96fe902b)
-    (property "Reference" "#PWR060" (at 282.575 222.885 0)
+    (property "Reference" "#PWR?" (at 282.575 222.885 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 282.575 221.615 0)
@@ -4085,10 +4085,10 @@
     (instances
       (project "cpu_board"
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/cea27ea3-b252-471b-8ae3-89651d2bf5e1"
-          (reference "#PWR060") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/ff5944eb-9859-4dab-aeb3-20c6124220de"
-          (reference "#PWR060") (unit 1)
+          (reference "#PWR063") (unit 1)
         )
       )
     )
@@ -4097,7 +4097,7 @@
   (symbol (lib_id "power:GND") (at 127 222.25 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ea6a658c-4ed3-4162-81a8-27cc67b17528)
-    (property "Reference" "#PWR059" (at 127 228.6 0)
+    (property "Reference" "#PWR?" (at 127 228.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 127 226.695 0)
@@ -4113,10 +4113,10 @@
     (instances
       (project "cpu_board"
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/cea27ea3-b252-471b-8ae3-89651d2bf5e1"
-          (reference "#PWR059") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/ff5944eb-9859-4dab-aeb3-20c6124220de"
-          (reference "#PWR059") (unit 1)
+          (reference "#PWR062") (unit 1)
         )
       )
     )
@@ -4125,13 +4125,13 @@
   (symbol (lib_id "08 B2B-SchDoc-rescue:__Template_Connector_2X50_4MH-") (at 106.68 80.01 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f35f7efc-13f3-4a64-98e0-43121abede53)
-    (property "Reference" "J5" (at 106.68 80.01 0)
+    (property "Reference" "J?" (at 106.68 80.01 0)
       (effects (font (size 1.524 1.524)) (justify left bottom))
     )
     (property "Value" "~" (at 106.68 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "" (at 106.68 80.01 0)
+    (property "Footprint" "adcs:HIROSE_DF40C-100DP-0.4V(51)" (at 106.68 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 106.68 80.01 0)
@@ -4139,6 +4139,15 @@
     )
     (property "MFG P/N" "DF40C-100DP-0.4V(51)" (at -25.4 44.45 90)
       (effects (font (size 1.524 1.524)) hide)
+    )
+    (property "DigiKey Part Number" "" (at 106.68 80.01 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Tolerance" "" (at 106.68 80.01 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Power Rating" "" (at 106.68 80.01 0)
+      (effects (font (size 1.27 1.27)))
     )
     (pin "1" (uuid 2f0aa565-6647-4bd1-b284-fbe823dac865))
     (pin "10" (uuid 5bc29c67-5f14-4f3a-a6f4-637753557c6d))
@@ -4247,17 +4256,17 @@
     (instances
       (project "Coral Dev Board Micro"
         (path "/3efafd4f-4e9e-4d6c-82b6-6bc1fb98e0f8/ba822271-db94-49cf-93b4-1e7f9f1851d4"
-          (reference "J5") (unit 1)
+          (reference "J?") (unit 1)
         )
       )
       (project "08 B2B-SchDoc"
         (path "/4f9f56e7-d075-4ee5-a15b-9abd41bb678e"
-          (reference "J5") (unit 1)
+          (reference "J?") (unit 1)
         )
       )
       (project "cpu_board"
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/cea27ea3-b252-471b-8ae3-89651d2bf5e1"
-          (reference "J8") (unit 1)
+          (reference "J?") (unit 1)
         )
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/ff5944eb-9859-4dab-aeb3-20c6124220de"
           (reference "J8") (unit 1)
@@ -4269,13 +4278,13 @@
   (symbol (lib_id "08 B2B-SchDoc-rescue:__Template_Connector_2X50_4MH-") (at 290.195 76.835 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f62eb4c2-99fd-4829-8b67-aa8ae2d113d0)
-    (property "Reference" "J6" (at 290.195 76.835 0)
+    (property "Reference" "J?" (at 290.195 76.835 0)
       (effects (font (size 1.524 1.524)) (justify left bottom))
     )
     (property "Value" "~" (at 290.195 76.835 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "" (at 290.195 76.835 0)
+    (property "Footprint" "adcs:HIROSE_DF40C-100DP-0.4V(51)" (at 290.195 76.835 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 290.195 76.835 0)
@@ -4569,6 +4578,15 @@
     (property "CrossRef" "6" (at -80.645 41.275 90)
       (effects (font (size 1.524 1.524)) hide)
     )
+    (property "DigiKey Part Number" "" (at 290.195 76.835 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Tolerance" "" (at 290.195 76.835 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Power Rating" "" (at 290.195 76.835 0)
+      (effects (font (size 1.27 1.27)))
+    )
     (pin "1" (uuid f6cdf9d2-91f1-4bff-a6f4-e057900d6f39))
     (pin "10" (uuid a595a873-44ce-45cd-bac0-55f0e281fbb3))
     (pin "100" (uuid 00a0a488-822e-48ea-bca7-9178294e6217))
@@ -4676,17 +4694,17 @@
     (instances
       (project "Coral Dev Board Micro"
         (path "/3efafd4f-4e9e-4d6c-82b6-6bc1fb98e0f8/ba822271-db94-49cf-93b4-1e7f9f1851d4"
-          (reference "J6") (unit 1)
+          (reference "J?") (unit 1)
         )
       )
       (project "08 B2B-SchDoc"
         (path "/4f9f56e7-d075-4ee5-a15b-9abd41bb678e"
-          (reference "J6") (unit 1)
+          (reference "J?") (unit 1)
         )
       )
       (project "cpu_board"
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/cea27ea3-b252-471b-8ae3-89651d2bf5e1"
-          (reference "J9") (unit 1)
+          (reference "J?") (unit 1)
         )
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/ff5944eb-9859-4dab-aeb3-20c6124220de"
           (reference "J9") (unit 1)
