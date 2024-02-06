@@ -34,14 +34,14 @@
             (xy 1.016 -0.381)
             (xy 0 -0.762)
             (xy -1.016 -1.143)
-            (xy 0 -1.524)
+            (xy 0 -1.27)
           )
           (stroke (width 0) (type default))
           (fill (type none))
         )
         (polyline
           (pts
-            (xy 0 1.524)
+            (xy 0 1.27)
             (xy 1.016 1.143)
             (xy 0 0.762)
             (xy -1.016 0.381)
@@ -101,7 +101,7 @@
         )
         (polyline
           (pts
-            (xy -1.524 -2.3876)
+            (xy -1.27 -2.3876)
             (xy 2.3622 -1.3462)
           )
           (stroke (width 0) (type default))
@@ -109,7 +109,7 @@
         )
         (polyline
           (pts
-            (xy -1.524 0.127)
+            (xy -1.27 0.127)
             (xy 2.3622 1.1684)
           )
           (stroke (width 0) (type default))
@@ -117,7 +117,7 @@
         )
         (polyline
           (pts
-            (xy -1.524 2.667)
+            (xy -1.27 2.667)
             (xy 2.3622 3.7084)
           )
           (stroke (width 0) (type default))
@@ -125,7 +125,7 @@
         )
         (polyline
           (pts
-            (xy -1.524 5.207)
+            (xy -1.27 5.207)
             (xy 2.3622 6.2484)
           )
           (stroke (width 0) (type default))
@@ -254,7 +254,7 @@
         )
         (polyline
           (pts
-            (xy -1.524 -10.0076)
+            (xy -1.27 -10.0076)
             (xy 2.3622 -8.9662)
           )
           (stroke (width 0) (type default))
@@ -262,7 +262,7 @@
         )
         (polyline
           (pts
-            (xy -1.524 -7.4676)
+            (xy -1.27 -7.4676)
             (xy 2.3622 -6.4262)
           )
           (stroke (width 0) (type default))
@@ -270,7 +270,7 @@
         )
         (polyline
           (pts
-            (xy -1.524 -4.9276)
+            (xy -1.27 -4.9276)
             (xy 2.3622 -3.8862)
           )
           (stroke (width 0) (type default))
@@ -278,7 +278,7 @@
         )
         (polyline
           (pts
-            (xy -1.524 -2.3876)
+            (xy -1.27 -2.3876)
             (xy 2.3622 -1.3462)
           )
           (stroke (width 0) (type default))
@@ -286,7 +286,7 @@
         )
         (polyline
           (pts
-            (xy -1.524 0.127)
+            (xy -1.27 0.127)
             (xy 2.3622 1.1684)
           )
           (stroke (width 0) (type default))
@@ -294,7 +294,7 @@
         )
         (polyline
           (pts
-            (xy -1.524 2.667)
+            (xy -1.27 2.667)
             (xy 2.3622 3.7084)
           )
           (stroke (width 0) (type default))
@@ -302,7 +302,7 @@
         )
         (polyline
           (pts
-            (xy -1.524 5.207)
+            (xy -1.27 5.207)
             (xy 2.3622 6.2484)
           )
           (stroke (width 0) (type default))
@@ -310,7 +310,7 @@
         )
         (polyline
           (pts
-            (xy -1.524 7.747)
+            (xy -1.27 7.747)
             (xy 2.3622 8.7884)
           )
           (stroke (width 0) (type default))
@@ -318,7 +318,7 @@
         )
         (polyline
           (pts
-            (xy -1.524 10.287)
+            (xy -1.27 10.287)
             (xy 2.3622 11.3284)
           )
           (stroke (width 0) (type default))
@@ -326,7 +326,7 @@
         )
         (polyline
           (pts
-            (xy -1.524 12.827)
+            (xy -1.27 12.827)
             (xy 2.3622 13.8684)
           )
           (stroke (width 0) (type default))
@@ -1071,7 +1071,7 @@
     (uuid 07affce6-9947-4239-b022-5a0c2f163ce1)
   )
   (text "11" (at 248.92 170.18 0)
-    (effects (font (size 1.524 1.524) (thickness 0.3048) bold) (justify left bottom))
+    (effects (font (size 1.27 1.27) (thickness 0.3048) bold) (justify left bottom))
     (uuid 1007a7a8-137d-4726-8163-a7f5ae1fc61b)
   )
   (text "BT_CFG[10]" (at 136.525 158.75 0)
@@ -1079,7 +1079,7 @@
     (uuid 2f1e6b79-81bc-4ff3-b87e-f92438cb628b)
   )
   (text "10" (at 248.92 160.02 0)
-    (effects (font (size 1.524 1.524) (thickness 0.3048) bold) (justify left bottom))
+    (effects (font (size 1.27 1.27) (thickness 0.3048) bold) (justify left bottom))
     (uuid 35eaa0ae-5c68-4608-9c4e-2990620dee59)
   )
   (text "BT_CFG[6]" (at 136.525 146.05 0)
@@ -1107,7 +1107,7 @@
     (uuid 7d08b833-6be7-4bbb-8098-a59b35a80eb0)
   )
   (text "00" (at 248.92 139.7 0)
-    (effects (font (size 1.524 1.524) (thickness 0.3048) bold) (justify left bottom))
+    (effects (font (size 1.27 1.27) (thickness 0.3048) bold) (justify left bottom))
     (uuid 7eacbe32-d35f-46af-a898-58d7f4cb095a)
   )
   (text "Boot From Fuses" (at 303.784 139.192 0)
@@ -1139,7 +1139,7 @@
     (uuid b84f98fd-df4a-487c-a944-d251513e5915)
   )
   (text "01" (at 248.92 149.86 0)
-    (effects (font (size 1.524 1.524) (thickness 0.3048) bold) (justify left bottom))
+    (effects (font (size 1.27 1.27) (thickness 0.3048) bold) (justify left bottom))
     (uuid ca154f3f-e903-469e-a47f-146cd364c3e2)
   )
   (text "BOOT_MODE[0]" (at 136.525 168.275 0)
@@ -1233,7 +1233,7 @@
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
-  (global_label "VDD_3V3_" (shape passive) (at 132.715 78.105 0) (fields_autoplaced)
+  (global_label "VDD_3V3_" (shape bidirectional) (at 132.715 78.105 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 7ad660de-d5d3-4b67-a2bb-c595a6d3e505)
     (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 143.6603 78.105 0)
@@ -1247,7 +1247,7 @@
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
-  (global_label "VDD_1V8" (shape passive) (at 109.22 78.105 180) (fields_autoplaced)
+  (global_label "VDD_1V8" (shape bidirectional) (at 109.22 78.105 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 98d9b574-ca2d-4b61-8233-2b310956b520)
     (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 99.2423 78.105 0)
@@ -1261,7 +1261,7 @@
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
-  (global_label "VDD_3V3" (shape passive) (at 158.115 78.105 0) (fields_autoplaced)
+  (global_label "VDD_3V3" (shape bidirectional) (at 158.115 78.105 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid de257663-1e4c-4698-984d-aa3f1f628d8e)
     (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 168.0927 78.105 0)

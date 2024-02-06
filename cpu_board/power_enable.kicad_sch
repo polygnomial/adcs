@@ -361,14 +361,14 @@
         (polyline
           (pts
             (xy -2.159 1.016)
-            (xy -1.524 -1.016)
+            (xy -1.27 -1.016)
           )
           (stroke (width 0) (type default))
           (fill (type none))
         )
         (polyline
           (pts
-            (xy -1.524 -1.016)
+            (xy -1.27 -1.016)
             (xy -0.889 1.016)
           )
           (stroke (width 0) (type default))
@@ -473,10 +473,10 @@
       )
     )
     (symbol "pycubed_mainboard:10NF_10000PF-50V-10%(0603)" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-      (property "Reference" "C" (at 1.524 2.921 0)
+      (property "Reference" "C" (at 1.27 2.921 0)
         (effects (font (size 1.4986 1.4986)) (justify left bottom))
       )
-      (property "Value" "10NF_10000PF-50V-10%(0603)" (at 1.524 -2.159 0)
+      (property "Value" "10NF_10000PF-50V-10%(0603)" (at 1.27 -2.159 0)
         (effects (font (size 1.4986 1.4986)) (justify left bottom))
       )
       (property "Footprint" "" (at 0 0 0)
@@ -493,7 +493,7 @@
           (stroke (width 0) (type default))
           (fill (type outline))
         )
-        (rectangle (start -2.032 1.524) (end 2.032 2.032)
+        (rectangle (start -2.032 1.27) (end 2.032 2.032)
           (stroke (width 0) (type default))
           (fill (type outline))
         )
