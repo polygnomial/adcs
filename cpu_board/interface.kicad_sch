@@ -853,7 +853,7 @@
     (effects (font (size 0.889 0.889)) (justify left bottom))
     (uuid a34e1679-a0c1-4d2d-ac43-2fbe3606f28f)
   )
-  (text "RBF Harness" (at 157.1498 140.1826 0)
+  (text "RBF Harness" (at 157.48 139.7 0)
     (effects (font (size 2.54 2.54)) (justify left bottom))
     (uuid b18398ee-4714-4939-9038-ef7a559d7c41)
   )
