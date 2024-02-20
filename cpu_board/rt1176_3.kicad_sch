@@ -2664,7 +2664,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/0a33bd80-4856-46ea-ab2b-780eb050e9ec"
-          (reference "#PWR042") (unit 1)
+          (reference "#PWR043") (unit 1)
         )
       )
     )
@@ -2937,7 +2937,7 @@
   (symbol (lib_id "power:GND") (at 141.605 174.625 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 32678b24-4088-4f81-881a-68d028e953f4)
-    (property "Reference" "#PWR043" (at 141.605 180.975 0)
+    (property "Reference" "#PWR044" (at 141.605 180.975 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 141.605 179.705 0)
@@ -2953,7 +2953,7 @@
     (instances
       (project "cpu_board"
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/0a33bd80-4856-46ea-ab2b-780eb050e9ec"
-          (reference "#PWR043") (unit 1)
+          (reference "#PWR044") (unit 1)
         )
       )
     )
@@ -2962,7 +2962,7 @@
   (symbol (lib_id "power:GND") (at 311.785 175.895 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3ba256a9-a40a-4561-a378-12264aa27740)
-    (property "Reference" "#PWR049" (at 311.785 182.245 0)
+    (property "Reference" "#PWR050" (at 311.785 182.245 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 311.785 180.975 0)
@@ -2978,7 +2978,7 @@
     (instances
       (project "cpu_board"
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/0a33bd80-4856-46ea-ab2b-780eb050e9ec"
-          (reference "#PWR049") (unit 1)
+          (reference "#PWR050") (unit 1)
         )
       )
     )
@@ -3015,7 +3015,7 @@
   (symbol (lib_id "power:GND") (at 304.8 170.815 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4ed0a13f-970f-4764-829c-7f989d35cac1)
-    (property "Reference" "#PWR048" (at 304.8 177.165 0)
+    (property "Reference" "#PWR049" (at 304.8 177.165 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 304.8 175.895 0)
@@ -3031,7 +3031,7 @@
     (instances
       (project "cpu_board"
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/0a33bd80-4856-46ea-ab2b-780eb050e9ec"
-          (reference "#PWR048") (unit 1)
+          (reference "#PWR049") (unit 1)
         )
       )
     )
@@ -3040,13 +3040,13 @@
   (symbol (lib_id "Connector:TestPoint") (at 163.83 230.505 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 554ae061-674c-4e3b-8a5c-8925a323ac70)
-    (property "Reference" "TP13" (at 165.735 225.933 0)
+    (property "Reference" "TP4" (at 165.735 225.933 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TestPoint" (at 165.735 228.473 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm" (at 168.91 230.505 0)
+    (property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm" (at 168.91 230.505 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 168.91 230.505 0)
@@ -3055,7 +3055,7 @@
     (property "Description" "Testpoints" (at 163.83 230.505 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "JLCPCB P/N" "" (at 163.83 230.505 0)
+    (property "JLCPCB P/N" "C221678" (at 163.83 230.505 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "JLCPCB P/N Proto" "" (at 163.83 230.505 0)
@@ -3071,7 +3071,7 @@
     (instances
       (project "cpu_board"
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/0a33bd80-4856-46ea-ab2b-780eb050e9ec"
-          (reference "TP13") (unit 1)
+          (reference "TP4") (unit 1)
         )
       )
     )
@@ -3080,13 +3080,13 @@
   (symbol (lib_id "Connector:TestPoint") (at 170.815 172.085 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 648b54bc-34f0-4362-9e7e-201606f0fae7)
-    (property "Reference" "TP19" (at 172.72 167.513 0)
+    (property "Reference" "TP6" (at 172.72 167.513 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TestPoint" (at 172.72 170.053 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm" (at 175.895 172.085 0)
+    (property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm" (at 175.895 172.085 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 175.895 172.085 0)
@@ -3095,7 +3095,7 @@
     (property "Description" "Testpoints" (at 170.815 172.085 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "JLCPCB P/N" "" (at 170.815 172.085 0)
+    (property "JLCPCB P/N" "C221678" (at 170.815 172.085 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "JLCPCB P/N Proto" "" (at 170.815 172.085 0)
@@ -3111,7 +3111,7 @@
     (instances
       (project "cpu_board"
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/0a33bd80-4856-46ea-ab2b-780eb050e9ec"
-          (reference "TP19") (unit 1)
+          (reference "TP6") (unit 1)
         )
       )
     )
@@ -3120,7 +3120,7 @@
   (symbol (lib_id "power:GND") (at 295.91 165.735 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6b7b245a-b24e-4203-a89e-0fa7730d968b)
-    (property "Reference" "#PWR047" (at 295.91 172.085 0)
+    (property "Reference" "#PWR048" (at 295.91 172.085 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 295.91 170.815 0)
@@ -3136,7 +3136,7 @@
     (instances
       (project "cpu_board"
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/0a33bd80-4856-46ea-ab2b-780eb050e9ec"
-          (reference "#PWR047") (unit 1)
+          (reference "#PWR048") (unit 1)
         )
       )
     )
@@ -3214,7 +3214,7 @@
   (symbol (lib_id "power:GND") (at 295.91 147.955 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 78e5cc0a-eae6-4c2c-a519-d9dfa53a8336)
-    (property "Reference" "#PWR046" (at 295.91 154.305 0)
+    (property "Reference" "#PWR047" (at 295.91 154.305 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 295.91 153.035 0)
@@ -3230,7 +3230,7 @@
     (instances
       (project "cpu_board"
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/0a33bd80-4856-46ea-ab2b-780eb050e9ec"
-          (reference "#PWR046") (unit 1)
+          (reference "#PWR047") (unit 1)
         )
       )
     )
@@ -3239,7 +3239,7 @@
   (symbol (lib_id "power:GND") (at 287.655 79.375 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 79873e83-5f46-4601-81e1-ad00bd63ef67)
-    (property "Reference" "#PWR044" (at 287.655 85.725 0)
+    (property "Reference" "#PWR045" (at 287.655 85.725 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 287.655 84.455 0)
@@ -3255,7 +3255,7 @@
     (instances
       (project "cpu_board"
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/0a33bd80-4856-46ea-ab2b-780eb050e9ec"
-          (reference "#PWR044") (unit 1)
+          (reference "#PWR045") (unit 1)
         )
       )
     )
@@ -3428,13 +3428,13 @@
   (symbol (lib_id "Connector:TestPoint") (at 170.815 169.545 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8ec15457-d497-4b6a-84f2-de759016d30b)
-    (property "Reference" "TP17" (at 172.72 164.973 0)
+    (property "Reference" "TP5" (at 172.72 164.973 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TestPoint" (at 172.72 167.513 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm" (at 175.895 169.545 0)
+    (property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm" (at 175.895 169.545 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 175.895 169.545 0)
@@ -3443,7 +3443,7 @@
     (property "Description" "Testpoints" (at 170.815 169.545 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "JLCPCB P/N" "" (at 170.815 169.545 0)
+    (property "JLCPCB P/N" "C221678" (at 170.815 169.545 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "JLCPCB P/N Proto" "" (at 170.815 169.545 0)
@@ -3459,7 +3459,7 @@
     (instances
       (project "cpu_board"
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/0a33bd80-4856-46ea-ab2b-780eb050e9ec"
-          (reference "TP17") (unit 1)
+          (reference "TP5") (unit 1)
         )
       )
     )
@@ -3887,7 +3887,7 @@
           (reference "R?") (unit 1)
         )
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/0a33bd80-4856-46ea-ab2b-780eb050e9ec"
-          (reference "R20") (unit 1)
+          (reference "R15") (unit 1)
         )
       )
     )
@@ -3997,7 +3997,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/0a33bd80-4856-46ea-ab2b-780eb050e9ec"
-          (reference "#PWR041") (unit 1)
+          (reference "#PWR042") (unit 1)
         )
       )
     )
@@ -4006,7 +4006,7 @@
   (symbol (lib_id "power:GND") (at 287.655 94.615 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d70e40b9-3337-4e2f-b973-7e2220e59929)
-    (property "Reference" "#PWR045" (at 287.655 100.965 0)
+    (property "Reference" "#PWR046" (at 287.655 100.965 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 287.655 99.695 0)
@@ -4022,7 +4022,7 @@
     (instances
       (project "cpu_board"
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/0a33bd80-4856-46ea-ab2b-780eb050e9ec"
-          (reference "#PWR045") (unit 1)
+          (reference "#PWR046") (unit 1)
         )
       )
     )

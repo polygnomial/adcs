@@ -1133,10 +1133,10 @@
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
-  (global_label "VDD_3V3_" (shape bidirectional) (at 132.715 78.105 0) (fields_autoplaced)
+  (global_label "VDD_3V3" (shape bidirectional) (at 132.715 78.105 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 7ad660de-d5d3-4b67-a2bb-c595a6d3e505)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 143.6603 78.105 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 144.9153 78.105 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
@@ -1227,10 +1227,10 @@
           (reference "R?") (unit 1)
         )
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/cea27ea3-b252-471b-8ae3-89651d2bf5e1"
-          (reference "R40") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/95b2d6af-eaff-4ad3-a3d4-1ab23407d141"
-          (reference "R58") (unit 1)
+          (reference "R37") (unit 1)
         )
       )
     )
@@ -1280,10 +1280,10 @@
           (reference "R?") (unit 1)
         )
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/cea27ea3-b252-471b-8ae3-89651d2bf5e1"
-          (reference "R40") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/95b2d6af-eaff-4ad3-a3d4-1ab23407d141"
-          (reference "R56") (unit 1)
+          (reference "R63") (unit 1)
         )
       )
     )
@@ -1333,10 +1333,10 @@
           (reference "R?") (unit 1)
         )
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/cea27ea3-b252-471b-8ae3-89651d2bf5e1"
-          (reference "R40") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/95b2d6af-eaff-4ad3-a3d4-1ab23407d141"
-          (reference "R54") (unit 1)
+          (reference "R61") (unit 1)
         )
       )
     )
@@ -1395,10 +1395,10 @@
           (reference "R?") (unit 1)
         )
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/cea27ea3-b252-471b-8ae3-89651d2bf5e1"
-          (reference "R40") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/95b2d6af-eaff-4ad3-a3d4-1ab23407d141"
-          (reference "R61") (unit 1)
+          (reference "R40") (unit 1)
         )
       )
     )
@@ -1448,10 +1448,10 @@
           (reference "R?") (unit 1)
         )
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/cea27ea3-b252-471b-8ae3-89651d2bf5e1"
-          (reference "R40") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/95b2d6af-eaff-4ad3-a3d4-1ab23407d141"
-          (reference "R60") (unit 1)
+          (reference "R39") (unit 1)
         )
       )
     )
@@ -1501,10 +1501,10 @@
           (reference "R?") (unit 1)
         )
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/cea27ea3-b252-471b-8ae3-89651d2bf5e1"
-          (reference "R40") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/95b2d6af-eaff-4ad3-a3d4-1ab23407d141"
-          (reference "R52") (unit 1)
+          (reference "R59") (unit 1)
         )
       )
     )
@@ -1554,10 +1554,10 @@
           (reference "R?") (unit 1)
         )
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/cea27ea3-b252-471b-8ae3-89651d2bf5e1"
-          (reference "R40") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/95b2d6af-eaff-4ad3-a3d4-1ab23407d141"
-          (reference "R53") (unit 1)
+          (reference "R60") (unit 1)
         )
       )
     )
@@ -1607,10 +1607,10 @@
           (reference "R?") (unit 1)
         )
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/cea27ea3-b252-471b-8ae3-89651d2bf5e1"
-          (reference "R40") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/95b2d6af-eaff-4ad3-a3d4-1ab23407d141"
-          (reference "R64") (unit 1)
+          (reference "R43") (unit 1)
         )
       )
     )
@@ -1669,10 +1669,10 @@
           (reference "R?") (unit 1)
         )
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/cea27ea3-b252-471b-8ae3-89651d2bf5e1"
-          (reference "R40") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/95b2d6af-eaff-4ad3-a3d4-1ab23407d141"
-          (reference "R69") (unit 1)
+          (reference "R48") (unit 1)
         )
       )
     )
@@ -1722,10 +1722,10 @@
           (reference "R?") (unit 1)
         )
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/cea27ea3-b252-471b-8ae3-89651d2bf5e1"
-          (reference "R40") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/95b2d6af-eaff-4ad3-a3d4-1ab23407d141"
-          (reference "R47") (unit 1)
+          (reference "R54") (unit 1)
         )
       )
     )
@@ -1775,10 +1775,10 @@
           (reference "R?") (unit 1)
         )
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/cea27ea3-b252-471b-8ae3-89651d2bf5e1"
-          (reference "R40") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/95b2d6af-eaff-4ad3-a3d4-1ab23407d141"
-          (reference "R45") (unit 1)
+          (reference "R52") (unit 1)
         )
       )
     )
@@ -1828,10 +1828,10 @@
           (reference "R?") (unit 1)
         )
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/cea27ea3-b252-471b-8ae3-89651d2bf5e1"
-          (reference "R40") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/95b2d6af-eaff-4ad3-a3d4-1ab23407d141"
-          (reference "R62") (unit 1)
+          (reference "R41") (unit 1)
         )
       )
     )
@@ -1890,10 +1890,10 @@
           (reference "R?") (unit 1)
         )
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/cea27ea3-b252-471b-8ae3-89651d2bf5e1"
-          (reference "R40") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/95b2d6af-eaff-4ad3-a3d4-1ab23407d141"
-          (reference "R73") (unit 1)
+          (reference "R49") (unit 1)
         )
       )
     )
@@ -1902,7 +1902,7 @@
   (symbol (lib_id "power:GND") (at 90.17 171.45 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 724c2144-779a-4073-8bb6-cf1e58626998)
-    (property "Reference" "#PWR067" (at 90.17 177.8 0)
+    (property "Reference" "#PWR068" (at 90.17 177.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 90.17 176.53 0)
@@ -1918,7 +1918,7 @@
     (instances
       (project "cpu_board"
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/95b2d6af-eaff-4ad3-a3d4-1ab23407d141"
-          (reference "#PWR067") (unit 1)
+          (reference "#PWR068") (unit 1)
         )
       )
     )
@@ -1968,10 +1968,10 @@
           (reference "R?") (unit 1)
         )
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/cea27ea3-b252-471b-8ae3-89651d2bf5e1"
-          (reference "R40") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/95b2d6af-eaff-4ad3-a3d4-1ab23407d141"
-          (reference "R46") (unit 1)
+          (reference "R53") (unit 1)
         )
       )
     )
@@ -2021,10 +2021,10 @@
           (reference "R?") (unit 1)
         )
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/cea27ea3-b252-471b-8ae3-89651d2bf5e1"
-          (reference "R40") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/95b2d6af-eaff-4ad3-a3d4-1ab23407d141"
-          (reference "R66") (unit 1)
+          (reference "R45") (unit 1)
         )
       )
     )
@@ -2074,10 +2074,10 @@
           (reference "R?") (unit 1)
         )
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/cea27ea3-b252-471b-8ae3-89651d2bf5e1"
-          (reference "R40") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/95b2d6af-eaff-4ad3-a3d4-1ab23407d141"
-          (reference "R51") (unit 1)
+          (reference "R58") (unit 1)
         )
       )
     )
@@ -2127,10 +2127,10 @@
           (reference "R?") (unit 1)
         )
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/cea27ea3-b252-471b-8ae3-89651d2bf5e1"
-          (reference "R40") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/95b2d6af-eaff-4ad3-a3d4-1ab23407d141"
-          (reference "R48") (unit 1)
+          (reference "R55") (unit 1)
         )
       )
     )
@@ -2180,10 +2180,10 @@
           (reference "R?") (unit 1)
         )
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/cea27ea3-b252-471b-8ae3-89651d2bf5e1"
-          (reference "R40") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/95b2d6af-eaff-4ad3-a3d4-1ab23407d141"
-          (reference "R68") (unit 1)
+          (reference "R47") (unit 1)
         )
       )
     )
@@ -2233,10 +2233,10 @@
           (reference "R?") (unit 1)
         )
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/cea27ea3-b252-471b-8ae3-89651d2bf5e1"
-          (reference "R40") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/95b2d6af-eaff-4ad3-a3d4-1ab23407d141"
-          (reference "R50") (unit 1)
+          (reference "R57") (unit 1)
         )
       )
     )
@@ -2286,10 +2286,10 @@
           (reference "R?") (unit 1)
         )
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/cea27ea3-b252-471b-8ae3-89651d2bf5e1"
-          (reference "R40") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/95b2d6af-eaff-4ad3-a3d4-1ab23407d141"
-          (reference "R55") (unit 1)
+          (reference "R62") (unit 1)
         )
       )
     )
@@ -2339,10 +2339,10 @@
           (reference "R?") (unit 1)
         )
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/cea27ea3-b252-471b-8ae3-89651d2bf5e1"
-          (reference "R40") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/95b2d6af-eaff-4ad3-a3d4-1ab23407d141"
-          (reference "R57") (unit 1)
+          (reference "R64") (unit 1)
         )
       )
     )
@@ -2401,10 +2401,10 @@
           (reference "R?") (unit 1)
         )
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/cea27ea3-b252-471b-8ae3-89651d2bf5e1"
-          (reference "R40") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/95b2d6af-eaff-4ad3-a3d4-1ab23407d141"
-          (reference "R65") (unit 1)
+          (reference "R44") (unit 1)
         )
       )
     )
@@ -2454,10 +2454,10 @@
           (reference "R?") (unit 1)
         )
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/cea27ea3-b252-471b-8ae3-89651d2bf5e1"
-          (reference "R40") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/95b2d6af-eaff-4ad3-a3d4-1ab23407d141"
-          (reference "R49") (unit 1)
+          (reference "R56") (unit 1)
         )
       )
     )
@@ -2507,10 +2507,10 @@
           (reference "R?") (unit 1)
         )
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/cea27ea3-b252-471b-8ae3-89651d2bf5e1"
-          (reference "R40") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/95b2d6af-eaff-4ad3-a3d4-1ab23407d141"
-          (reference "R44") (unit 1)
+          (reference "R51") (unit 1)
         )
       )
     )
@@ -2569,10 +2569,10 @@
           (reference "R?") (unit 1)
         )
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/cea27ea3-b252-471b-8ae3-89651d2bf5e1"
-          (reference "R40") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/95b2d6af-eaff-4ad3-a3d4-1ab23407d141"
-          (reference "R59") (unit 1)
+          (reference "R38") (unit 1)
         )
       )
     )
@@ -2631,10 +2631,10 @@
           (reference "R?") (unit 1)
         )
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/cea27ea3-b252-471b-8ae3-89651d2bf5e1"
-          (reference "R40") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/95b2d6af-eaff-4ad3-a3d4-1ab23407d141"
-          (reference "R63") (unit 1)
+          (reference "R42") (unit 1)
         )
       )
     )
@@ -2643,7 +2643,7 @@
   (symbol (lib_id "Switch:SW_DIP_x10") (at 122.555 91.44 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e1447416-9394-40a4-81a8-7b6c5222ca3f)
-    (property "Reference" "SW1" (at 106.045 90.17 90)
+    (property "Reference" "SW2" (at 106.045 90.17 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SW_DIP_x10" (at 106.045 92.71 90)
@@ -2693,7 +2693,7 @@
     (instances
       (project "cpu_board"
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/95b2d6af-eaff-4ad3-a3d4-1ab23407d141"
-          (reference "SW1") (unit 1)
+          (reference "SW2") (unit 1)
         )
       )
     )
@@ -2752,10 +2752,10 @@
           (reference "R?") (unit 1)
         )
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/cea27ea3-b252-471b-8ae3-89651d2bf5e1"
-          (reference "R40") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/95b2d6af-eaff-4ad3-a3d4-1ab23407d141"
-          (reference "R74") (unit 1)
+          (reference "R50") (unit 1)
         )
       )
     )
@@ -2814,10 +2814,10 @@
           (reference "R?") (unit 1)
         )
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/cea27ea3-b252-471b-8ae3-89651d2bf5e1"
-          (reference "R40") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/95b2d6af-eaff-4ad3-a3d4-1ab23407d141"
-          (reference "R67") (unit 1)
+          (reference "R46") (unit 1)
         )
       )
     )
@@ -2826,7 +2826,7 @@
   (symbol (lib_id "Switch:SW_DIP_x04") (at 155.575 91.44 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f78bd8dc-7988-4071-84d7-66ca3bdb989a)
-    (property "Reference" "SW2" (at 162.56 90.17 90)
+    (property "Reference" "SW3" (at 162.56 90.17 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "SW_DIP_x04" (at 162.56 92.71 90)
@@ -2864,7 +2864,7 @@
     (instances
       (project "cpu_board"
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/95b2d6af-eaff-4ad3-a3d4-1ab23407d141"
-          (reference "SW2") (unit 1)
+          (reference "SW3") (unit 1)
         )
       )
     )

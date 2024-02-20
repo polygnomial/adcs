@@ -1153,6 +1153,10 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid fa2f5dae-bedc-4cc0-8532-5f626318de75)
   )
+  (text "Is this resistor \nnecessary? Probably \nnot..." (at 111.76 95.885 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid facfa5bf-ebd9-4585-b648-e54d66500fd9)
+  )
 
   (label "SEMC_A7" (at 131.445 137.795 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -1607,7 +1611,7 @@
   (symbol (lib_id "power:GND") (at 66.04 112.395 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0c2d36d8-5034-413b-9973-55f32a3a658d)
-    (property "Reference" "#PWR057" (at 66.04 118.745 0)
+    (property "Reference" "#PWR058" (at 66.04 118.745 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 66.04 116.84 0)
@@ -1623,7 +1627,7 @@
     (instances
       (project "cpu_board"
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/7dc61a70-8d21-4309-b5a7-f9382e73e709"
-          (reference "#PWR057") (unit 1)
+          (reference "#PWR058") (unit 1)
         )
       )
     )
@@ -1632,7 +1636,7 @@
   (symbol (lib_id "power:GND") (at 154.305 170.815 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 62f058ab-7d2d-45c8-9922-bd38211d0472)
-    (property "Reference" "#PWR059" (at 154.305 177.165 0)
+    (property "Reference" "#PWR060" (at 154.305 177.165 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 154.305 175.26 0)
@@ -1648,7 +1652,7 @@
     (instances
       (project "cpu_board"
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/7dc61a70-8d21-4309-b5a7-f9382e73e709"
-          (reference "#PWR059") (unit 1)
+          (reference "#PWR060") (unit 1)
         )
       )
     )
@@ -1830,7 +1834,7 @@
       )
       (project "cpu_board"
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/7dc61a70-8d21-4309-b5a7-f9382e73e709"
-          (reference "U7") (unit 1)
+          (reference "U6") (unit 1)
         )
       )
     )
@@ -1994,7 +1998,7 @@
     (property "Reference" "R?" (at 121.285 97.155 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "0Ω" (at 123.19 97.155 90)
+    (property "Value" "0Ω" (at 124.46 97.155 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 120.65 94.615 0)
@@ -2026,7 +2030,7 @@
           (reference "R?") (unit 1)
         )
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/7dc61a70-8d21-4309-b5a7-f9382e73e709"
-          (reference "R31") (unit 1)
+          (reference "R26") (unit 1)
         )
       )
     )
@@ -2161,7 +2165,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/7dc61a70-8d21-4309-b5a7-f9382e73e709"
-          (reference "#PWR058") (unit 1)
+          (reference "#PWR059") (unit 1)
         )
       )
     )
@@ -2252,7 +2256,7 @@
           (reference "R?") (unit 1)
         )
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/7dc61a70-8d21-4309-b5a7-f9382e73e709"
-          (reference "R29") (unit 1)
+          (reference "R24") (unit 1)
         )
       )
     )
@@ -2296,7 +2300,7 @@
           (reference "R?") (unit 1)
         )
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/7dc61a70-8d21-4309-b5a7-f9382e73e709"
-          (reference "R30") (unit 1)
+          (reference "R25") (unit 1)
         )
       )
     )

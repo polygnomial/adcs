@@ -537,6 +537,9 @@
   (junction (at 113.665 95.25) (diameter 0) (color 0 0 0 0)
     (uuid 2209cacd-85aa-46db-b12f-91e2a26abcc0)
   )
+  (junction (at 174.625 102.87) (diameter 0) (color 0 0 0 0)
+    (uuid 2e073f51-ce48-4e6b-b37e-43ef04a443fe)
+  )
   (junction (at 161.925 90.17) (diameter 0) (color 0 0 0 0)
     (uuid 397fc315-5faf-4711-83c2-a34e1503d305)
   )
@@ -711,7 +714,7 @@
       )
       (project "cpu_board"
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/cea27ea3-b252-471b-8ae3-89651d2bf5e1/fef67fc1-8026-4168-9599-05f275dfb457"
-          (reference "R43") (unit 1)
+          (reference "R36") (unit 1)
         )
       )
       (project "mainboard"
@@ -767,7 +770,7 @@
       )
       (project "cpu_board"
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/cea27ea3-b252-471b-8ae3-89651d2bf5e1/fef67fc1-8026-4168-9599-05f275dfb457"
-          (reference "#GND09") (unit 1)
+          (reference "#GND010") (unit 1)
         )
       )
       (project "mainboard"
@@ -1000,7 +1003,7 @@
       )
       (project "cpu_board"
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/cea27ea3-b252-471b-8ae3-89651d2bf5e1/fef67fc1-8026-4168-9599-05f275dfb457"
-          (reference "R42") (unit 1)
+          (reference "R35") (unit 1)
         )
       )
       (project "mainboard"
@@ -1078,12 +1081,68 @@
       )
       (project "cpu_board"
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/cea27ea3-b252-471b-8ae3-89651d2bf5e1/fef67fc1-8026-4168-9599-05f275dfb457"
-          (reference "R41") (unit 1)
+          (reference "R34") (unit 1)
         )
       )
       (project "mainboard"
         (path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5dde"
           (reference "R?") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "mainboard:GND") (at 174.625 105.41 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid a268ba23-0356-4574-be55-6ca9d94512ec)
+    (property "Reference" "#GND?" (at 174.625 105.41 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 172.085 107.95 0)
+      (effects (font (size 1.4986 1.4986)) (justify left bottom))
+    )
+    (property "Footprint" "" (at 174.625 105.41 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 174.625 105.41 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid c21e2f92-5dca-4fa2-843f-477a9a5596ac))
+    (instances
+      (project "adcs-hardware"
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/96c1dca3-3491-4490-97b2-299dd5a0d462"
+          (reference "#GND?") (unit 1)
+        )
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/2011b62c-b542-4899-89c4-f1a49629fe42"
+          (reference "#GND?") (unit 1)
+        )
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/dbac343c-e1e8-4f27-95db-48905ebe6ac8"
+          (reference "#GND?") (unit 1)
+        )
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/96c1dca3-3491-4490-97b2-299dd5a0d462/050cb11f-ff11-499c-a248-6fb9f1092987"
+          (reference "#GND?") (unit 1)
+        )
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/2011b62c-b542-4899-89c4-f1a49629fe42/050cb11f-ff11-499c-a248-6fb9f1092987"
+          (reference "#GND?") (unit 1)
+        )
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/1539ef5d-4f4f-4a9e-ae0a-b29bdc9f46f8/d7510623-5924-4e82-97b6-641ec54de302"
+          (reference "#GND?") (unit 1)
+        )
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/e6d989e1-3d58-4abb-9f22-cf061fe5e0a3"
+          (reference "#GND?") (unit 1)
+        )
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/09e775d0-de49-4fe2-956d-adceee72ccf4"
+          (reference "#GND?") (unit 1)
+        )
+      )
+      (project "cpu_board"
+        (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/cea27ea3-b252-471b-8ae3-89651d2bf5e1/fef67fc1-8026-4168-9599-05f275dfb457"
+          (reference "#GND011") (unit 1)
+        )
+      )
+      (project "mainboard"
+        (path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5dde"
+          (reference "#GND?") (unit 1)
         )
       )
     )
