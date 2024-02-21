@@ -45,7 +45,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.15239999999999998
+          "min_clearance": 0.5
         }
       },
       "diff_pair_dimensions": [
@@ -124,7 +124,7 @@
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.19999999999999998,
         "min_track_width": 0.09,
-        "min_via_annular_width": 0.09999999999999999,
+        "min_via_annular_width": 0.049999999999999996,
         "min_via_diameter": 0.3,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
@@ -180,7 +180,7 @@
           "drill": 0.0
         }
       ],
-      "zones_allow_external_fillets": false
+      "zones_allow_external_fillets": true
     },
     "layer_presets": [],
     "viewports": []
@@ -440,7 +440,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.09,
-        "via_diameter": 0.4,
+        "via_diameter": 0.3,
         "via_drill": 0.2,
         "wire_width": 6
       }
@@ -458,6 +458,46 @@
       {
         "netclass": "BGA_fanout",
         "pattern": "/SDRAM/SEMC_CLK_R"
+      },
+      {
+        "netclass": "BGA_fanout",
+        "pattern": "/RT1176 #3/VDD_USB_1P8"
+      },
+      {
+        "netclass": "BGA_fanout",
+        "pattern": "/RT1176 #3/VDD_USB_3P3"
+      },
+      {
+        "netclass": "BGA_fanout",
+        "pattern": "SWD_RESET"
+      },
+      {
+        "netclass": "BGA_fanout",
+        "pattern": "SWD_CLK"
+      },
+      {
+        "netclass": "BGA_fanout",
+        "pattern": "SWD_DIO"
+      },
+      {
+        "netclass": "BGA_fanout",
+        "pattern": "JTAG_TDO"
+      },
+      {
+        "netclass": "BGA_fanout",
+        "pattern": "JTAG_TDI"
+      },
+      {
+        "netclass": "BGA_fanout",
+        "pattern": "/RT1176 #1/CLK1_P"
+      },
+      {
+        "netclass": "BGA_fanout",
+        "pattern": "/RT1176 #1/CLK1_N"
+      },
+      {
+        "netclass": "BGA_fanout",
+        "pattern": "/RT1176 #3/VDD_MIPI_1P0"
       }
     ]
   },
@@ -497,7 +537,7 @@
     },
     "net_format_name": "",
     "page_layout_descr_file": "",
-    "plot_directory": "",
+    "plot_directory": "./",
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
     "spice_model_current_sheet_as_root": true,

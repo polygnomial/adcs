@@ -2180,7 +2180,7 @@
     (property "Value" "190mΩ" (at 74.2569 36.195 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "adcs:L0402_H0.55MM" (at 74.295 41.783 90)
+    (property "Footprint" "Inductor_SMD:L_0402_1005Metric" (at 74.295 41.783 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 74.295 40.005 0)
