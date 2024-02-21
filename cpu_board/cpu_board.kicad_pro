@@ -498,6 +498,34 @@
       {
         "netclass": "BGA_fanout",
         "pattern": "/RT1176 #3/VDD_MIPI_1P0"
+      },
+      {
+        "netclass": "BGA_fanout",
+        "pattern": "FlexSPI_A_CLK"
+      },
+      {
+        "netclass": "BGA_fanout",
+        "pattern": "FlexSPI_A_D0"
+      },
+      {
+        "netclass": "BGA_fanout",
+        "pattern": "FlexSPI_A_D1"
+      },
+      {
+        "netclass": "BGA_fanout",
+        "pattern": "FlexSPI_A_D3"
+      },
+      {
+        "netclass": "BGA_fanout",
+        "pattern": "FlexSPI_A_D2"
+      },
+      {
+        "netclass": "BGA_fanout",
+        "pattern": "FlexSPI_A_SS0"
+      },
+      {
+        "netclass": "BGA_fanout",
+        "pattern": "FlexSPI_A_SS1"
       }
     ]
   },
