@@ -442,7 +442,7 @@
         "track_width": 0.09,
         "via_diameter": 0.3,
         "via_drill": 0.2,
-        "wire_width": 6
+        "wire_width": 4
       }
     ],
     "meta": {
@@ -526,6 +526,42 @@
       {
         "netclass": "BGA_fanout",
         "pattern": "FlexSPI_A_SS1"
+      },
+      {
+        "netclass": "BGA_fanout",
+        "pattern": "GPIO*"
+      },
+      {
+        "netclass": "BGA_fanout",
+        "pattern": "ENET*"
+      },
+      {
+        "netclass": "BGA_fanout",
+        "pattern": "FlexSPI*"
+      },
+      {
+        "netclass": "BGA_fanout",
+        "pattern": "USDHC*"
+      },
+      {
+        "netclass": "BGA_fanout",
+        "pattern": "SEMC"
+      },
+      {
+        "netclass": "BGA_fanout",
+        "pattern": "/RT1176 #3/SEMC_DQS"
+      },
+      {
+        "netclass": "BGA_fanout",
+        "pattern": "USB2*"
+      },
+      {
+        "netclass": "BGA_fanout",
+        "pattern": "LPUART1*"
+      },
+      {
+        "netclass": "BGA_fanout",
+        "pattern": "DAC_OUT"
       }
     ]
   },
