@@ -1667,7 +1667,7 @@
     (property "Value" "22uF" (at 89.535 43.8213 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "adcs:Perfect_0402" (at 86.995 42.545 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 86.995 42.545 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 86.995 42.545 0)

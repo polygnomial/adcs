@@ -17,4 +17,9 @@
     (thermal_bridge_angle 45) (tstamp 7b066c73-c700-4d6a-b7b5-2cb7439648c4))
   (pad "2" smd rect (at 0.275 0) (size 0.25 0.35) (layers "F.Cu" "F.Paste" "F.Mask")
     (thermal_bridge_angle 45) (tstamp 8970b952-43fa-438c-a386-cde1711f6e9d))
+  (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0201_0603Metric.wrl"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
