@@ -501,31 +501,7 @@
       },
       {
         "netclass": "BGA_fanout",
-        "pattern": "FlexSPI_A_CLK"
-      },
-      {
-        "netclass": "BGA_fanout",
-        "pattern": "FlexSPI_A_D0"
-      },
-      {
-        "netclass": "BGA_fanout",
-        "pattern": "FlexSPI_A_D1"
-      },
-      {
-        "netclass": "BGA_fanout",
-        "pattern": "FlexSPI_A_D3"
-      },
-      {
-        "netclass": "BGA_fanout",
-        "pattern": "FlexSPI_A_D2"
-      },
-      {
-        "netclass": "BGA_fanout",
-        "pattern": "FlexSPI_A_SS0"
-      },
-      {
-        "netclass": "BGA_fanout",
-        "pattern": "FlexSPI_A_SS1"
+        "pattern": "FlexSPI*"
       },
       {
         "netclass": "BGA_fanout",
@@ -545,10 +521,6 @@
       },
       {
         "netclass": "BGA_fanout",
-        "pattern": "SEMC"
-      },
-      {
-        "netclass": "BGA_fanout",
         "pattern": "/RT1176 #3/SEMC_DQS"
       },
       {
@@ -562,6 +534,22 @@
       {
         "netclass": "BGA_fanout",
         "pattern": "DAC_OUT"
+      },
+      {
+        "netclass": "BGA_fanout",
+        "pattern": "CAM*"
+      },
+      {
+        "netclass": "BGA_fanout",
+        "pattern": "PMIC*"
+      },
+      {
+        "netclass": "BGA_fanout",
+        "pattern": "WAKEUP"
+      },
+      {
+        "netclass": "BGA_fanout",
+        "pattern": "ONOFF"
       }
     ]
   },
