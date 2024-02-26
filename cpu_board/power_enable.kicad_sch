@@ -713,8 +713,8 @@
         )
       )
       (project "cpu_board"
-        (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/cea27ea3-b252-471b-8ae3-89651d2bf5e1/fef67fc1-8026-4168-9599-05f275dfb457"
-          (reference "R36") (unit 1)
+        (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/7fac9943-67c1-4bb1-9a63-8a5404d1c1d4/c3cf7fa0-c227-4fe9-8e98-54ec735fbe51"
+          (reference "R9") (unit 1)
         )
       )
       (project "mainboard"
@@ -769,7 +769,7 @@
         )
       )
       (project "cpu_board"
-        (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/cea27ea3-b252-471b-8ae3-89651d2bf5e1/fef67fc1-8026-4168-9599-05f275dfb457"
+        (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/7fac9943-67c1-4bb1-9a63-8a5404d1c1d4/c3cf7fa0-c227-4fe9-8e98-54ec735fbe51"
           (reference "#GND010") (unit 1)
         )
       )
@@ -847,8 +847,8 @@
         )
       )
       (project "cpu_board"
-        (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/cea27ea3-b252-471b-8ae3-89651d2bf5e1/fef67fc1-8026-4168-9599-05f275dfb457"
-          (reference "C91") (unit 1)
+        (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/7fac9943-67c1-4bb1-9a63-8a5404d1c1d4/c3cf7fa0-c227-4fe9-8e98-54ec735fbe51"
+          (reference "C11") (unit 1)
         )
       )
     )
@@ -929,7 +929,7 @@
         )
       )
       (project "cpu_board"
-        (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/cea27ea3-b252-471b-8ae3-89651d2bf5e1/fef67fc1-8026-4168-9599-05f275dfb457"
+        (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/7fac9943-67c1-4bb1-9a63-8a5404d1c1d4/c3cf7fa0-c227-4fe9-8e98-54ec735fbe51"
           (reference "Q2") (unit 1)
         )
       )
@@ -1002,8 +1002,8 @@
         )
       )
       (project "cpu_board"
-        (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/cea27ea3-b252-471b-8ae3-89651d2bf5e1/fef67fc1-8026-4168-9599-05f275dfb457"
-          (reference "R35") (unit 1)
+        (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/7fac9943-67c1-4bb1-9a63-8a5404d1c1d4/c3cf7fa0-c227-4fe9-8e98-54ec735fbe51"
+          (reference "R4") (unit 1)
         )
       )
       (project "mainboard"
@@ -1080,8 +1080,8 @@
         )
       )
       (project "cpu_board"
-        (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/cea27ea3-b252-471b-8ae3-89651d2bf5e1/fef67fc1-8026-4168-9599-05f275dfb457"
-          (reference "R34") (unit 1)
+        (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/7fac9943-67c1-4bb1-9a63-8a5404d1c1d4/c3cf7fa0-c227-4fe9-8e98-54ec735fbe51"
+          (reference "R2") (unit 1)
         )
       )
       (project "mainboard"
@@ -1136,7 +1136,7 @@
         )
       )
       (project "cpu_board"
-        (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/cea27ea3-b252-471b-8ae3-89651d2bf5e1/fef67fc1-8026-4168-9599-05f275dfb457"
+        (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/7fac9943-67c1-4bb1-9a63-8a5404d1c1d4/c3cf7fa0-c227-4fe9-8e98-54ec735fbe51"
           (reference "#GND011") (unit 1)
         )
       )
@@ -1192,7 +1192,7 @@
         )
       )
       (project "cpu_board"
-        (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/cea27ea3-b252-471b-8ae3-89651d2bf5e1/fef67fc1-8026-4168-9599-05f275dfb457"
+        (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/7fac9943-67c1-4bb1-9a63-8a5404d1c1d4/c3cf7fa0-c227-4fe9-8e98-54ec735fbe51"
           (reference "#FLG026") (unit 1)
         )
       )
@@ -1265,8 +1265,8 @@
         )
       )
       (project "cpu_board"
-        (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/cea27ea3-b252-471b-8ae3-89651d2bf5e1/fef67fc1-8026-4168-9599-05f275dfb457"
-          (reference "C90") (unit 1)
+        (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/7fac9943-67c1-4bb1-9a63-8a5404d1c1d4/c3cf7fa0-c227-4fe9-8e98-54ec735fbe51"
+          (reference "C7") (unit 1)
         )
       )
     )
@@ -1348,7 +1348,7 @@
         )
       )
       (project "cpu_board"
-        (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/cea27ea3-b252-471b-8ae3-89651d2bf5e1/fef67fc1-8026-4168-9599-05f275dfb457"
+        (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/7fac9943-67c1-4bb1-9a63-8a5404d1c1d4/c3cf7fa0-c227-4fe9-8e98-54ec735fbe51"
           (reference "Q1") (unit 1)
         )
       )
