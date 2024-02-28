@@ -4,6 +4,14 @@
 
   (paper "A3")
 
+  (title_block
+    (title "Soldermander")
+    (date "2024-02-27")
+    (rev "1.0")
+    (company "Stanford Student Space Initiative")
+    (comment 1 "RE: Flynn Dreilinger")
+  )
+
   (lib_symbols
     (symbol "Device:C_Small" (pin_numbers hide) (pin_names (offset 0.254) hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.254 1.778 0)
