@@ -563,7 +563,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "cpu_board.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
