@@ -2777,7 +2777,7 @@
     )
     (pin "1" (uuid 2c81de3d-0724-43f4-adbf-84e7f1f3c671))
     (instances
-      (project "cpu_board"
+      (project "Soldermander"
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/cea27ea3-b252-471b-8ae3-89651d2bf5e1"
           (reference "#PWR?") (unit 1)
         )
@@ -2805,7 +2805,7 @@
     )
     (pin "1" (uuid d353ec3d-c493-4547-b9b4-8aae65e30ae9))
     (instances
-      (project "cpu_board"
+      (project "Soldermander"
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/cea27ea3-b252-471b-8ae3-89651d2bf5e1"
           (reference "#PWR?") (unit 1)
         )
@@ -2833,7 +2833,7 @@
     )
     (pin "1" (uuid 2b628b73-cf1b-46a5-ab3a-dc5bbd3e03b6))
     (instances
-      (project "cpu_board"
+      (project "Soldermander"
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/cea27ea3-b252-471b-8ae3-89651d2bf5e1"
           (reference "#PWR?") (unit 1)
         )
@@ -2882,7 +2882,7 @@
     (pin "8" (uuid bb9e2c1c-9788-4e94-ad0b-1b94a18cc177))
     (pin "9" (uuid 002c3a93-6928-4176-b6e5-afd6caf064dc))
     (instances
-      (project "cpu_board"
+      (project "Soldermander"
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/ff5944eb-9859-4dab-aeb3-20c6124220de"
           (reference "J8") (unit 1)
         )
@@ -2907,7 +2907,7 @@
     )
     (pin "1" (uuid 8fac71e3-c067-4217-b05e-743b1a76bd5c))
     (instances
-      (project "cpu_board"
+      (project "Soldermander"
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/cea27ea3-b252-471b-8ae3-89651d2bf5e1"
           (reference "#PWR?") (unit 1)
         )
@@ -3075,7 +3075,7 @@
           (reference "J?") (unit 1)
         )
       )
-      (project "cpu_board"
+      (project "Soldermander"
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/cea27ea3-b252-471b-8ae3-89651d2bf5e1"
           (reference "J?") (unit 1)
         )
@@ -3243,7 +3243,7 @@
           (reference "J?") (unit 1)
         )
       )
-      (project "cpu_board"
+      (project "Soldermander"
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/cea27ea3-b252-471b-8ae3-89651d2bf5e1"
           (reference "J?") (unit 1)
         )

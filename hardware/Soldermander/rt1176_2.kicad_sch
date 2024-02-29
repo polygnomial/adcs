@@ -2615,7 +2615,7 @@
     (pin "1" (uuid bdf47748-e67b-43da-859b-64c9b77eec1f))
     (pin "2" (uuid 6a52082f-abd3-4e77-b9e9-77d09e652343))
     (instances
-      (project "cpu_board"
+      (project "Soldermander"
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/9cbcd73e-afcb-4ff3-8583-4372f7e826ca"
           (reference "C?") (unit 1)
         )
@@ -2656,7 +2656,7 @@
     (pin "1" (uuid ad14f446-767e-4583-8285-1460784580d4))
     (pin "2" (uuid 9ba5254b-73bc-47d7-84d7-a64698edb463))
     (instances
-      (project "cpu_board"
+      (project "Soldermander"
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/9cbcd73e-afcb-4ff3-8583-4372f7e826ca"
           (reference "C?") (unit 1)
         )
@@ -2706,7 +2706,7 @@
     (pin "1" (uuid fd90df4c-2f5d-464d-a1f5-899055c1cb6c))
     (pin "2" (uuid 8d1b97ab-91e6-4df4-9c81-45a339881611))
     (instances
-      (project "cpu_board"
+      (project "Soldermander"
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/9cbcd73e-afcb-4ff3-8583-4372f7e826ca"
           (reference "C?") (unit 1)
         )
@@ -3049,7 +3049,7 @@
     (pin "G12" (uuid 46c1ac79-e72c-4434-b736-d91b6acc5419))
     (pin "H12" (uuid 52a36998-a1bd-42c4-905d-1ead9a416477))
     (instances
-      (project "cpu_board"
+      (project "Soldermander"
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/41b8ad77-fc22-40ff-9aa2-f9a432177b3d"
           (reference "U2") (unit 8)
         )
@@ -3087,7 +3087,7 @@
     (pin "1" (uuid 8e9a03d3-d5c7-404a-ba28-6f35c6248419))
     (pin "2" (uuid d5491b75-6afe-4db6-b2da-9ca45b0737c8))
     (instances
-      (project "cpu_board"
+      (project "Soldermander"
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/9cbcd73e-afcb-4ff3-8583-4372f7e826ca"
           (reference "C?") (unit 1)
         )
@@ -3115,7 +3115,7 @@
     )
     (pin "1" (uuid 200b9e2e-5795-496d-9891-83fce397c9fd))
     (instances
-      (project "cpu_board"
+      (project "Soldermander"
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/41b8ad77-fc22-40ff-9aa2-f9a432177b3d"
           (reference "#PWR039") (unit 1)
         )
@@ -3455,7 +3455,7 @@
     (pin "G12" (uuid 39411302-3f01-45a0-be46-807031f331da))
     (pin "H12" (uuid 625cfd2b-845f-42ab-86ec-b2efb286db61))
     (instances
-      (project "cpu_board"
+      (project "Soldermander"
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/41b8ad77-fc22-40ff-9aa2-f9a432177b3d"
           (reference "U2") (unit 6)
         )
@@ -3795,7 +3795,7 @@
     (pin "G12" (uuid c0f97ade-ee8b-4766-96ca-a7af906583b1))
     (pin "H12" (uuid be892720-0a36-4e27-97ad-2f1bd1bd4cff))
     (instances
-      (project "cpu_board"
+      (project "Soldermander"
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/41b8ad77-fc22-40ff-9aa2-f9a432177b3d"
           (reference "U2") (unit 9)
         )
@@ -3820,7 +3820,7 @@
     )
     (pin "1" (uuid f6558092-6c8a-412f-b1dc-29ae0b9959e7))
     (instances
-      (project "cpu_board"
+      (project "Soldermander"
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/0a33bd80-4856-46ea-ab2b-780eb050e9ec"
           (reference "#FLG?") (unit 1)
         )
@@ -4163,7 +4163,7 @@
     (pin "G12" (uuid c9eba22f-b7db-4410-a0ef-3faf600ad5cc))
     (pin "H12" (uuid f0b178f4-bb04-41a9-b121-4779ee3a2c2a))
     (instances
-      (project "cpu_board"
+      (project "Soldermander"
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/41b8ad77-fc22-40ff-9aa2-f9a432177b3d"
           (reference "U2") (unit 7)
         )
@@ -4188,7 +4188,7 @@
     )
     (pin "1" (uuid dfd8922a-0774-4798-9472-d79fe1bb8924))
     (instances
-      (project "cpu_board"
+      (project "Soldermander"
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/0a33bd80-4856-46ea-ab2b-780eb050e9ec"
           (reference "#FLG?") (unit 1)
         )
@@ -4216,7 +4216,7 @@
     )
     (pin "1" (uuid e3bb21ed-5c7f-4611-8d1e-083402b3a1fe))
     (instances
-      (project "cpu_board"
+      (project "Soldermander"
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/41b8ad77-fc22-40ff-9aa2-f9a432177b3d"
           (reference "#PWR035") (unit 1)
         )
@@ -4254,7 +4254,7 @@
     (pin "1" (uuid d0c4c8a6-9c26-4d2f-b528-810bb5406685))
     (pin "2" (uuid 98cd1bb9-88e0-4531-b978-5a2f94eddb92))
     (instances
-      (project "cpu_board"
+      (project "Soldermander"
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/9cbcd73e-afcb-4ff3-8583-4372f7e826ca"
           (reference "C?") (unit 1)
         )
@@ -4292,7 +4292,7 @@
     (pin "1" (uuid ad71c0e0-7579-4ddf-aea8-662cccda81c5))
     (pin "2" (uuid b68181c1-0693-4274-b97f-0e967a9ed6d4))
     (instances
-      (project "cpu_board"
+      (project "Soldermander"
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/9cbcd73e-afcb-4ff3-8583-4372f7e826ca"
           (reference "R?") (unit 1)
         )
@@ -4320,7 +4320,7 @@
     )
     (pin "1" (uuid 507f1a74-330e-4559-9627-a2bd740917e8))
     (instances
-      (project "cpu_board"
+      (project "Soldermander"
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/41b8ad77-fc22-40ff-9aa2-f9a432177b3d"
           (reference "#PWR040") (unit 1)
         )
@@ -4345,7 +4345,7 @@
     )
     (pin "1" (uuid deed38ff-af54-4270-a80a-9d5311a28029))
     (instances
-      (project "cpu_board"
+      (project "Soldermander"
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/41b8ad77-fc22-40ff-9aa2-f9a432177b3d"
           (reference "#PWR038") (unit 1)
         )
@@ -4383,7 +4383,7 @@
     (pin "1" (uuid 72d76ac9-5a82-442c-bda8-1030ce4866af))
     (pin "2" (uuid efe88c6f-41ce-45cd-8435-aab8eb5a2b73))
     (instances
-      (project "cpu_board"
+      (project "Soldermander"
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/9cbcd73e-afcb-4ff3-8583-4372f7e826ca"
           (reference "C?") (unit 1)
         )
@@ -4411,7 +4411,7 @@
     )
     (pin "1" (uuid 4d503f65-5310-4e84-bafd-784dc66527b3))
     (instances
-      (project "cpu_board"
+      (project "Soldermander"
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/41b8ad77-fc22-40ff-9aa2-f9a432177b3d"
           (reference "#PWR037") (unit 1)
         )
@@ -4436,7 +4436,7 @@
     )
     (pin "1" (uuid 2beb96b1-894e-4aea-9ad7-ea53f9e4521e))
     (instances
-      (project "cpu_board"
+      (project "Soldermander"
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/41b8ad77-fc22-40ff-9aa2-f9a432177b3d"
           (reference "#PWR041") (unit 1)
         )
@@ -4474,7 +4474,7 @@
     (pin "1" (uuid 037d51d7-87a9-4376-900c-ff0c7c6dcf46))
     (pin "2" (uuid ef993fcf-ac2d-4db7-ba40-83dbb382e69c))
     (instances
-      (project "cpu_board"
+      (project "Soldermander"
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/9cbcd73e-afcb-4ff3-8583-4372f7e826ca"
           (reference "C?") (unit 1)
         )
@@ -4502,7 +4502,7 @@
     )
     (pin "1" (uuid ff184606-60e7-44c4-877a-92948f0a9f6f))
     (instances
-      (project "cpu_board"
+      (project "Soldermander"
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3/41b8ad77-fc22-40ff-9aa2-f9a432177b3d"
           (reference "#PWR036") (unit 1)
         )

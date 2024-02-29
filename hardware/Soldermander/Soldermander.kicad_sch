@@ -21,7 +21,7 @@
     (effects (font (size 2.54 2.54) (color 132 0 0 1)) (justify left bottom))
     (uuid 1644a82d-207d-4502-a178-7e5ca2dff62c)
   )
-  (text "TODOs\n- [x] Add VSYS connector\n    - [ ] Might need to pick a new height\n- [ ] Route USB differentially and impedance match to 90ohms\n    - [ ] Does this really matter?\n- [ ] Add 3D models of parts\n- [ ] Breakout board\n- [x] Spec passives\n- [ ] Clean up planes\n- [ ] beautify schematic\n- [x] decide on 0402 vs. 0603 for caps/resistors\n-- [x] 0402, some 0201, and a couple larger ones\n-- [x] make the RT1176 boxes wider\n- [x] Switch fixed regs to variable\n- [x] Make sure most components are on JLCPCB\n- [x] Double check GPIOs and GPIO voltages\n- [x] Fix the $source_resistor\n- [x] Double check D1/D2\n- [x] add boot config switches\n- [x] add boot circuitry\n- [x] double check xSPI MRAM\n- [x] clean up label sizing\n- [x] Finish putting caps on\n- [x] Route MRAM & Flash\n    - [x] Clean up MRAM and flash\n- [x] Route \n- [x] Try patching up ground\n- [x] Pick hole locations\n- [x] Pick a UART for inter-board communications\n- [x] Add JLC P/Ns\n- [x] Double check passive specifications\n- [x] Double check paste layer (or just replace footprints)\n- [x] Put part outlines for things I copied from the coral\n- [x] Route GPIO breakouts\n- [x] Tune SDRAM trace lengths (within 10mm)\n- [x] Tune Crystal trace lengths (within 0.02mm)\n- [x] Add power pins (Low priority)\n- [x] Clean up silkscreen\n"
+  (text "TODOs\n- [x] Add VSYS connector\n    - [ ] Might need to pick a new height\n- [ ] Route USB differentially and impedance match to 90ohms\n    - [ ] Does this really matter?\n- [ ] Add 3D models of parts\n- [ ] Breakout board\n- [ ] check power rating on inductor\n- [x] Spec passives\n- [ ] Clean up planes\n- [ ] beautify schematic\n- [x] decide on 0402 vs. 0603 for caps/resistors\n-- [x] 0402, some 0201, and a couple larger ones\n-- [x] make the RT1176 boxes wider\n- [x] Switch fixed regs to variable\n- [x] Make sure most components are on JLCPCB\n- [x] Double check GPIOs and GPIO voltages\n- [x] Fix the $source_resistor\n- [x] Double check D1/D2\n- [x] add boot config switches\n- [x] add boot circuitry\n- [x] double check xSPI MRAM\n- [x] clean up label sizing\n- [x] Finish putting caps on\n- [x] Route MRAM & Flash\n    - [x] Clean up MRAM and flash\n- [x] Route \n- [x] Try patching up ground\n- [x] Pick hole locations\n- [x] Pick a UART for inter-board communications\n- [x] Add JLC P/Ns\n- [x] Double check passive specifications\n- [x] Double check paste layer (or just replace footprints)\n- [x] Put part outlines for things I copied from the coral\n- [x] Route GPIO breakouts\n- [x] Tune SDRAM trace lengths (within 10mm)\n- [x] Tune Crystal trace lengths (within 0.02mm)\n- [x] Add power pins (Low priority)\n- [x] Clean up silkscreen\n"
     (at 306.705 168.275 0)
     (effects (font (size 2.54 2.54)) (justify left bottom))
     (uuid b4979e13-f462-43d0-b20d-fe2e22f308f7)
@@ -38,7 +38,7 @@
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
-      (project "cpu_board"
+      (project "Soldermander"
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3" (page "4"))
       )
     )
@@ -55,7 +55,7 @@
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
-      (project "cpu_board"
+      (project "Soldermander"
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3" (page "3"))
       )
     )
@@ -72,7 +72,7 @@
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
-      (project "cpu_board"
+      (project "Soldermander"
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3" (page "7"))
       )
     )
@@ -89,7 +89,7 @@
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
-      (project "cpu_board"
+      (project "Soldermander"
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3" (page "8"))
       )
     )
@@ -106,7 +106,7 @@
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
-      (project "cpu_board"
+      (project "Soldermander"
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3" (page "12"))
       )
     )
@@ -123,7 +123,7 @@
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
-      (project "cpu_board"
+      (project "Soldermander"
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3" (page "5"))
       )
     )
@@ -140,7 +140,7 @@
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
-      (project "cpu_board"
+      (project "Soldermander"
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3" (page "2"))
       )
     )
@@ -157,7 +157,7 @@
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
-      (project "cpu_board"
+      (project "Soldermander"
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3" (page "9"))
       )
     )
@@ -174,7 +174,7 @@
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
-      (project "cpu_board"
+      (project "Soldermander"
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3" (page "6"))
       )
     )
@@ -191,7 +191,7 @@
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
-      (project "cpu_board"
+      (project "Soldermander"
         (path "/c4fd7bdd-408e-44be-b66f-e6a18a0ca6e3" (page "11"))
       )
     )
