@@ -1,0 +1,26 @@
+J7	2	Pin_2	
+J7	4	Pin_4	
+J7	6	Pin_6	
+J7	8	Pin_8	
+J7	10	Pin_10	
+J7	12	Pin_12	
+J7	14	Pin_14	
+J7	16	Pin_16	
+J7	18	Pin_18	
+J7	20	Pin_20	
+J7	22	Pin_22	
+J7	24	Pin_24	
+J7	26	Pin_26	
+J7	28	Pin_28	
+J7	30	Pin_30	
+J7	32	Pin_32	
+J7	34	Pin_34	
+J7	36	Pin_36	
+J7	38	Pin_38	
+J7	40	Pin_40	
+J7	42	Pin_42	
+J7	44	Pin_44	
+J7	46	Pin_46	
+J7	48	Pin_48	
+J7	50	Pin_50	
+
