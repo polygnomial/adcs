@@ -701,6 +701,23 @@
           (reference "R46") (unit 1)
         )
       )
+      (project "sqrt_of_g_temp"
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/01af2f02-15a1-4434-a6d9-22e648cc4f68"
+          (reference "R?") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/38e27f3b-685f-4d52-a21e-58a3c7704ae6"
+          (reference "R?") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/1e13c875-dd19-4962-b2f7-4e08d21805db/050cb11f-ff11-499c-a248-6fb9f1092987"
+          (reference "R?") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/8f54aa0f-f955-4477-b271-0927fbb3c21b/050cb11f-ff11-499c-a248-6fb9f1092987"
+          (reference "R?") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/c19fd753-fd93-48ef-861d-24d6dcb0983e/d7510623-5924-4e82-97b6-641ec54de302"
+          (reference "R?") (unit 1)
+        )
+      )
       (project "mainboard"
         (path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5dde"
           (reference "R?") (unit 1)
@@ -750,6 +767,23 @@
         )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/e6d989e1-3d58-4abb-9f22-cf061fe5e0a3"
           (reference "#FLG012") (unit 1)
+        )
+      )
+      (project "sqrt_of_g_temp"
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/01af2f02-15a1-4434-a6d9-22e648cc4f68"
+          (reference "#FLG?") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/38e27f3b-685f-4d52-a21e-58a3c7704ae6"
+          (reference "#FLG?") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/1e13c875-dd19-4962-b2f7-4e08d21805db/050cb11f-ff11-499c-a248-6fb9f1092987"
+          (reference "#FLG?") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/8f54aa0f-f955-4477-b271-0927fbb3c21b/050cb11f-ff11-499c-a248-6fb9f1092987"
+          (reference "#FLG?") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/c19fd753-fd93-48ef-861d-24d6dcb0983e/d7510623-5924-4e82-97b6-641ec54de302"
+          (reference "#FLG?") (unit 1)
         )
       )
     )
@@ -821,6 +855,23 @@
           (reference "Q12") (unit 1)
         )
       )
+      (project "sqrt_of_g_temp"
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/01af2f02-15a1-4434-a6d9-22e648cc4f68"
+          (reference "Q?") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/38e27f3b-685f-4d52-a21e-58a3c7704ae6"
+          (reference "Q?") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/1e13c875-dd19-4962-b2f7-4e08d21805db/050cb11f-ff11-499c-a248-6fb9f1092987"
+          (reference "Q?") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/8f54aa0f-f955-4477-b271-0927fbb3c21b/050cb11f-ff11-499c-a248-6fb9f1092987"
+          (reference "Q?") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/c19fd753-fd93-48ef-861d-24d6dcb0983e/d7510623-5924-4e82-97b6-641ec54de302"
+          (reference "Q?") (unit 1)
+        )
+      )
       (project "mainboard"
         (path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5dde"
           (reference "Q?") (unit 1)
@@ -885,6 +936,23 @@
           (reference "R47") (unit 1)
         )
       )
+      (project "sqrt_of_g_temp"
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/01af2f02-15a1-4434-a6d9-22e648cc4f68"
+          (reference "R?") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/38e27f3b-685f-4d52-a21e-58a3c7704ae6"
+          (reference "R?") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/1e13c875-dd19-4962-b2f7-4e08d21805db/050cb11f-ff11-499c-a248-6fb9f1092987"
+          (reference "R?") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/8f54aa0f-f955-4477-b271-0927fbb3c21b/050cb11f-ff11-499c-a248-6fb9f1092987"
+          (reference "R?") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/c19fd753-fd93-48ef-861d-24d6dcb0983e/d7510623-5924-4e82-97b6-641ec54de302"
+          (reference "R?") (unit 1)
+        )
+      )
       (project "mainboard"
         (path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5dde"
           (reference "R?") (unit 1)
@@ -947,6 +1015,23 @@
         )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/e6d989e1-3d58-4abb-9f22-cf061fe5e0a3"
           (reference "C51") (unit 1)
+        )
+      )
+      (project "sqrt_of_g_temp"
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/01af2f02-15a1-4434-a6d9-22e648cc4f68"
+          (reference "C?") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/38e27f3b-685f-4d52-a21e-58a3c7704ae6"
+          (reference "C?") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/1e13c875-dd19-4962-b2f7-4e08d21805db/050cb11f-ff11-499c-a248-6fb9f1092987"
+          (reference "C?") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/8f54aa0f-f955-4477-b271-0927fbb3c21b/050cb11f-ff11-499c-a248-6fb9f1092987"
+          (reference "C?") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/c19fd753-fd93-48ef-861d-24d6dcb0983e/d7510623-5924-4e82-97b6-641ec54de302"
+          (reference "C?") (unit 1)
         )
       )
     )
@@ -1017,6 +1102,23 @@
           (reference "Q15") (unit 1)
         )
       )
+      (project "sqrt_of_g_temp"
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/01af2f02-15a1-4434-a6d9-22e648cc4f68"
+          (reference "Q5") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/38e27f3b-685f-4d52-a21e-58a3c7704ae6"
+          (reference "Q5") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/1e13c875-dd19-4962-b2f7-4e08d21805db/050cb11f-ff11-499c-a248-6fb9f1092987"
+          (reference "Q5") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/8f54aa0f-f955-4477-b271-0927fbb3c21b/050cb11f-ff11-499c-a248-6fb9f1092987"
+          (reference "Q5") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/c19fd753-fd93-48ef-861d-24d6dcb0983e/d7510623-5924-4e82-97b6-641ec54de302"
+          (reference "Q5") (unit 1)
+        )
+      )
     )
   )
 
@@ -1074,6 +1176,23 @@
         )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/09e775d0-de49-4fe2-956d-adceee72ccf4"
           (reference "R45") (unit 1)
+        )
+      )
+      (project "sqrt_of_g_temp"
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/01af2f02-15a1-4434-a6d9-22e648cc4f68"
+          (reference "R?") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/38e27f3b-685f-4d52-a21e-58a3c7704ae6"
+          (reference "R?") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/1e13c875-dd19-4962-b2f7-4e08d21805db/050cb11f-ff11-499c-a248-6fb9f1092987"
+          (reference "R?") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/8f54aa0f-f955-4477-b271-0927fbb3c21b/050cb11f-ff11-499c-a248-6fb9f1092987"
+          (reference "R?") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/c19fd753-fd93-48ef-861d-24d6dcb0983e/d7510623-5924-4e82-97b6-641ec54de302"
+          (reference "R?") (unit 1)
         )
       )
       (project "mainboard"
@@ -1140,6 +1259,23 @@
           (reference "C50") (unit 1)
         )
       )
+      (project "sqrt_of_g_temp"
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/01af2f02-15a1-4434-a6d9-22e648cc4f68"
+          (reference "C?") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/38e27f3b-685f-4d52-a21e-58a3c7704ae6"
+          (reference "C?") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/1e13c875-dd19-4962-b2f7-4e08d21805db/050cb11f-ff11-499c-a248-6fb9f1092987"
+          (reference "C?") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/8f54aa0f-f955-4477-b271-0927fbb3c21b/050cb11f-ff11-499c-a248-6fb9f1092987"
+          (reference "C?") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/c19fd753-fd93-48ef-861d-24d6dcb0983e/d7510623-5924-4e82-97b6-641ec54de302"
+          (reference "C?") (unit 1)
+        )
+      )
     )
   )
 
@@ -1184,6 +1320,23 @@
         )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/09e775d0-de49-4fe2-956d-adceee72ccf4"
           (reference "#GND022") (unit 1)
+        )
+      )
+      (project "sqrt_of_g_temp"
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/1e13c875-dd19-4962-b2f7-4e08d21805db/050cb11f-ff11-499c-a248-6fb9f1092987"
+          (reference "#GND?") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/8f54aa0f-f955-4477-b271-0927fbb3c21b/050cb11f-ff11-499c-a248-6fb9f1092987"
+          (reference "#GND?") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/01af2f02-15a1-4434-a6d9-22e648cc4f68"
+          (reference "#GND?") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/38e27f3b-685f-4d52-a21e-58a3c7704ae6"
+          (reference "#GND?") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/c19fd753-fd93-48ef-861d-24d6dcb0983e/d7510623-5924-4e82-97b6-641ec54de302"
+          (reference "#GND?") (unit 1)
         )
       )
       (project "mainboard"

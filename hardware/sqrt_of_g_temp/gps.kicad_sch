@@ -839,6 +839,11 @@
           (reference "#GND017") (unit 1)
         )
       )
+      (project "sqrt_of_g_temp"
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/c19fd753-fd93-48ef-861d-24d6dcb0983e"
+          (reference "#GND017") (unit 1)
+        )
+      )
       (project "mainboard"
         (path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec6281"
           (reference "#GND?") (unit 1)
@@ -891,6 +896,11 @@
           (reference "J26") (unit 1)
         )
       )
+      (project "sqrt_of_g_temp"
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/c19fd753-fd93-48ef-861d-24d6dcb0983e"
+          (reference "J26") (unit 1)
+        )
+      )
     )
   )
 
@@ -913,6 +923,11 @@
     (instances
       (project "adcs-hardware"
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/1539ef5d-4f4f-4a9e-ae0a-b29bdc9f46f8"
+          (reference "#GND015") (unit 1)
+        )
+      )
+      (project "sqrt_of_g_temp"
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/c19fd753-fd93-48ef-861d-24d6dcb0983e"
           (reference "#GND015") (unit 1)
         )
       )
@@ -956,6 +971,11 @@
     (instances
       (project "adcs-hardware"
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/1539ef5d-4f4f-4a9e-ae0a-b29bdc9f46f8"
+          (reference "R32") (unit 1)
+        )
+      )
+      (project "sqrt_of_g_temp"
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/c19fd753-fd93-48ef-861d-24d6dcb0983e"
           (reference "R32") (unit 1)
         )
       )
@@ -1030,6 +1050,11 @@
           (reference "U8") (unit 1)
         )
       )
+      (project "sqrt_of_g_temp"
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/c19fd753-fd93-48ef-861d-24d6dcb0983e"
+          (reference "U8") (unit 1)
+        )
+      )
       (project "mainboard"
         (path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec6281"
           (reference "U?") (unit 1)
@@ -1060,6 +1085,11 @@
           (reference "#GND014") (unit 1)
         )
       )
+      (project "sqrt_of_g_temp"
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/c19fd753-fd93-48ef-861d-24d6dcb0983e"
+          (reference "#GND014") (unit 1)
+        )
+      )
       (project "mainboard"
         (path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec6281"
           (reference "#GND?") (unit 1)
@@ -1087,6 +1117,11 @@
     (instances
       (project "adcs-hardware"
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/1539ef5d-4f4f-4a9e-ae0a-b29bdc9f46f8"
+          (reference "#GND016") (unit 1)
+        )
+      )
+      (project "sqrt_of_g_temp"
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/c19fd753-fd93-48ef-861d-24d6dcb0983e"
           (reference "#GND016") (unit 1)
         )
       )
@@ -1139,6 +1174,11 @@
     (instances
       (project "adcs-hardware"
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/1539ef5d-4f4f-4a9e-ae0a-b29bdc9f46f8"
+          (reference "J27") (unit 1)
+        )
+      )
+      (project "sqrt_of_g_temp"
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/c19fd753-fd93-48ef-861d-24d6dcb0983e"
           (reference "J27") (unit 1)
         )
       )
@@ -1217,6 +1257,11 @@
     (instances
       (project "adcs-hardware"
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/1539ef5d-4f4f-4a9e-ae0a-b29bdc9f46f8"
+          (reference "U9") (unit 1)
+        )
+      )
+      (project "sqrt_of_g_temp"
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/c19fd753-fd93-48ef-861d-24d6dcb0983e"
           (reference "U9") (unit 1)
         )
       )

@@ -6989,6 +6989,23 @@
     )
   )
 
+  (sheet (at 65.405 231.775) (size 77.47 42.545) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid fca9e480-f7cd-4176-82b0-748bc7fe38fa)
+    (property "Sheetname" "h-bridge" (at 65.405 231.0634 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "hbridge.kicad_sch" (at 65.405 274.9046 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "sqrt_of_g_temp"
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1" (page "16"))
+      )
+    )
+  )
+
   (sheet_instances
     (path "/" (page "1"))
   )
