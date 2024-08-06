@@ -3331,6 +3331,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC P/N" ""
+			(at 191.77 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N Flight" ""
+			(at 191.77 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "49f34452-f39f-44fb-aab8-ce54c95087a5")
 		)
@@ -3424,6 +3442,24 @@
 			)
 		)
 		(property "Footprint (for JLCPCB)" "0402"
+			(at 168.91 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N" ""
+			(at 168.91 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N Flight" ""
 			(at 168.91 146.05 0)
 			(effects
 				(font
@@ -3604,6 +3640,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC P/N" ""
+			(at 171.45 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N Flight" ""
+			(at 171.45 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "138dc5d0-c819-493b-94ea-560adfc725ad")
 		)
@@ -3733,6 +3787,24 @@
 			)
 		)
 		(property "Footprint (for JLCPCB)" ""
+			(at 226.695 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N" ""
+			(at 226.695 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N Flight" ""
 			(at 226.695 133.35 0)
 			(effects
 				(font
@@ -3921,6 +3993,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC P/N" ""
+			(at 290.195 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N Flight" ""
+			(at 290.195 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e648c245-7fc6-4e37-be1a-f4c2d03473d7")
 		)
@@ -4031,6 +4121,24 @@
 				)
 			)
 		)
+		(property "LCSC P/N" ""
+			(at 305.435 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N Flight" ""
+			(at 305.435 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9e973f35-9278-4b8d-bee5-f4385164f3cc")
 		)
@@ -4125,6 +4233,24 @@
 			)
 		)
 		(property "Footprint (for JLCPCB)" ""
+			(at 125.73 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N" ""
+			(at 125.73 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N Flight" ""
 			(at 125.73 149.86 0)
 			(effects
 				(font
@@ -4411,6 +4537,24 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC P/N" ""
+			(at 305.435 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N Flight" ""
+			(at 305.435 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"

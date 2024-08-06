@@ -68,7 +68,7 @@
         "connection_width": "warning",
         "copper_edge_clearance": "error",
         "copper_sliver": "warning",
-        "courtyards_overlap": "ignore",
+        "courtyards_overlap": "warning",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
         "drill_out_of_range": "error",
@@ -76,7 +76,7 @@
         "extra_footprint": "warning",
         "footprint": "error",
         "footprint_symbol_mismatch": "warning",
-        "footprint_type_mismatch": "ignore",
+        "footprint_type_mismatch": "error",
         "hole_clearance": "error",
         "hole_near_hole": "error",
         "holes_co_located": "warning",
@@ -89,19 +89,19 @@
         "lib_footprint_mismatch": "warning",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
-        "missing_courtyard": "ignore",
+        "missing_courtyard": "warning",
         "missing_footprint": "warning",
         "net_conflict": "warning",
-        "npth_inside_courtyard": "ignore",
+        "npth_inside_courtyard": "error",
         "padstack": "warning",
-        "pth_inside_courtyard": "ignore",
+        "pth_inside_courtyard": "error",
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
         "silk_over_copper": "warning",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
-        "starved_thermal": "ignore",
+        "starved_thermal": "warning",
         "text_height": "warning",
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
@@ -109,7 +109,7 @@
         "track_dangling": "warning",
         "track_width": "error",
         "tracks_crossing": "error",
-        "unconnected_items": "ignore",
+        "unconnected_items": "error",
         "unresolved_variable": "error",
         "via_dangling": "warning",
         "zones_intersect": "error"
@@ -680,10 +680,10 @@
           "show": true
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "DNP",
           "name": "${DNP}",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -701,13 +701,13 @@
           "group_by": false,
           "label": "DigiKey Part Number",
           "name": "DigiKey Part Number",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "Flight",
           "name": "Flight",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -725,25 +725,25 @@
           "group_by": false,
           "label": "JLCPCB P/N",
           "name": "JLCPCB P/N",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "JLCPCB P/N Proto",
           "name": "JLCPCB P/N Proto",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "MFG P/N",
           "name": "MFG P/N",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "Manufacturer_Name",
           "name": "Manufacturer_Name",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -755,7 +755,7 @@
           "group_by": false,
           "label": "Proto",
           "name": "Proto",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -792,13 +792,25 @@
           "label": "Description",
           "name": "Description",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC P/N",
+          "name": "LCSC P/N",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC P/N Flight",
+          "name": "LCSC P/N Flight",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "name": "",
-      "sort_asc": true,
-      "sort_field": "Footprint"
+      "sort_asc": false,
+      "sort_field": "${QUANTITY}"
     },
     "connection_grid_size": 50.0,
     "drawing": {

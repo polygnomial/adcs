@@ -8,7 +8,7 @@
   "gapsVerticalCtrl": "0.0",
   "gapsHorizontalCtrl": "0.0",
   "removeRightVerticalCheck": false,
-  "productionBordersCheck": false,
+  "productionBordersCheck": true,
   "productionFiducialsCheck": false,
   "productionExposeCheck": false,
   "vScoreLayer": "User.Comments"

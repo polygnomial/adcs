@@ -28881,6 +28881,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC P/N" ""
+			(at 163.83 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N Flight" ""
+			(at 163.83 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8c678bf4-478c-47d7-a588-369c55cef94d")
 		)
@@ -29084,6 +29102,24 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC P/N" ""
+			(at 223.52 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N Flight" ""
+			(at 223.52 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "L9"
@@ -30084,6 +30120,24 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC P/N" ""
+			(at 220.98 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N Flight" ""
+			(at 220.98 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "L9"
@@ -31101,7 +31155,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint (for JLCPCB)" "0201"
+		(property "Footprint (for JLCPCB)" "0402"
 			(at 142.24 124.46 0)
 			(effects
 				(font
@@ -31136,6 +31190,24 @@
 			)
 		)
 		(property "Voltage Rating" "6.3V"
+			(at 142.24 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N" ""
+			(at 142.24 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N Flight" ""
 			(at 142.24 124.46 0)
 			(effects
 				(font
@@ -31295,6 +31367,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC P/N" ""
+			(at 185.42 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N Flight" ""
+			(at 185.42 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "df2aaefa-d597-46e1-9bd4-a71b6f08f594")
 		)
@@ -31399,6 +31489,24 @@
 			)
 		)
 		(property "Footprint (for JLCPCB)" "0402"
+			(at 288.925 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N" ""
+			(at 288.925 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N Flight" ""
 			(at 288.925 58.42 0)
 			(effects
 				(font
@@ -31693,7 +31801,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint (for JLCPCB)" "0201"
+		(property "Footprint (for JLCPCB)" "0402"
 			(at 320.04 132.08 0)
 			(effects
 				(font
@@ -31703,6 +31811,24 @@
 			)
 		)
 		(property "Voltage Rating" "10V"
+			(at 320.04 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N" ""
+			(at 320.04 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N Flight" ""
 			(at 320.04 132.08 0)
 			(effects
 				(font
@@ -31875,6 +32001,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC P/N" ""
+			(at 176.53 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N Flight" ""
+			(at 176.53 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5ada19de-5041-442d-9231-f45030d55e50")
 		)
@@ -31981,7 +32125,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint (for JLCPCB)" "0402"
+		(property "Footprint (for JLCPCB)" "0603"
 			(at 128.27 185.42 0)
 			(effects
 				(font
@@ -32022,6 +32166,24 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC P/N" ""
+			(at 128.27 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N Flight" ""
+			(at 128.27 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -32160,6 +32322,24 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC P/N" ""
+			(at 50.8 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N Flight" ""
+			(at 50.8 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "L9"
@@ -33160,6 +33340,24 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC P/N" ""
+			(at 220.98 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N Flight" ""
+			(at 220.98 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "L9"
@@ -34243,7 +34441,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint (for JLCPCB)" "0201"
+		(property "Footprint (for JLCPCB)" "0402"
 			(at 367.665 166.37 0)
 			(effects
 				(font
@@ -34278,6 +34476,24 @@
 			)
 		)
 		(property "Voltage Rating" "6.3V"
+			(at 367.665 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N" ""
+			(at 367.665 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N Flight" ""
 			(at 367.665 166.37 0)
 			(effects
 				(font
@@ -34374,7 +34590,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint (for JLCPCB)" "0402"
+		(property "Footprint (for JLCPCB)" ""
 			(at 270.51 50.8 0)
 			(effects
 				(font
@@ -34409,6 +34625,24 @@
 			)
 		)
 		(property "Voltage Rating" "50V"
+			(at 270.51 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N" ""
+			(at 270.51 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N Flight" ""
 			(at 270.51 50.8 0)
 			(effects
 				(font
@@ -34585,7 +34819,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint (for JLCPCB)" "0201"
+		(property "Footprint (for JLCPCB)" ""
 			(at 274.32 147.32 0)
 			(effects
 				(font
@@ -34595,6 +34829,24 @@
 			)
 		)
 		(property "Voltage Rating" "10V"
+			(at 274.32 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N" ""
+			(at 274.32 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N Flight" ""
 			(at 274.32 147.32 0)
 			(effects
 				(font
@@ -34839,6 +35091,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC P/N" ""
+			(at 350.52 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N Flight" ""
+			(at 350.52 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8827d88c-fcae-4bee-854b-d501d1a55265")
 		)
@@ -34927,7 +35197,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint (for JLCPCB)" "0201"
+		(property "Footprint (for JLCPCB)" "0402"
 			(at 185.42 139.7 0)
 			(effects
 				(font
@@ -34962,6 +35232,24 @@
 			)
 		)
 		(property "Voltage Rating" "6.3V"
+			(at 185.42 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N" ""
+			(at 185.42 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N Flight" ""
 			(at 185.42 139.7 0)
 			(effects
 				(font
@@ -35124,7 +35412,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint (for JLCPCB)" "0201"
+		(property "Footprint (for JLCPCB)" "0402"
 			(at 146.685 43.18 0)
 			(effects
 				(font
@@ -35134,6 +35422,24 @@
 			)
 		)
 		(property "Voltage Rating" "10V"
+			(at 146.685 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N" ""
+			(at 146.685 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N Flight" ""
 			(at 146.685 43.18 0)
 			(effects
 				(font
@@ -35230,7 +35536,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint (for JLCPCB)" "0201"
+		(property "Footprint (for JLCPCB)" "0402"
 			(at 284.48 142.24 0)
 			(effects
 				(font
@@ -35240,6 +35546,24 @@
 			)
 		)
 		(property "Voltage Rating" "10V"
+			(at 284.48 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N" ""
+			(at 284.48 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N Flight" ""
 			(at 284.48 142.24 0)
 			(effects
 				(font
@@ -35468,7 +35792,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint (for JLCPCB)" "0201"
+		(property "Footprint (for JLCPCB)" ""
 			(at 148.59 185.42 0)
 			(effects
 				(font
@@ -35478,6 +35802,24 @@
 			)
 		)
 		(property "Voltage Rating" "10V"
+			(at 148.59 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N" ""
+			(at 148.59 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N Flight" ""
 			(at 148.59 185.42 0)
 			(effects
 				(font
@@ -35724,6 +36066,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC P/N" ""
+			(at 150.495 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N Flight" ""
+			(at 150.495 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d718e6a6-580b-4590-9f8e-face4c634c7c")
 		)
@@ -35812,7 +36172,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint (for JLCPCB)" "0201"
+		(property "Footprint (for JLCPCB)" "0402"
 			(at 138.43 185.42 0)
 			(effects
 				(font
@@ -35847,6 +36207,24 @@
 			)
 		)
 		(property "Voltage Rating" "6.3V"
+			(at 138.43 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N" ""
+			(at 138.43 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N Flight" ""
 			(at 138.43 185.42 0)
 			(effects
 				(font
@@ -36303,6 +36681,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC P/N" ""
+			(at 357.505 159.385 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N Flight" ""
+			(at 357.505 159.385 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3668c14b-4cb2-46f7-8802-23523d8b8b6c")
 		)
@@ -36554,6 +36950,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC P/N" ""
+			(at 184.15 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N Flight" ""
+			(at 184.15 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cf18efa1-2bd6-4b6e-b8bd-ecd493f18ffe")
 		)
@@ -36726,7 +37140,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint (for JLCPCB)" "0201"
+		(property "Footprint (for JLCPCB)" "0402"
 			(at 186.055 217.17 0)
 			(effects
 				(font
@@ -36761,6 +37175,24 @@
 			)
 		)
 		(property "Voltage Rating" "6.3V"
+			(at 186.055 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N" ""
+			(at 186.055 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N Flight" ""
 			(at 186.055 217.17 0)
 			(effects
 				(font
@@ -36857,7 +37289,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint (for JLCPCB)" "0201"
+		(property "Footprint (for JLCPCB)" "0402"
 			(at 160.655 160.02 0)
 			(effects
 				(font
@@ -36892,6 +37324,24 @@
 			)
 		)
 		(property "Voltage Rating" "6.3V"
+			(at 160.655 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N" ""
+			(at 160.655 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N Flight" ""
 			(at 160.655 160.02 0)
 			(effects
 				(font
@@ -36987,7 +37437,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint (for JLCPCB)" "0201"
+		(property "Footprint (for JLCPCB)" "0402"
 			(at 128.905 38.1 0)
 			(effects
 				(font
@@ -36997,6 +37447,24 @@
 			)
 		)
 		(property "Voltage Rating" "10V"
+			(at 128.905 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N" ""
+			(at 128.905 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N Flight" ""
 			(at 128.905 38.1 0)
 			(effects
 				(font
@@ -37139,6 +37607,24 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC P/N" ""
+			(at 243.84 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N Flight" ""
+			(at 243.84 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -37405,6 +37891,24 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC P/N" ""
+			(at 219.71 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N Flight" ""
+			(at 219.71 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "L9"
@@ -38489,6 +38993,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC P/N" ""
+			(at 177.8 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N Flight" ""
+			(at 177.8 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f9138c89-3e44-43a0-ab76-afbd59b69dd9")
 		)
@@ -38619,7 +39141,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint (for JLCPCB)" "0201"
+		(property "Footprint (for JLCPCB)" ""
 			(at 192.405 88.9 0)
 			(effects
 				(font
@@ -38629,6 +39151,24 @@
 			)
 		)
 		(property "Voltage Rating" "10V"
+			(at 192.405 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N" ""
+			(at 192.405 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N Flight" ""
 			(at 192.405 88.9 0)
 			(effects
 				(font
@@ -38743,7 +39283,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint (for JLCPCB)" "0201"
+		(property "Footprint (for JLCPCB)" "0402"
 			(at 166.37 50.8 0)
 			(effects
 				(font
@@ -38753,6 +39293,24 @@
 			)
 		)
 		(property "Voltage Rating" "50V"
+			(at 166.37 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N" ""
+			(at 166.37 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N Flight" ""
 			(at 166.37 50.8 0)
 			(effects
 				(font
@@ -38849,7 +39407,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint (for JLCPCB)" "0201"
+		(property "Footprint (for JLCPCB)" ""
 			(at 170.815 160.02 0)
 			(effects
 				(font
@@ -38859,6 +39417,24 @@
 			)
 		)
 		(property "Voltage Rating" "10V"
+			(at 170.815 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N" ""
+			(at 170.815 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N Flight" ""
 			(at 170.815 160.02 0)
 			(effects
 				(font
@@ -38955,7 +39531,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint (for JLCPCB)" "0201"
+		(property "Footprint (for JLCPCB)" "0402"
 			(at 295.275 137.16 0)
 			(effects
 				(font
@@ -38965,6 +39541,24 @@
 			)
 		)
 		(property "Voltage Rating" "10V"
+			(at 295.275 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N" ""
+			(at 295.275 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N Flight" ""
 			(at 295.275 137.16 0)
 			(effects
 				(font
@@ -39067,6 +39661,24 @@
 			)
 		)
 		(property "DNI" "DNI"
+			(at 309.245 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N" ""
+			(at 309.245 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N Flight" ""
 			(at 309.245 45.72 0)
 			(effects
 				(font
@@ -39245,6 +39857,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC P/N" ""
+			(at 176.53 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N Flight" ""
+			(at 176.53 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a406dc7c-04ae-4b39-bb4a-a372483a92da")
 		)
@@ -39349,6 +39979,24 @@
 			)
 		)
 		(property "Footprint (for JLCPCB)" "0402"
+			(at 175.26 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N" ""
+			(at 175.26 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N Flight" ""
 			(at 175.26 217.17 0)
 			(effects
 				(font
@@ -39487,6 +40135,24 @@
 				)
 			)
 		)
+		(property "LCSC P/N" ""
+			(at 243.84 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N Flight" ""
+			(at 243.84 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f9471bc0-a04e-4caf-ad39-807b4a017d98")
 		)
@@ -39612,6 +40278,24 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC P/N" ""
+			(at 281.305 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N Flight" ""
+			(at 281.305 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -39766,6 +40450,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC P/N" ""
+			(at 177.8 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N Flight" ""
+			(at 177.8 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fe243099-517c-46be-90de-aa9334a4ab60")
 		)
@@ -39897,6 +40599,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC P/N" ""
+			(at 187.325 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N Flight" ""
+			(at 187.325 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c9091e30-0dea-45c0-901a-fb9fac541814")
 		)
@@ -39983,6 +40703,24 @@
 			)
 		)
 		(property "Footprint (for JLCPCB)" "0402"
+			(at 270.51 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N" ""
+			(at 270.51 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N Flight" ""
 			(at 270.51 40.64 0)
 			(effects
 				(font
@@ -40145,7 +40883,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint (for JLCPCB)" "0201"
+		(property "Footprint (for JLCPCB)" "0402"
 			(at 172.72 195.58 0)
 			(effects
 				(font
@@ -40180,6 +40918,24 @@
 			)
 		)
 		(property "Voltage Rating" "6.3V"
+			(at 172.72 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N" ""
+			(at 172.72 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N Flight" ""
 			(at 172.72 195.58 0)
 			(effects
 				(font
