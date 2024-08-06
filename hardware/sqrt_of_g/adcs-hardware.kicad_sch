@@ -4411,7 +4411,7 @@
     (property "Sheetname" "MCU" (at 104.14 60.2484 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheetfile" "microcontroller.kicad_sch" (at 53.34 292.1 0)
+    (property "Sheetfile" "rt1176.kicad_sch" (at 53.34 292.1 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (pin "GPIO_AD_B1_09" bidirectional (at 104.14 307.3654 180)

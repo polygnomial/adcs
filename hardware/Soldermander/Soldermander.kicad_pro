@@ -626,7 +626,7 @@
       "plot": "fab/1.0.1/",
       "pos_files": "fab/1.0.1/",
       "specctra_dsn": "",
-      "step": "cpu_board.step",
+      "step": "soldermander.step",
       "svg": "",
       "vrml": ""
     },

@@ -4834,6 +4834,12 @@
 		(uuid "a010c700-39be-4d61-8769-08744c3dde36")
 	)
 	(junction
+		(at 306.07 647.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a09b1438-a192-4190-a559-9e704f5dc1af")
+	)
+	(junction
 		(at 276.86 275.59)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5316,6 +5322,16 @@
 			(type default)
 		)
 		(uuid "0b620747-a3fa-4f81-8d3c-b135a6966cf5")
+	)
+	(wire
+		(pts
+			(xy 306.07 662.94) (xy 306.07 671.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b6b9770-c99c-4bd8-a4f1-aa474086fc65")
 	)
 	(wire
 		(pts
@@ -6949,16 +6965,6 @@
 	)
 	(wire
 		(pts
-			(xy 306.07 662.94) (xy 306.07 671.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5af2565d-83f9-4c3d-b1f3-015812560234")
-	)
-	(wire
-		(pts
 			(xy 447.04 814.07) (xy 447.04 816.61)
 		)
 		(stroke
@@ -7159,7 +7165,7 @@
 	)
 	(wire
 		(pts
-			(xy 306.07 565.15) (xy 306.07 650.24)
+			(xy 306.07 647.7) (xy 306.07 650.24)
 		)
 		(stroke
 			(width 0)
@@ -7349,7 +7355,7 @@
 	)
 	(wire
 		(pts
-			(xy 323.85 647.7) (xy 279.4 647.7)
+			(xy 323.85 647.7) (xy 306.07 647.7)
 		)
 		(stroke
 			(width 0)
@@ -9596,6 +9602,16 @@
 			(type default)
 		)
 		(uuid "d596f564-646d-4567-bc64-f2c49d587c07")
+	)
+	(wire
+		(pts
+			(xy 306.07 647.7) (xy 279.4 647.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5b9e5d7-fcc6-4a63-a8b8-622199fd96a0")
 	)
 	(wire
 		(pts
@@ -18137,7 +18153,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_DIN965_Pad"
+		(property "Footprint" "adcs:CoralLandingPad"
 			(at 444.5 810.26 0)
 			(effects
 				(font
@@ -20711,7 +20727,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_DIN965_Pad"
+		(property "Footprint" "adcs:CoralLandingPad"
 			(at 444.5 802.64 0)
 			(effects
 				(font
@@ -20831,7 +20847,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_DIN965_Pad"
+		(property "Footprint" "adcs:CoralLandingPad"
 			(at 444.5 806.45 0)
 			(effects
 				(font
@@ -21276,7 +21292,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_DIN965_Pad"
+		(property "Footprint" "adcs:CoralLandingPad"
 			(at 444.5 814.07 0)
 			(effects
 				(font

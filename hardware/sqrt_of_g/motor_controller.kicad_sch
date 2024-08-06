@@ -1001,6 +1001,10 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 94660ec6-cceb-49c0-9f24-7868eb7d3e35)
   )
+  (label "VREG" (at 233.68 101.6 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 9ae29c2a-5770-4b15-bff8-9ac6751c7fe9)
+  )
   (label "AGND" (at 241.3 165.1 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid c5322860-a228-4e32-9295-4784edf74f8f)
@@ -1069,7 +1073,7 @@
     (property "Reference" "R54" (at 265.938 164.973 90)
       (effects (font (size 1.4986 1.4986)) (justify right))
     )
-    (property "Value" "10k" (at 265.938 169.672 90)
+    (property "Value" "10mΩ" (at 265.938 169.672 90)
       (effects (font (size 1.4986 1.4986)) (justify right))
     )
     (property "Footprint" "" (at 264.16 167.64 0)
@@ -1077,6 +1081,15 @@
     )
     (property "Datasheet" "" (at 264.16 167.64 0)
       (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "DigiKey Part Number" "" (at 264.16 167.64 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Tolerance" "" (at 264.16 167.64 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Power Rating" "" (at 264.16 167.64 0)
+      (effects (font (size 1.27 1.27)))
     )
     (pin "1" (uuid b67365d6-c40c-4a30-963e-eb7383e74d47))
     (pin "2" (uuid 65e71985-4e05-4169-9143-ab2f92448157))
@@ -1099,6 +1112,26 @@
         )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/7338a5c7-105f-4d83-89cf-be2bf0b0220e"
           (reference "R78") (unit 1)
+        )
+      )
+      (project "sqrt_of_g_temp"
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/4e90b205-b804-40bc-877e-095f51035329"
+          (reference "R54") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/636456a5-474f-43ed-8ab2-8ac1ec3ae579"
+          (reference "R54") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/c2301c56-0b86-4f86-a349-3a2237d694cb"
+          (reference "R54") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/1566f07d-0151-4089-9a32-ece211155d95"
+          (reference "R54") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/0b4a9bdc-c256-440e-8b7a-00cad55aec4a"
+          (reference "R54") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/2f3f5634-7779-4724-b17b-69c260e1def9"
+          (reference "R54") (unit 1)
         )
       )
       (project "motor_controller"
@@ -1159,6 +1192,26 @@
           (reference "C102") (unit 1)
         )
       )
+      (project "sqrt_of_g_temp"
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/4e90b205-b804-40bc-877e-095f51035329"
+          (reference "C54") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/636456a5-474f-43ed-8ab2-8ac1ec3ae579"
+          (reference "C54") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/c2301c56-0b86-4f86-a349-3a2237d694cb"
+          (reference "C54") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/1566f07d-0151-4089-9a32-ece211155d95"
+          (reference "C54") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/0b4a9bdc-c256-440e-8b7a-00cad55aec4a"
+          (reference "C54") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/2f3f5634-7779-4724-b17b-69c260e1def9"
+          (reference "C54") (unit 1)
+        )
+      )
       (project "motor_controller"
         (path "/a997e678-d7b6-4305-a15e-c7b43e0a7ee0"
           (reference "C?") (unit 1)
@@ -1202,6 +1255,26 @@
         )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/7338a5c7-105f-4d83-89cf-be2bf0b0220e"
           (reference "#PWR068") (unit 1)
+        )
+      )
+      (project "sqrt_of_g_temp"
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/4e90b205-b804-40bc-877e-095f51035329"
+          (reference "#PWR051") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/636456a5-474f-43ed-8ab2-8ac1ec3ae579"
+          (reference "#PWR051") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/1566f07d-0151-4089-9a32-ece211155d95"
+          (reference "#PWR051") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/c2301c56-0b86-4f86-a349-3a2237d694cb"
+          (reference "#PWR051") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/0b4a9bdc-c256-440e-8b7a-00cad55aec4a"
+          (reference "#PWR051") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/2f3f5634-7779-4724-b17b-69c260e1def9"
+          (reference "#PWR051") (unit 1)
         )
       )
       (project "motor_controller"
@@ -1257,6 +1330,26 @@
           (reference "TP?") (unit 1)
         )
       )
+      (project "sqrt_of_g_temp"
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/636456a5-474f-43ed-8ab2-8ac1ec3ae579"
+          (reference "TP?") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/c2301c56-0b86-4f86-a349-3a2237d694cb"
+          (reference "TP?") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/1566f07d-0151-4089-9a32-ece211155d95"
+          (reference "TP?") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/0b4a9bdc-c256-440e-8b7a-00cad55aec4a"
+          (reference "TP?") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/2f3f5634-7779-4724-b17b-69c260e1def9"
+          (reference "TP?") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/4e90b205-b804-40bc-877e-095f51035329"
+          (reference "TP?") (unit 1)
+        )
+      )
       (project "motor_controller"
         (path "/a997e678-d7b6-4305-a15e-c7b43e0a7ee0"
           (reference "TP?") (unit 1)
@@ -1271,7 +1364,7 @@
     (property "Reference" "R55" (at 285.75 164.338 90)
       (effects (font (size 1.4986 1.4986)) (justify right))
     )
-    (property "Value" "10k" (at 285.75 170.434 90)
+    (property "Value" "10mΩ" (at 285.75 170.434 90)
       (effects (font (size 1.4986 1.4986)) (justify right))
     )
     (property "Footprint" "" (at 284.48 167.64 0)
@@ -1279,6 +1372,15 @@
     )
     (property "Datasheet" "" (at 284.48 167.64 0)
       (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "DigiKey Part Number" "" (at 284.48 167.64 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Tolerance" "" (at 284.48 167.64 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Power Rating" "" (at 284.48 167.64 0)
+      (effects (font (size 1.27 1.27)))
     )
     (pin "1" (uuid ea8eb827-b72e-4788-8520-65ccf49aa58d))
     (pin "2" (uuid 58ae1397-fa1f-470b-a0a1-e39017141efe))
@@ -1301,6 +1403,26 @@
         )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/7338a5c7-105f-4d83-89cf-be2bf0b0220e"
           (reference "R79") (unit 1)
+        )
+      )
+      (project "sqrt_of_g_temp"
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/4e90b205-b804-40bc-877e-095f51035329"
+          (reference "R55") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/636456a5-474f-43ed-8ab2-8ac1ec3ae579"
+          (reference "R55") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/c2301c56-0b86-4f86-a349-3a2237d694cb"
+          (reference "R55") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/1566f07d-0151-4089-9a32-ece211155d95"
+          (reference "R55") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/0b4a9bdc-c256-440e-8b7a-00cad55aec4a"
+          (reference "R55") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/2f3f5634-7779-4724-b17b-69c260e1def9"
+          (reference "R55") (unit 1)
         )
       )
       (project "motor_controller"
@@ -1348,6 +1470,26 @@
           (reference "#PWR070") (unit 1)
         )
       )
+      (project "sqrt_of_g_temp"
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/4e90b205-b804-40bc-877e-095f51035329"
+          (reference "#PWR053") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/636456a5-474f-43ed-8ab2-8ac1ec3ae579"
+          (reference "#PWR053") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/1566f07d-0151-4089-9a32-ece211155d95"
+          (reference "#PWR053") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/c2301c56-0b86-4f86-a349-3a2237d694cb"
+          (reference "#PWR053") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/0b4a9bdc-c256-440e-8b7a-00cad55aec4a"
+          (reference "#PWR053") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/2f3f5634-7779-4724-b17b-69c260e1def9"
+          (reference "#PWR053") (unit 1)
+        )
+      )
       (project "motor_controller"
         (path "/a997e678-d7b6-4305-a15e-c7b43e0a7ee0"
           (reference "#PWR?") (unit 1)
@@ -1392,6 +1534,26 @@
         )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/7338a5c7-105f-4d83-89cf-be2bf0b0220e"
           (reference "R76") (unit 1)
+        )
+      )
+      (project "sqrt_of_g_temp"
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/4e90b205-b804-40bc-877e-095f51035329"
+          (reference "R52") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/636456a5-474f-43ed-8ab2-8ac1ec3ae579"
+          (reference "R52") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/c2301c56-0b86-4f86-a349-3a2237d694cb"
+          (reference "R52") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/1566f07d-0151-4089-9a32-ece211155d95"
+          (reference "R52") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/0b4a9bdc-c256-440e-8b7a-00cad55aec4a"
+          (reference "R52") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/2f3f5634-7779-4724-b17b-69c260e1def9"
+          (reference "R52") (unit 1)
         )
       )
       (project "motor_controller"
@@ -1444,6 +1606,26 @@
       )
       (project "Teensy4.1-example"
         (path "/66f2f548-0d73-423c-ac63-fd3dc2dd48b2"
+          (reference "TP?") (unit 1)
+        )
+      )
+      (project "sqrt_of_g_temp"
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/636456a5-474f-43ed-8ab2-8ac1ec3ae579"
+          (reference "TP?") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/c2301c56-0b86-4f86-a349-3a2237d694cb"
+          (reference "TP?") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/1566f07d-0151-4089-9a32-ece211155d95"
+          (reference "TP?") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/0b4a9bdc-c256-440e-8b7a-00cad55aec4a"
+          (reference "TP?") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/2f3f5634-7779-4724-b17b-69c260e1def9"
+          (reference "TP?") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/4e90b205-b804-40bc-877e-095f51035329"
           (reference "TP?") (unit 1)
         )
       )
@@ -1500,6 +1682,26 @@
           (reference "TP?") (unit 1)
         )
       )
+      (project "sqrt_of_g_temp"
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/636456a5-474f-43ed-8ab2-8ac1ec3ae579"
+          (reference "TP?") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/c2301c56-0b86-4f86-a349-3a2237d694cb"
+          (reference "TP?") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/1566f07d-0151-4089-9a32-ece211155d95"
+          (reference "TP?") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/0b4a9bdc-c256-440e-8b7a-00cad55aec4a"
+          (reference "TP?") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/2f3f5634-7779-4724-b17b-69c260e1def9"
+          (reference "TP?") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/4e90b205-b804-40bc-877e-095f51035329"
+          (reference "TP?") (unit 1)
+        )
+      )
       (project "motor_controller"
         (path "/a997e678-d7b6-4305-a15e-c7b43e0a7ee0"
           (reference "TP?") (unit 1)
@@ -1544,6 +1746,26 @@
         )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/7338a5c7-105f-4d83-89cf-be2bf0b0220e"
           (reference "C108") (unit 1)
+        )
+      )
+      (project "sqrt_of_g_temp"
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/4e90b205-b804-40bc-877e-095f51035329"
+          (reference "C60") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/636456a5-474f-43ed-8ab2-8ac1ec3ae579"
+          (reference "C60") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/c2301c56-0b86-4f86-a349-3a2237d694cb"
+          (reference "C60") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/1566f07d-0151-4089-9a32-ece211155d95"
+          (reference "C60") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/0b4a9bdc-c256-440e-8b7a-00cad55aec4a"
+          (reference "C60") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/2f3f5634-7779-4724-b17b-69c260e1def9"
+          (reference "C60") (unit 1)
         )
       )
       (project "motor_controller"
@@ -1660,6 +1882,26 @@
           (reference "U14") (unit 1)
         )
       )
+      (project "sqrt_of_g_temp"
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/4e90b205-b804-40bc-877e-095f51035329"
+          (reference "U10") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/636456a5-474f-43ed-8ab2-8ac1ec3ae579"
+          (reference "U10") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/c2301c56-0b86-4f86-a349-3a2237d694cb"
+          (reference "U10") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/1566f07d-0151-4089-9a32-ece211155d95"
+          (reference "U10") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/0b4a9bdc-c256-440e-8b7a-00cad55aec4a"
+          (reference "U10") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/2f3f5634-7779-4724-b17b-69c260e1def9"
+          (reference "U10") (unit 1)
+        )
+      )
       (project "motor_controller"
         (path "/a997e678-d7b6-4305-a15e-c7b43e0a7ee0"
           (reference "U?") (unit 1)
@@ -1704,6 +1946,26 @@
         )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/7338a5c7-105f-4d83-89cf-be2bf0b0220e"
           (reference "C105") (unit 1)
+        )
+      )
+      (project "sqrt_of_g_temp"
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/4e90b205-b804-40bc-877e-095f51035329"
+          (reference "C57") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/636456a5-474f-43ed-8ab2-8ac1ec3ae579"
+          (reference "C57") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/c2301c56-0b86-4f86-a349-3a2237d694cb"
+          (reference "C57") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/1566f07d-0151-4089-9a32-ece211155d95"
+          (reference "C57") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/0b4a9bdc-c256-440e-8b7a-00cad55aec4a"
+          (reference "C57") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/2f3f5634-7779-4724-b17b-69c260e1def9"
+          (reference "C57") (unit 1)
         )
       )
       (project "motor_controller"
@@ -1764,6 +2026,26 @@
           (reference "C100") (unit 1)
         )
       )
+      (project "sqrt_of_g_temp"
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/4e90b205-b804-40bc-877e-095f51035329"
+          (reference "C52") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/636456a5-474f-43ed-8ab2-8ac1ec3ae579"
+          (reference "C52") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/c2301c56-0b86-4f86-a349-3a2237d694cb"
+          (reference "C52") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/1566f07d-0151-4089-9a32-ece211155d95"
+          (reference "C52") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/0b4a9bdc-c256-440e-8b7a-00cad55aec4a"
+          (reference "C52") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/2f3f5634-7779-4724-b17b-69c260e1def9"
+          (reference "C52") (unit 1)
+        )
+      )
       (project "motor_controller"
         (path "/a997e678-d7b6-4305-a15e-c7b43e0a7ee0"
           (reference "C?") (unit 1)
@@ -1817,6 +2099,26 @@
           (reference "TP?") (unit 1)
         )
       )
+      (project "sqrt_of_g_temp"
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/636456a5-474f-43ed-8ab2-8ac1ec3ae579"
+          (reference "TP?") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/c2301c56-0b86-4f86-a349-3a2237d694cb"
+          (reference "TP?") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/1566f07d-0151-4089-9a32-ece211155d95"
+          (reference "TP?") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/0b4a9bdc-c256-440e-8b7a-00cad55aec4a"
+          (reference "TP?") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/2f3f5634-7779-4724-b17b-69c260e1def9"
+          (reference "TP?") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/4e90b205-b804-40bc-877e-095f51035329"
+          (reference "TP?") (unit 1)
+        )
+      )
       (project "motor_controller"
         (path "/a997e678-d7b6-4305-a15e-c7b43e0a7ee0"
           (reference "TP?") (unit 1)
@@ -1831,7 +2133,7 @@
     (property "Reference" "R56" (at 306.07 163.957 90)
       (effects (font (size 1.4986 1.4986)) (justify right))
     )
-    (property "Value" "10k" (at 306.197 171.069 90)
+    (property "Value" "10mΩ" (at 306.197 171.069 90)
       (effects (font (size 1.4986 1.4986)) (justify right))
     )
     (property "Footprint" "" (at 304.8 167.64 0)
@@ -1839,6 +2141,15 @@
     )
     (property "Datasheet" "" (at 304.8 167.64 0)
       (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "DigiKey Part Number" "" (at 304.8 167.64 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Tolerance" "" (at 304.8 167.64 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Power Rating" "" (at 304.8 167.64 0)
+      (effects (font (size 1.27 1.27)))
     )
     (pin "1" (uuid 1d50bc3a-f98b-4c42-8c03-7226ace05fff))
     (pin "2" (uuid eed508f3-8036-4fb3-9321-3e1f9b59a9f7))
@@ -1861,6 +2172,26 @@
         )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/7338a5c7-105f-4d83-89cf-be2bf0b0220e"
           (reference "R80") (unit 1)
+        )
+      )
+      (project "sqrt_of_g_temp"
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/4e90b205-b804-40bc-877e-095f51035329"
+          (reference "R56") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/636456a5-474f-43ed-8ab2-8ac1ec3ae579"
+          (reference "R56") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/c2301c56-0b86-4f86-a349-3a2237d694cb"
+          (reference "R56") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/1566f07d-0151-4089-9a32-ece211155d95"
+          (reference "R56") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/0b4a9bdc-c256-440e-8b7a-00cad55aec4a"
+          (reference "R56") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/2f3f5634-7779-4724-b17b-69c260e1def9"
+          (reference "R56") (unit 1)
         )
       )
       (project "motor_controller"
@@ -1921,6 +2252,26 @@
           (reference "C109") (unit 1)
         )
       )
+      (project "sqrt_of_g_temp"
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/4e90b205-b804-40bc-877e-095f51035329"
+          (reference "C61") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/636456a5-474f-43ed-8ab2-8ac1ec3ae579"
+          (reference "C61") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/c2301c56-0b86-4f86-a349-3a2237d694cb"
+          (reference "C61") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/1566f07d-0151-4089-9a32-ece211155d95"
+          (reference "C61") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/0b4a9bdc-c256-440e-8b7a-00cad55aec4a"
+          (reference "C61") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/2f3f5634-7779-4724-b17b-69c260e1def9"
+          (reference "C61") (unit 1)
+        )
+      )
       (project "motor_controller"
         (path "/a997e678-d7b6-4305-a15e-c7b43e0a7ee0"
           (reference "C?") (unit 1)
@@ -1965,6 +2316,26 @@
         )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/7338a5c7-105f-4d83-89cf-be2bf0b0220e"
           (reference "R75") (unit 1)
+        )
+      )
+      (project "sqrt_of_g_temp"
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/4e90b205-b804-40bc-877e-095f51035329"
+          (reference "R51") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/636456a5-474f-43ed-8ab2-8ac1ec3ae579"
+          (reference "R51") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/c2301c56-0b86-4f86-a349-3a2237d694cb"
+          (reference "R51") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/1566f07d-0151-4089-9a32-ece211155d95"
+          (reference "R51") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/0b4a9bdc-c256-440e-8b7a-00cad55aec4a"
+          (reference "R51") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/2f3f5634-7779-4724-b17b-69c260e1def9"
+          (reference "R51") (unit 1)
         )
       )
       (project "motor_controller"
@@ -2020,6 +2391,26 @@
           (reference "TP?") (unit 1)
         )
       )
+      (project "sqrt_of_g_temp"
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/636456a5-474f-43ed-8ab2-8ac1ec3ae579"
+          (reference "TP?") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/c2301c56-0b86-4f86-a349-3a2237d694cb"
+          (reference "TP?") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/1566f07d-0151-4089-9a32-ece211155d95"
+          (reference "TP?") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/0b4a9bdc-c256-440e-8b7a-00cad55aec4a"
+          (reference "TP?") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/2f3f5634-7779-4724-b17b-69c260e1def9"
+          (reference "TP?") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/4e90b205-b804-40bc-877e-095f51035329"
+          (reference "TP?") (unit 1)
+        )
+      )
       (project "motor_controller"
         (path "/a997e678-d7b6-4305-a15e-c7b43e0a7ee0"
           (reference "TP?") (unit 1)
@@ -2064,6 +2455,26 @@
         )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/7338a5c7-105f-4d83-89cf-be2bf0b0220e"
           (reference "R77") (unit 1)
+        )
+      )
+      (project "sqrt_of_g_temp"
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/4e90b205-b804-40bc-877e-095f51035329"
+          (reference "R53") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/636456a5-474f-43ed-8ab2-8ac1ec3ae579"
+          (reference "R53") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/c2301c56-0b86-4f86-a349-3a2237d694cb"
+          (reference "R53") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/1566f07d-0151-4089-9a32-ece211155d95"
+          (reference "R53") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/0b4a9bdc-c256-440e-8b7a-00cad55aec4a"
+          (reference "R53") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/2f3f5634-7779-4724-b17b-69c260e1def9"
+          (reference "R53") (unit 1)
         )
       )
       (project "motor_controller"
@@ -2124,6 +2535,26 @@
           (reference "C101") (unit 1)
         )
       )
+      (project "sqrt_of_g_temp"
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/4e90b205-b804-40bc-877e-095f51035329"
+          (reference "C53") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/636456a5-474f-43ed-8ab2-8ac1ec3ae579"
+          (reference "C53") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/c2301c56-0b86-4f86-a349-3a2237d694cb"
+          (reference "C53") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/1566f07d-0151-4089-9a32-ece211155d95"
+          (reference "C53") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/0b4a9bdc-c256-440e-8b7a-00cad55aec4a"
+          (reference "C53") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/2f3f5634-7779-4724-b17b-69c260e1def9"
+          (reference "C53") (unit 1)
+        )
+      )
       (project "motor_controller"
         (path "/a997e678-d7b6-4305-a15e-c7b43e0a7ee0"
           (reference "C?") (unit 1)
@@ -2180,6 +2611,26 @@
         )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/7338a5c7-105f-4d83-89cf-be2bf0b0220e"
           (reference "C107") (unit 1)
+        )
+      )
+      (project "sqrt_of_g_temp"
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/4e90b205-b804-40bc-877e-095f51035329"
+          (reference "C59") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/636456a5-474f-43ed-8ab2-8ac1ec3ae579"
+          (reference "C59") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/c2301c56-0b86-4f86-a349-3a2237d694cb"
+          (reference "C59") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/1566f07d-0151-4089-9a32-ece211155d95"
+          (reference "C59") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/0b4a9bdc-c256-440e-8b7a-00cad55aec4a"
+          (reference "C59") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/2f3f5634-7779-4724-b17b-69c260e1def9"
+          (reference "C59") (unit 1)
         )
       )
       (project "motor_controller"
@@ -2240,6 +2691,26 @@
           (reference "C104") (unit 1)
         )
       )
+      (project "sqrt_of_g_temp"
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/4e90b205-b804-40bc-877e-095f51035329"
+          (reference "C56") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/636456a5-474f-43ed-8ab2-8ac1ec3ae579"
+          (reference "C56") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/c2301c56-0b86-4f86-a349-3a2237d694cb"
+          (reference "C56") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/1566f07d-0151-4089-9a32-ece211155d95"
+          (reference "C56") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/0b4a9bdc-c256-440e-8b7a-00cad55aec4a"
+          (reference "C56") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/2f3f5634-7779-4724-b17b-69c260e1def9"
+          (reference "C56") (unit 1)
+        )
+      )
       (project "motor_controller"
         (path "/a997e678-d7b6-4305-a15e-c7b43e0a7ee0"
           (reference "C?") (unit 1)
@@ -2283,6 +2754,26 @@
         )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/7338a5c7-105f-4d83-89cf-be2bf0b0220e"
           (reference "#PWR069") (unit 1)
+        )
+      )
+      (project "sqrt_of_g_temp"
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/4e90b205-b804-40bc-877e-095f51035329"
+          (reference "#PWR052") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/636456a5-474f-43ed-8ab2-8ac1ec3ae579"
+          (reference "#PWR052") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/1566f07d-0151-4089-9a32-ece211155d95"
+          (reference "#PWR052") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/c2301c56-0b86-4f86-a349-3a2237d694cb"
+          (reference "#PWR052") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/0b4a9bdc-c256-440e-8b7a-00cad55aec4a"
+          (reference "#PWR052") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/2f3f5634-7779-4724-b17b-69c260e1def9"
+          (reference "#PWR052") (unit 1)
         )
       )
       (project "motor_controller"
@@ -2335,6 +2826,26 @@
       )
       (project "Teensy4.1-example"
         (path "/66f2f548-0d73-423c-ac63-fd3dc2dd48b2"
+          (reference "TP?") (unit 1)
+        )
+      )
+      (project "sqrt_of_g_temp"
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/636456a5-474f-43ed-8ab2-8ac1ec3ae579"
+          (reference "TP?") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/c2301c56-0b86-4f86-a349-3a2237d694cb"
+          (reference "TP?") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/1566f07d-0151-4089-9a32-ece211155d95"
+          (reference "TP?") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/0b4a9bdc-c256-440e-8b7a-00cad55aec4a"
+          (reference "TP?") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/2f3f5634-7779-4724-b17b-69c260e1def9"
+          (reference "TP?") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/4e90b205-b804-40bc-877e-095f51035329"
           (reference "TP?") (unit 1)
         )
       )
@@ -2396,6 +2907,26 @@
           (reference "C110") (unit 1)
         )
       )
+      (project "sqrt_of_g_temp"
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/4e90b205-b804-40bc-877e-095f51035329"
+          (reference "C62") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/636456a5-474f-43ed-8ab2-8ac1ec3ae579"
+          (reference "C62") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/c2301c56-0b86-4f86-a349-3a2237d694cb"
+          (reference "C62") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/1566f07d-0151-4089-9a32-ece211155d95"
+          (reference "C62") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/0b4a9bdc-c256-440e-8b7a-00cad55aec4a"
+          (reference "C62") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/2f3f5634-7779-4724-b17b-69c260e1def9"
+          (reference "C62") (unit 1)
+        )
+      )
       (project "motor_controller"
         (path "/a997e678-d7b6-4305-a15e-c7b43e0a7ee0"
           (reference "C?") (unit 1)
@@ -2454,6 +2985,26 @@
           (reference "C106") (unit 1)
         )
       )
+      (project "sqrt_of_g_temp"
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/4e90b205-b804-40bc-877e-095f51035329"
+          (reference "C58") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/636456a5-474f-43ed-8ab2-8ac1ec3ae579"
+          (reference "C58") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/c2301c56-0b86-4f86-a349-3a2237d694cb"
+          (reference "C58") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/1566f07d-0151-4089-9a32-ece211155d95"
+          (reference "C58") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/0b4a9bdc-c256-440e-8b7a-00cad55aec4a"
+          (reference "C58") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/2f3f5634-7779-4724-b17b-69c260e1def9"
+          (reference "C58") (unit 1)
+        )
+      )
       (project "motor_controller"
         (path "/a997e678-d7b6-4305-a15e-c7b43e0a7ee0"
           (reference "C?") (unit 1)
@@ -2497,6 +3048,26 @@
         )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/7338a5c7-105f-4d83-89cf-be2bf0b0220e"
           (reference "#PWR067") (unit 1)
+        )
+      )
+      (project "sqrt_of_g_temp"
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/4e90b205-b804-40bc-877e-095f51035329"
+          (reference "#PWR050") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/636456a5-474f-43ed-8ab2-8ac1ec3ae579"
+          (reference "#PWR050") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/1566f07d-0151-4089-9a32-ece211155d95"
+          (reference "#PWR050") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/c2301c56-0b86-4f86-a349-3a2237d694cb"
+          (reference "#PWR050") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/0b4a9bdc-c256-440e-8b7a-00cad55aec4a"
+          (reference "#PWR050") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/2f3f5634-7779-4724-b17b-69c260e1def9"
+          (reference "#PWR050") (unit 1)
         )
       )
       (project "motor_controller"
@@ -2545,6 +3116,26 @@
           (reference "C103") (unit 1)
         )
       )
+      (project "sqrt_of_g_temp"
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/4e90b205-b804-40bc-877e-095f51035329"
+          (reference "C55") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/636456a5-474f-43ed-8ab2-8ac1ec3ae579"
+          (reference "C55") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/c2301c56-0b86-4f86-a349-3a2237d694cb"
+          (reference "C55") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/1566f07d-0151-4089-9a32-ece211155d95"
+          (reference "C55") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/0b4a9bdc-c256-440e-8b7a-00cad55aec4a"
+          (reference "C55") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/2f3f5634-7779-4724-b17b-69c260e1def9"
+          (reference "C55") (unit 1)
+        )
+      )
       (project "motor_controller"
         (path "/a997e678-d7b6-4305-a15e-c7b43e0a7ee0"
           (reference "C?") (unit 1)
@@ -2589,6 +3180,26 @@
         )
         (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/7338a5c7-105f-4d83-89cf-be2bf0b0220e"
           (reference "C111") (unit 1)
+        )
+      )
+      (project "sqrt_of_g_temp"
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/4e90b205-b804-40bc-877e-095f51035329"
+          (reference "C63") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/636456a5-474f-43ed-8ab2-8ac1ec3ae579"
+          (reference "C63") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/c2301c56-0b86-4f86-a349-3a2237d694cb"
+          (reference "C63") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/1566f07d-0151-4089-9a32-ece211155d95"
+          (reference "C63") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/0b4a9bdc-c256-440e-8b7a-00cad55aec4a"
+          (reference "C63") (unit 1)
+        )
+        (path "/a3ec6842-46c2-453e-aeed-012383737fa1/2f3f5634-7779-4724-b17b-69c260e1def9"
+          (reference "C63") (unit 1)
         )
       )
       (project "motor_controller"
