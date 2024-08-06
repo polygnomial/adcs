@@ -3,38 +3,25 @@ def reorder_pins(input_file, output_file):
         lines = file.readlines()
 
     # Parse the lines
-    lines = [line.strip().split() for line in lines]
+    lines = [line.strip().split('\t') for line in lines]
 
-    # Separate by connector
-    connectors = {}
-    for line in lines:
-        connector, pin, pin_label, signal = line
-        if connector not in connectors:
-            connectors[connector] = []
-        connectors[connector].append((int(pin), pin_label, signal))
+    # Separate odd and even pins
+    odd_pins = [line for line in lines if int(line[0]) % 2 == 1]
+    even_pins = [line for line in lines if int(line[0]) % 2 == 0]
 
-    # Reorder the pins
-    reordered_lines = []
-    for connector, pins in connectors.items():
-        # Separate odd and even pins
-        odd_pins = [pin for pin in pins if pin[0] % 2 == 1]
-        even_pins = [pin for pin in pins if pin[0] % 2 == 0]
-
-        # Sort pins
-        odd_pins.sort()
-        even_pins.sort()
-
-        # Combine back
-        ordered_pins = odd_pins + even_pins
-        for pin in ordered_pins:
-            reordered_lines.append(f"{connector}\t{pin[0]}\t{pin[1]}\t{pin[2]}\n")
+    # Sort pins
+    odd_pins.sort(key=lambda x: int(x[0]))
+    even_pins.sort(key=lambda x: int(x[0]))
 
     # Write the reordered lines to the output file
     with open(output_file, 'w') as file:
-        for line in reordered_lines:
-            file.write(line + '\n')
+        for line in odd_pins:
+            file.write(line[2] + '\n\n')
+        file.write('--------\n\n\n')
+        for line in even_pins:
+            file.write(line[2] + '\n\n')
 
 # Usage
-input_file = 'pinout.txt'
-output_file = 'pinout_output.txt'
+input_file = 'input.txt'
+output_file = 'output.txt'
 reorder_pins(input_file, output_file)
