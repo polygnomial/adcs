@@ -7,6 +7,13 @@
 		(legacy_teardrops no)
 	)
 	(paper "A4")
+	(title_block
+		(title "PCBassProShop")
+		(date "2024-08-08")
+		(rev "3.0.0")
+		(company "Stanford Student Space Initiative")
+		(comment 1 "RE: Flynn Dreilinger")
+	)
 	(layers
 		(0 "F.Cu" signal)
 		(31 "B.Cu" signal)
@@ -6503,7 +6510,7 @@
 		(descr "PhotoDiode, plastic SMD DIL, 4.5x4mm, area: 2.65x2.65mm, https://dammedia.osram.info/media/resource/hires/osram-dam-5467144/SFH%202430_EN.pdf")
 		(tags "PhotoDiode plastic SMD DIL")
 		(property "Reference" "D4"
-			(at 0.15 0 360)
+			(at 0.15 0 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "2d6f9ac1-cef6-4620-afe1-bac2ffbae5cd")
@@ -6515,7 +6522,7 @@
 			)
 		)
 		(property "Value" "SFH2430"
-			(at 7.25 34.67 360)
+			(at 7.25 34.67 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a10e0261-1856-4a6a-809b-5f6610b0c3ff")
@@ -6527,7 +6534,7 @@
 			)
 		)
 		(property "Footprint" "adcs:Osram_SFH2430"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d5642492-a0ea-46f2-8c34-c0fe78fd2d47")
@@ -6539,7 +6546,7 @@
 			)
 		)
 		(property "Datasheet" "https://dammedia.osram.info/media/resource/hires/osram-dam-5467144/SFH%202430_EN.pdf"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "80bd03cb-d30a-4588-9057-e60711157dbb")
@@ -6551,7 +6558,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "236f6b99-6f76-412e-aa3e-5794dfd62875")

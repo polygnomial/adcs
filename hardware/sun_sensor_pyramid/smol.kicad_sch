@@ -4,6 +4,13 @@
 	(generator_version "8.0")
 	(uuid "3e1cefae-d9cc-46c9-ae4e-307a9a15f041")
 	(paper "A4")
+	(title_block
+		(title "PCBassProShop")
+		(date "2024-08-08")
+		(rev "3.0.0")
+		(company "Stanford Student Space Initiative")
+		(comment 1 "RE: Flynn Dreilinger")
+	)
 	(lib_symbols
 		(symbol "Sensor_Optical:SFH2430"
 			(pin_numbers hide)
