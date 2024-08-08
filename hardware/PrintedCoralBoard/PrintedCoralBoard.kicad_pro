@@ -534,7 +534,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "fab/1.0.0/",
+      "plot": "fab/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "PrintedCoralBoard.step",
